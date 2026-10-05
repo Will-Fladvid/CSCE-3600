@@ -1,0 +1,425 @@
+Script started on 2026-09-18 14:07:42-05:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="254" LINES="67"]
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ cat datafile4.txt
+[?2004ltotal 1280
+drwxr-xr-x 5 alice staff 4096 Nov 10 08:12 bin
+drwxr-xr-x 2 alice staff 4096 Nov 09 14:20 etc
+drwxr-xr-x 13 alice staff 4096 Nov 11 16:45 home
+drwxr-xr-x 3 alice staff 4096 Nov 12 10:05 lib
+drwxr-xr-x 4 alice staff 4096 Nov 13 09:30 media
+drwxr-xr-x 2 alice staff 4096 Nov 14 11:00 opt
+drwxr-xr-x 3 alice staff 4096 Nov 15 12:15 proc
+drwxr-xr-x 10 alice staff 4096 Nov 16 13:20 root
+drwxr-xr-x 12 alice staff 4096 Nov 17 14:25 run
+drwxr-xr-x 2 alice staff 4096 Nov 18 15:30 sbin
+drwxr-xr-x 3 alice staff 4096 Nov 19 16:35 srv
+drwxr-xr-x 12 alice staff 4096 Nov 20 17:40 tmp
+drwxr-xr-x 2 alice staff 4096 Nov 21 18:45 usr
+drwxr-xr-x 11 alice staff 4096 Nov 22 19:50 var
+- rw-r--r-- 1 alice staff 0 Nov 10 08:13 .bash_history
+- rw-r--r-- 1 alice staff 31 Nov 10 08:13 .bash_profile
+- rw-r--r-- 1 alice staff 200 Nov 10 08:13 .bashrc
+drwx------ 2 alice staff 4096 Nov 10 08:13 .cache
+drwx------ 3 alice staff 4096 Nov 10 08:13 .config
+- rw-r--r-- 1 alice staff 12 Nov 10 08:13 .gitignore
+- rw-r--r-- 1 alice staff 0 Nov 10 08:13 .htaccess
+drwx------ 2 alice staff 4096 Nov 10 08:13 .local
+drwx------ 3 alice staff 4096 Nov 10 08:13 .mozilla
+- rw-r--r-- 1 alice staff 64 Nov 10 08:13 .profile
+- rw-r--r-- 1 alice staff 0 Nov 10 08:13 .sudo_as_admin_successful
+drwx------ 2 alice staff 4096 Nov 10 08:13 .ssh
+- rw-r--r-- 1 alice staff 12 Nov 10 08:13 .vimrc
+drwxr-xr-x 5 bob staff 4096 Nov 11 09:01 Documents
+drwxr-xr-x 3 bob staff 4096 Nov 11 09:02 Downloads
+drwxr-xr-x 4 bob staff 4096 Nov 11 09:03 Music
+- rw-r--r-- 1 bob staff 15 Nov 11 09:04 notes.txt
+lrwxrwxrwx 1 bob staff 8 Nov 11 09:05 photo -> /tmp/photo.jpg
+drwxr-xr-x 6 charlie staff 4096 Nov 12 10:20 Projects
+- rw-r--r-- 1 charlie staff 90 Nov 12 10:21 README.md
+- rw-r--r-- 1 charlie staff 256 Nov 12 10:22 script.sh
+drwxr-xr-x 4 diana staff 4096 Nov 13 11:30 Pictures
+- rw-r--r-- 1 diana staff 45 Nov 13 11:31 diary.txt
+lrwxrwxrwx 1 diana staff 7 Nov 13 11:32 link -> /var/log/syslog
+drwxr-xr-x 5 eve staff 4096 Nov 14 12:40 Videos
+- rw-r--r-- 1 eve staff 33 Nov 14 12:41 movie.mp4
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ sed 's/-/R datafile4.txt ..\[K[K[K>> sedfile.txt
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ sed 's/-/R datafile4.txt >> sedfile.txt[1@'
+[?2004lsed: -e expression #1, char 5: unterminated `s' command
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ sed 's/-/R' datafile4.txt >> sedfile.txt[C[1@\
+[?2004lsed: -e expression #1, char 6: unterminated `s' command
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ sed 's/\-/R' datafile4.txt >> sedfile.txt[1P[C[C[C[C[C[1@"[C[1@"
+[?2004lsed: -e expression #1, char 7: unterminated `s' command
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ sed 's/"-"/R' datafile4.txt >> sedfile.txt[1P[C[C[1P
+[?2004lsed: -e expression #1, char 5: unterminated `s' command
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ sed 's/-/R' datafile4.txt >> sedfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P sedfile.txt[1@^
+[?2004lsed: -e expression #1, char 6: unterminated `s' command
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ sed 's/^-/R' datafile4.txt > sedfile.txt[C[C[1@/
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ [7msed -n '15,25p' sedfile.txt[27msed -n '15,25p' sedfile.txt
+[?2004ldrwxr-xr-x 11 alice staff 4096 Nov 22 19:50 var
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .bash_history
+R rw-r--r-- 1 alice staff 31 Nov 10 08:13 .bash_profile
+R rw-r--r-- 1 alice staff 200 Nov 10 08:13 .bashrc
+drwx------ 2 alice staff 4096 Nov 10 08:13 .cache
+drwx------ 3 alice staff 4096 Nov 10 08:13 .config
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .gitignore
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .htaccess
+drwx------ 2 alice staff 4096 Nov 10 08:13 .local
+drwx------ 3 alice staff 4096 Nov 10 08:13 .mozilla
+R rw-r--r-- 1 alice staff 64 Nov 10 08:13 .profile
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ [7msed '1d' sedfile.txt | head -5[27msed '1d' sedfile.txt | head -5
+[?2004ldrwxr-xr-x 5 alice staff 4096 Nov 10 08:12 bin
+drwxr-xr-x 2 alice staff 4096 Nov 09 14:20 etc
+drwxr-xr-x 13 alice staff 4096 Nov 11 16:45 home
+drwxr-xr-x 3 alice staff 4096 Nov 12 10:05 lib
+drwxr-xr-x 4 alice staff 4096 Nov 13 09:30 media
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ [7msed 1d sedfile.txt > sedfile_new.txt[27msed 1d sedfile.txt > sedfile_new.txt
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ sed 1d sedfile.txt > sedfile_new.txt[Kcat sedfile_new.r[Ktxt
+[?2004ldrwxr-xr-x 5 alice staff 4096 Nov 10 08:12 bin
+drwxr-xr-x 2 alice staff 4096 Nov 09 14:20 etc
+drwxr-xr-x 13 alice staff 4096 Nov 11 16:45 home
+drwxr-xr-x 3 alice staff 4096 Nov 12 10:05 lib
+drwxr-xr-x 4 alice staff 4096 Nov 13 09:30 media
+drwxr-xr-x 2 alice staff 4096 Nov 14 11:00 opt
+drwxr-xr-x 3 alice staff 4096 Nov 15 12:15 proc
+drwxr-xr-x 10 alice staff 4096 Nov 16 13:20 root
+drwxr-xr-x 12 alice staff 4096 Nov 17 14:25 run
+drwxr-xr-x 2 alice staff 4096 Nov 18 15:30 sbin
+drwxr-xr-x 3 alice staff 4096 Nov 19 16:35 srv
+drwxr-xr-x 12 alice staff 4096 Nov 20 17:40 tmp
+drwxr-xr-x 2 alice staff 4096 Nov 21 18:45 usr
+drwxr-xr-x 11 alice staff 4096 Nov 22 19:50 var
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .bash_history
+R rw-r--r-- 1 alice staff 31 Nov 10 08:13 .bash_profile
+R rw-r--r-- 1 alice staff 200 Nov 10 08:13 .bashrc
+drwx------ 2 alice staff 4096 Nov 10 08:13 .cache
+drwx------ 3 alice staff 4096 Nov 10 08:13 .config
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .gitignore
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .htaccess
+drwx------ 2 alice staff 4096 Nov 10 08:13 .local
+drwx------ 3 alice staff 4096 Nov 10 08:13 .mozilla
+R rw-r--r-- 1 alice staff 64 Nov 10 08:13 .profile
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .sudo_as_admin_successful
+drwx------ 2 alice staff 4096 Nov 10 08:13 .ssh
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .vimrc
+drwxr-xr-x 5 bob staff 4096 Nov 11 09:01 Documents
+drwxr-xr-x 3 bob staff 4096 Nov 11 09:02 Downloads
+drwxr-xr-x 4 bob staff 4096 Nov 11 09:03 Music
+R rw-r--r-- 1 bob staff 15 Nov 11 09:04 notes.txt
+lrwxrwxrwx 1 bob staff 8 Nov 11 09:05 photo -> /tmp/photo.jpg
+drwxr-xr-x 6 charlie staff 4096 Nov 12 10:20 Projects
+R rw-r--r-- 1 charlie staff 90 Nov 12 10:21 README.md
+R rw-r--r-- 1 charlie staff 256 Nov 12 10:22 script.sh
+drwxr-xr-x 4 diana staff 4096 Nov 13 11:30 Pictures
+R rw-r--r-- 1 diana staff 45 Nov 13 11:31 diary.txt
+lrwxrwxrwx 1 diana staff 7 Nov 13 11:32 link -> /var/log/syslog
+drwxr-xr-x 5 eve staff 4096 Nov 14 12:40 Videos
+R rw-r--r-- 1 eve staff 33 Nov 14 12:41 movie.mp4
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ script ed[Knd
+[?2004lScript started, output log file is 'end'.
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ script -q rec04.typescript
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ [7msed 's/^-/R/' datafile4.txt > sedfile.txt[27msed 's/^-/R/' datafile4.txt > sedfile.txt
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ cat sedfile.txt
+[?2004ltotal 1280
+drwxr-xr-x 5 alice staff 4096 Nov 10 08:12 bin
+drwxr-xr-x 2 alice staff 4096 Nov 09 14:20 etc
+drwxr-xr-x 13 alice staff 4096 Nov 11 16:45 home
+drwxr-xr-x 3 alice staff 4096 Nov 12 10:05 lib
+drwxr-xr-x 4 alice staff 4096 Nov 13 09:30 media
+drwxr-xr-x 2 alice staff 4096 Nov 14 11:00 opt
+drwxr-xr-x 3 alice staff 4096 Nov 15 12:15 proc
+drwxr-xr-x 10 alice staff 4096 Nov 16 13:20 root
+drwxr-xr-x 12 alice staff 4096 Nov 17 14:25 run
+drwxr-xr-x 2 alice staff 4096 Nov 18 15:30 sbin
+drwxr-xr-x 3 alice staff 4096 Nov 19 16:35 srv
+drwxr-xr-x 12 alice staff 4096 Nov 20 17:40 tmp
+drwxr-xr-x 2 alice staff 4096 Nov 21 18:45 usr
+drwxr-xr-x 11 alice staff 4096 Nov 22 19:50 var
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .bash_history
+R rw-r--r-- 1 alice staff 31 Nov 10 08:13 .bash_profile
+R rw-r--r-- 1 alice staff 200 Nov 10 08:13 .bashrc
+drwx------ 2 alice staff 4096 Nov 10 08:13 .cache
+drwx------ 3 alice staff 4096 Nov 10 08:13 .config
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .gitignore
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .htaccess
+drwx------ 2 alice staff 4096 Nov 10 08:13 .local
+drwx------ 3 alice staff 4096 Nov 10 08:13 .mozilla
+R rw-r--r-- 1 alice staff 64 Nov 10 08:13 .profile
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .sudo_as_admin_successful
+drwx------ 2 alice staff 4096 Nov 10 08:13 .ssh
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .vimrc
+drwxr-xr-x 5 bob staff 4096 Nov 11 09:01 Documents
+drwxr-xr-x 3 bob staff 4096 Nov 11 09:02 Downloads
+drwxr-xr-x 4 bob staff 4096 Nov 11 09:03 Music
+R rw-r--r-- 1 bob staff 15 Nov 11 09:04 notes.txt
+lrwxrwxrwx 1 bob staff 8 Nov 11 09:05 photo -> /tmp/photo.jpg
+drwxr-xr-x 6 charlie staff 4096 Nov 12 10:20 Projects
+R rw-r--r-- 1 charlie staff 90 Nov 12 10:21 README.md
+R rw-r--r-- 1 charlie staff 256 Nov 12 10:22 script.sh
+drwxr-xr-x 4 diana staff 4096 Nov 13 11:30 Pictures
+R rw-r--r-- 1 diana staff 45 Nov 13 11:31 diary.txt
+lrwxrwxrwx 1 diana staff 7 Nov 13 11:32 link -> /var/log/syslog
+drwxr-xr-x 5 eve staff 4096 Nov 14 12:40 Videos
+R rw-r--r-- 1 eve staff 33 Nov 14 12:41 movie.mp4
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ [7msed -n '15,25p' sedfile.txt[27msed -n '15,25p' sedfile.txt
+[?2004ldrwxr-xr-x 11 alice staff 4096 Nov 22 19:50 var
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .bash_history
+R rw-r--r-- 1 alice staff 31 Nov 10 08:13 .bash_profile
+R rw-r--r-- 1 alice staff 200 Nov 10 08:13 .bashrc
+drwx------ 2 alice staff 4096 Nov 10 08:13 .cache
+drwx------ 3 alice staff 4096 Nov 10 08:13 .config
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .gitignore
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .htaccess
+drwx------ 2 alice staff 4096 Nov 10 08:13 .local
+drwx------ 3 alice staff 4096 Nov 10 08:13 .mozilla
+R rw-r--r-- 1 alice staff 64 Nov 10 08:13 .profile
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ [7msed -i 1d sedfile.txt[27msed -i 1d sedfile.txt
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ cat sedfile.txt
+[?2004ldrwxr-xr-x 5 alice staff 4096 Nov 10 08:12 bin
+drwxr-xr-x 2 alice staff 4096 Nov 09 14:20 etc
+drwxr-xr-x 13 alice staff 4096 Nov 11 16:45 home
+drwxr-xr-x 3 alice staff 4096 Nov 12 10:05 lib
+drwxr-xr-x 4 alice staff 4096 Nov 13 09:30 media
+drwxr-xr-x 2 alice staff 4096 Nov 14 11:00 opt
+drwxr-xr-x 3 alice staff 4096 Nov 15 12:15 proc
+drwxr-xr-x 10 alice staff 4096 Nov 16 13:20 root
+drwxr-xr-x 12 alice staff 4096 Nov 17 14:25 run
+drwxr-xr-x 2 alice staff 4096 Nov 18 15:30 sbin
+drwxr-xr-x 3 alice staff 4096 Nov 19 16:35 srv
+drwxr-xr-x 12 alice staff 4096 Nov 20 17:40 tmp
+drwxr-xr-x 2 alice staff 4096 Nov 21 18:45 usr
+drwxr-xr-x 11 alice staff 4096 Nov 22 19:50 var
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .bash_history
+R rw-r--r-- 1 alice staff 31 Nov 10 08:13 .bash_profile
+R rw-r--r-- 1 alice staff 200 Nov 10 08:13 .bashrc
+drwx------ 2 alice staff 4096 Nov 10 08:13 .cache
+drwx------ 3 alice staff 4096 Nov 10 08:13 .config
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .gitignore
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .htaccess
+drwx------ 2 alice staff 4096 Nov 10 08:13 .local
+drwx------ 3 alice staff 4096 Nov 10 08:13 .mozilla
+R rw-r--r-- 1 alice staff 64 Nov 10 08:13 .profile
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .sudo_as_admin_successful
+drwx------ 2 alice staff 4096 Nov 10 08:13 .ssh
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .vimrc
+drwxr-xr-x 5 bob staff 4096 Nov 11 09:01 Documents
+drwxr-xr-x 3 bob staff 4096 Nov 11 09:02 Downloads
+drwxr-xr-x 4 bob staff 4096 Nov 11 09:03 Music
+R rw-r--r-- 1 bob staff 15 Nov 11 09:04 notes.txt
+lrwxrwxrwx 1 bob staff 8 Nov 11 09:05 photo -> /tmp/photo.jpg
+drwxr-xr-x 6 charlie staff 4096 Nov 12 10:20 Projects
+R rw-r--r-- 1 charlie staff 90 Nov 12 10:21 README.md
+R rw-r--r-- 1 charlie staff 256 Nov 12 10:22 script.sh
+drwxr-xr-x 4 diana staff 4096 Nov 13 11:30 Pictures
+R rw-r--r-- 1 diana staff 45 Nov 13 11:31 diary.txt
+lrwxrwxrwx 1 diana staff 7 Nov 13 11:32 link -> /var/log/syslog
+drwxr-xr-x 5 eve staff 4096 Nov 14 12:40 Videos
+R rw-r--r-- 1 eve staff 33 Nov 14 12:41 movie.mp4
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ [7msed -i '/media/a Found the Pattern' sedfile.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csed -i '/media/a Found the Pattern' sedfile.txt
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ cat sedfile.txt
+[?2004ldrwxr-xr-x 5 alice staff 4096 Nov 10 08:12 bin
+drwxr-xr-x 2 alice staff 4096 Nov 09 14:20 etc
+drwxr-xr-x 13 alice staff 4096 Nov 11 16:45 home
+drwxr-xr-x 3 alice staff 4096 Nov 12 10:05 lib
+drwxr-xr-x 4 alice staff 4096 Nov 13 09:30 media
+Found the Pattern
+drwxr-xr-x 2 alice staff 4096 Nov 14 11:00 opt
+drwxr-xr-x 3 alice staff 4096 Nov 15 12:15 proc
+drwxr-xr-x 10 alice staff 4096 Nov 16 13:20 root
+drwxr-xr-x 12 alice staff 4096 Nov 17 14:25 run
+drwxr-xr-x 2 alice staff 4096 Nov 18 15:30 sbin
+drwxr-xr-x 3 alice staff 4096 Nov 19 16:35 srv
+drwxr-xr-x 12 alice staff 4096 Nov 20 17:40 tmp
+drwxr-xr-x 2 alice staff 4096 Nov 21 18:45 usr
+drwxr-xr-x 11 alice staff 4096 Nov 22 19:50 var
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .bash_history
+R rw-r--r-- 1 alice staff 31 Nov 10 08:13 .bash_profile
+R rw-r--r-- 1 alice staff 200 Nov 10 08:13 .bashrc
+drwx------ 2 alice staff 4096 Nov 10 08:13 .cache
+drwx------ 3 alice staff 4096 Nov 10 08:13 .config
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .gitignore
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .htaccess
+drwx------ 2 alice staff 4096 Nov 10 08:13 .local
+drwx------ 3 alice staff 4096 Nov 10 08:13 .mozilla
+R rw-r--r-- 1 alice staff 64 Nov 10 08:13 .profile
+R rw-r--r-- 1 alice staff 0 Nov 10 08:13 .sudo_as_admin_successful
+drwx------ 2 alice staff 4096 Nov 10 08:13 .ssh
+R rw-r--r-- 1 alice staff 12 Nov 10 08:13 .vimrc
+drwxr-xr-x 5 bob staff 4096 Nov 11 09:01 Documents
+drwxr-xr-x 3 bob staff 4096 Nov 11 09:02 Downloads
+drwxr-xr-x 4 bob staff 4096 Nov 11 09:03 Music
+R rw-r--r-- 1 bob staff 15 Nov 11 09:04 notes.txt
+lrwxrwxrwx 1 bob staff 8 Nov 11 09:05 photo -> /tmp/photo.jpg
+drwxr-xr-x 6 charlie staff 4096 Nov 12 10:20 Projects
+R rw-r--r-- 1 charlie staff 90 Nov 12 10:21 README.md
+R rw-r--r-- 1 charlie staff 256 Nov 12 10:22 script.sh
+drwxr-xr-x 4 diana staff 4096 Nov 13 11:30 Pictures
+R rw-r--r-- 1 diana staff 45 Nov 13 11:31 diary.txt
+lrwxrwxrwx 1 diana staff 7 Nov 13 11:32 link -> /var/log/syslog
+drwxr-xr-x 5 eve staff 4096 Nov 14 12:40 Videos
+R rw-r--r-- 1 eve staff 33 Nov 14 12:41 movie.mp4
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ [7msed -n '1,10p' sedfile.txt[27msed -n '1,10p' sedfile.txt
+[?2004ldrwxr-xr-x 5 alice staff 4096 Nov 10 08:12 bin
+drwxr-xr-x 2 alice staff 4096 Nov 09 14:20 etc
+drwxr-xr-x 13 alice staff 4096 Nov 11 16:45 home
+drwxr-xr-x 3 alice staff 4096 Nov 12 10:05 lib
+drwxr-xr-x 4 alice staff 4096 Nov 13 09:30 media
+Found the Pattern
+drwxr-xr-x 2 alice staff 4096 Nov 14 11:00 opt
+drwxr-xr-x 3 alice staff 4096 Nov 15 12:15 proc
+drwxr-xr-x 10 alice staff 4096 Nov 16 13:20 root
+drwxr-xr-x 12 alice staff 4096 Nov 17 14:25 run
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ WJF0053 WIlliam[K[K[K[K[K[Killiam Fladvid
+[?2004lWJF0053: command not found
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ end
+[?2004lCommand 'end' not found, but there are 14 similar ones.
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ ls
+[?2004ldatafile4.txt  end  rec04.typescript  recitation4  sedfile_new.txt  sedfile.txt
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ script ed[Knd
+[?2004lScript started, output log file is 'end'.
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ ls
+[?2004ldatafile4.txt  end  rec04.typescript  recitation4  sedfile_new.txt  sedfile.txt
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ rn [K[Km sedfile_new.txt
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ remove [K[K[K[K[K[Km recitation4
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ ls
+[?2004ldatafile4.txt  end  rec04.typescript  sedfile.txt
+[?2004h]0;wjf0053@cell13-cse: ~/3600/recitation_4[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/recitation_4[00m$ rip [K[K[K[Kzip recitation_[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcs [K[Kd ..
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600[00m$ zip recia[Ktation_4 rec04.zip
+[?2004l	zip warning: name not matched: rec04.zip
+
+zip error: Nothing to do! (recitation_4.zip)
+[?2004h]0;wjf0053@cell13-cse: ~/3600[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600[00m$ zip recitation_4 rec04.zip[K[K[K[K
+[?2004l	zip warning: name not matched: rec04
+
+zip error: Nothing to do! (recitation_4.zip)
+[?2004h]0;wjf0053@cell13-cse: ~/3600[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600[00m$ man zip
+[?2004l[?1049h[22;0;0t[?1h=ZIP(1)                                                                                                          General Commands Manual                                                                                                          ZIP(1)[m
+[m
+[1mNAME[0m[m
+       zip - package and compress (archive) files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mzip[0m [-[1maABcdDeEfFghjklLmoqrRSTuvVwXyz!@$[0m] [--longoption ...]  [-[1mb[0m path] [-[1mn[0m suffixes] [-[1mt[0m date] [-[1mtt[0m date] [[4mzipfile[24m [[4mfile[24m ...]]  [[1m-xi[0m list][m
+[m
+       [1mzipcloak[0m (see separate man page)[m
+[m
+       [1mzipnote[0m (see separate man page)[m
+[m
+       [1mzipsplit[0m (see separate man page)[m
+[m
+       Note:  Command line processing in [4mzip[24m has been changed to support long options and handle all options and arguments more consistently.  Some old command lines that depend on command line inconsistencies may no longer work.[m
+[m
+[1mDESCRIPTION[0m[m
+       [4mzip[24m is a compression and file packaging utility for Unix, VMS, MSDOS, OS/2, Windows 9x/NT/XP, Minix, Atari, Macintosh, Amiga, and Acorn RISC OS.  It is analogous to a combination of the Unix commands [4mtar[24m(1) and [4mcompress[24m(1) and is compatible[m
+       with PKZIP (Phil Katz's ZIP for MSDOS systems).[m
+[m
+       A companion program ([4munzip[24m(1)) unpacks [4mzip[24m archives.  The [4mzip[24m and [4munzip[24m(1) programs can work with archives produced by PKZIP (supporting most PKZIP features up to PKZIP version 4.6), and PKZIP and PKUNZIP can work with archives produced  by[m
+       [4mzip[24m (with some exceptions, notably streamed archives, but recent changes in the zip file standard may facilitate better compatibility).  [4mzip[24m version 3.0 is compatible with PKZIP 2.04 and also supports the Zip64 extensions of PKZIP 4.5 which[m
+       allow archives as well as files to exceed the previous 2 GB limit (4 GB in some cases).  [4mzip[24m also now supports [1mbzip2[0m compression if the [1mbzip2[0m library is included when [4mzip[24m is compiled.  Note that PKUNZIP 1.10 cannot extract files produced by[m
+       PKZIP 2.04 or [4mzip[24m [4m3.0[24m. You must use PKUNZIP 2.04g or [4munzip[24m [4m5.0p1[24m (or later versions) to extract them.[m
+[m
+       See the [1mEXAMPLES[0m section at the bottom of this page for examples of some typical uses of [4mzip[24m.[m
+[m
+       [1mLarge[0m [1mArchives[0m [1mand[0m [1mZip64.[0m  [4mzip[24m automatically uses the Zip64 extensions when files larger than 4 GB are added to an archive, an archive containing Zip64 entries is updated (if the resulting archive still needs Zip64), the size of the archive[m
+       will exceed 4 GB, or when the number of entries in the archive will exceed about 64K.  Zip64 is also used for archives streamed from standard input as the size of such archives are not known in advance, but the option [1m-fz-[0m can  be  used  to[m
+       force [4mzip[24m to create PKZIP 2 compatible archives (as long as Zip64 extensions are not needed).  You must use a PKZIP 4.5 compatible unzip, such as [4munzip[24m [4m6.0[24m or later, to extract files using the Zip64 extensions.[m
+[m
+       In addition, streamed archives, entries encrypted with standard encryption, or split archives created with the pause option may not be compatible with PKZIP as data descriptors are used and PKZIP at the time of this writing does not support[m
+       data descriptors (but recent changes in the PKWare published zip standard now include some support for the data descriptor format [4mzip[24m uses).[m
+[m
+       [1mMac[0m [1mOS[0m [1mX.[0m  Though previous Mac versions had their own [4mzip[24m port, [4mzip[24m supports Mac OS X as part of the Unix port and most Unix features apply.  References to "MacOS" below generally refer to MacOS versions older than OS X.  Support  for  some[m
+       Mac OS features in the Unix Mac OS X port, such as resource forks, is expected in the next [4mzip[24m release.[m
+[m
+       For a brief help on [4mzip[24m and [4munzip[24m, run each without specifying any parameters on the command line.[m
+[m
+[1mUSE[0m[m
+       The program is useful for packaging a set of files for distribution; for archiving files; and for saving disk space by temporarily compressing unused files or directories.[m
+[m
+       The [4mzip[24m program puts one or more compressed files into a single [4mzip[24m archive, along with information about the files (name, path, date, time of last modification, protection, and check information to verify file integrity).  An entire direc‐[m
+       tory structure can be packed into a [4mzip[24m archive with a single command.  Compression ratios of 2:1 to 3:1 are common for text files.  [4mzip[24m has one compression method (deflation) and can also store files without compression.  (If [1mbzip2[0m support[m
+       is  added,  [4mzip[24m  can  also compress using [1mbzip2[0m compression, but such entries require a reasonably modern unzip to decompress.  When [1mbzip2[0m compression is selected, it replaces deflation as the default method.)  [4mzip[24m automatically chooses the[m
+       better of the two (deflation or store or, if [1mbzip2[0m is selected, [1mbzip2[0m or store) for each file to be compressed.[m
+[m
+       [1mCommand[0m [1mformat.[0m  The basic command format is[m
+[m
+              [1mzip[0m options archive inpath inpath ...[m
+[m
+       where [1marchive[0m is a new or existing [4mzip[24m archive and [1minpath[0m is a directory or file path optionally including wildcards.  When given the name of an existing [4mzip[24m archive, [4mzip[24m will replace identically named entries in the [4mzip[24m  archive  (matching[m
+       the relative names as stored in the archive) or add entries for new names.  For example, if [4mfoo.zip[24m exists and contains [4mfoo/file1[24m and [4mfoo/file2[24m, and the directory [4mfoo[24m contains the files [4mfoo/file1[24m and [4mfoo/file3[24m, then:[m
+[m
+              zip -r foo.zip foo[m
+[m
+       or more concisely[m
+[m
+              zip -r foo foo[m
+[m
+       will replace [4mfoo/file1[24m in [4mfoo.zip[24m and add [4mfoo/file3[24m to [4mfoo.zip[24m.  After this, [4mfoo.zip[24m contains [4mfoo/file1[24m, [4mfoo/file2[24m, and [4mfoo/file3[24m, with [4mfoo/file2[24m unchanged from before.[m
+[m
+       So if before the zip command is executed [4mfoo.zip[24m has:[m
+[m
+               foo/file1 foo/file2[m
+[m
+[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and directory foo has:[m
+[7m Manual page zip(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               file1 file3[m
+[7m Manual page zip(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       then [4mfoo.zip[24m will have:[m
+[7m Manual page zip(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               foo/file1 foo/file2 foo/file3[m
+[7m Manual page zip(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       where [4mfoo/file1[24m is replaced and [4mfoo/file3[24m is new.[m
+[7m Manual page zip(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-@[0m [1mfile[0m [1mlists.[0m  If a file list is specified as [1m-@[0m [Not on MacOS], [4mzip[24m takes the list of input files from standard input instead of from the command line.  For example,[m
+[7m Manual page zip(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              zip -@ foo[m
+[7m Manual page zip(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       will store the files listed one per line on stdin in [4mfoo.zip[24m.[m
+[7m Manual page zip(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Under Unix, this option can be used to powerful effect in conjunction with the [4mfind[24m (1) command.  For example, to archive all the C source files in the current directory and its subdirectories:[m
+[7m Manual page zip(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              find . -name "*.[ch]" -print | zip source -@[m
+[7m Manual page zip(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       (note that the pattern must be quoted to keep the shell from expanding it).[m
+[7m Manual page zip(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mStreaming[0m [1minput[0m [1mand[0m [1moutput.[0m  [4mzip[24m will also accept a single dash ("-") as the zip file name, in which case it will write the zip file to standard output, allowing the output to be piped to another program. For example:[m
+[7m Manual page zip(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page zip(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              zip -r - . | dd of=/dev/nrst0 obs=16k[m
+[7m Manual page zip(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[67;1H[K[7m Manual page zip(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       PKZIP 2.04 or [4mzip[24m [4m3.0[24m. You must use PKUNZIP 2.04g or [4munzip[24m [4m5.0p1[24m (or later versions) to extract them.[m
+[67;1H[K[7m Manual page zip(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       allow archives as well as files to exceed the previous 2 GB limit (4 GB in some cases).  [4mzip[24m also now supports [1mbzip2[0m compression if the [1mbzip2[0m library is included when [4mzip[24m is compiled.  Note that PKUNZIP 1.10 cannot extract files produced by[m
+[67;1H[K[7m Manual page zip(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mzip[24m (with some exceptions, notably streamed archives, but recent changes in the zip file standard may facilitate better compatibility).  [4mzip[24m version 3.0 is compatible with PKZIP 2.04 and also supports the Zip64 extensions of PKZIP 4.5 which[m
+[67;1H[K[7m Manual page zip(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       A companion program ([4munzip[24m(1)) unpacks [4mzip[24m archives.  The [4mzip[24m and [4munzip[24m(1) programs can work with archives produced by PKZIP (supporting most PKZIP features up to PKZIP version 4.6), and PKZIP and PKUNZIP can work with archives produced  by[m
+[67;1H[K[7m Manual page zip(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[67;1H[K[7m Manual page zip(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       with PKZIP (Phil Katz's ZIP for MSDOS systems).[m
+[67;1H[K[7m Manual page zip(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mzip[24m is a compression and file packaging utility for Unix, VMS, MSDOS, OS/2, Windows 9x/NT/XP, Minix, Atari, Macintosh, Amiga, and Acorn RISC OS.  It is analogous to a combination of the Unix commands [4mtar[24m(1) and [4mcompress[24m(1) and is compatible[m
+[67;1H[K[7m Manual page zip(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[67;1H[K[7m Manual page zip(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[67;1H[K[7m Manual page zip(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Note:  Command line processing in [4mzip[24m has been changed to support long options and handle all options and arguments more consistently.  Some old command lines that depend on command line inconsistencies may no longer work.[m
+[67;1H[K[7m Manual page zip(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[67;1H[K[7m Manual page zip(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mzipsplit[0m (see separate man page)[m
+[67;1H[K[7m Manual page zip(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[67;1H[K[7m Manual page zip(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mzipnote[0m (see separate man page)[m
+[67;1H[K[7m Manual page zip(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[67;1H[K[7m Manual page zip(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mzipcloak[0m (see separate man page)[m
+[67;1H[K[7m Manual page zip(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[67;1H[K[7m Manual page zip(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mzip[0m [-[1maABcdDeEfFghjklLmoqrRSTuvVwXyz!@$[0m] [--longoption ...]  [-[1mb[0m path] [-[1mn[0m suffixes] [-[1mt[0m date] [-[1mtt[0m date] [[4mzipfile[24m [[4mfile[24m ...]]  [[1m-xi[0m list][m
+[67;1H[K[7m Manual page zip(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[67;1H[K[7m Manual page zip(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[67;1H[K[7m Manual page zip(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       zip - package and compress (archive) files[m
+[67;1H[K[7m Manual page zip(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[67;1H[K[7m Manual page zip(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[67;1H[K[7m Manual page zip(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMZIP(1)                                                                                                          General Commands Manual                                                                                                          ZIP(1)[m
+[67;1H[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page zip(1) line 1 (press h for help or q to quit)[27

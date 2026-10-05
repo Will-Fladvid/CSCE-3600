@@ -1,0 +1,346 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Jun11 ?        03:11:48 /lib/systemd/systemd --system --deserialize 53 splash
+root           2       0  0 Jun11 ?        00:00:02 [kthreadd]
+root           3       2  0 Jun11 ?        00:00:00 [pool_workqueue_release]
+root           4       2  0 Jun11 ?        00:00:00 [kworker/R-rcu_g]
+root           5       2  0 Jun11 ?        00:00:00 [kworker/R-rcu_p]
+root           6       2  0 Jun11 ?        00:00:00 [kworker/R-slub_]
+root           7       2  0 Jun11 ?        00:00:00 [kworker/R-netns]
+root          12       2  0 Jun11 ?        00:00:00 [kworker/R-mm_pe]
+root          13       2  0 Jun11 ?        00:00:01 [rcu_tasks_kthread]
+root          14       2  0 Jun11 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          15       2  0 Jun11 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          16       2  0 Jun11 ?        00:00:12 [ksoftirqd/0]
+root          17       2  0 Jun11 ?        00:07:21 [rcu_preempt]
+root          18       2  0 Jun11 ?        00:00:35 [migration/0]
+root          19       2  0 Jun11 ?        00:00:00 [idle_inject/0]
+root          20       2  0 Jun11 ?        00:00:00 [cpuhp/0]
+root          21       2  0 Jun11 ?        00:00:00 [cpuhp/1]
+root          22       2  0 Jun11 ?        00:00:00 [idle_inject/1]
+root          23       2  0 Jun11 ?        00:00:30 [migration/1]
+root          24       2  0 Jun11 ?        00:00:13 [ksoftirqd/1]
+root          26       2  0 Jun11 ?        00:00:00 [kworker/1:0H-kblockd]
+root          29       2  0 Jun11 ?        00:00:00 [kdevtmpfs]
+root          30       2  0 Jun11 ?        00:00:00 [kworker/R-inet_]
+root          31       2  0 Jun11 ?        00:00:00 [kauditd]
+root          33       2  0 Jun11 ?        00:00:13 [khungtaskd]
+root          34       2  0 Jun11 ?        00:00:00 [oom_reaper]
+root          37       2  0 Jun11 ?        00:00:00 [kworker/R-write]
+root          38       2  0 Jun11 ?        00:06:18 [kcompactd0]
+root          39       2  0 Jun11 ?        00:00:00 [ksmd]
+root          42       2  0 Jun11 ?        00:00:00 [khugepaged]
+root          43       2  0 Jun11 ?        00:00:00 [kworker/R-kinte]
+root          44       2  0 Jun11 ?        00:00:00 [kworker/R-kbloc]
+root          45       2  0 Jun11 ?        00:00:00 [kworker/R-blkcg]
+root          46       2  0 Jun11 ?        00:00:00 [irq/9-acpi]
+root          47       2  0 Jun11 ?        00:00:00 [kworker/R-tpm_d]
+root          48       2  0 Jun11 ?        00:00:00 [kworker/R-ata_s]
+root          49       2  0 Jun11 ?        00:00:00 [kworker/R-md]
+root          50       2  0 Jun11 ?        00:00:00 [kworker/R-md_bi]
+root          51       2  0 Jun11 ?        00:00:00 [kworker/R-edac-]
+root          52       2  0 Jun11 ?        00:00:00 [kworker/R-devfr]
+root          53       2  0 Jun11 ?        00:00:00 [watchdogd]
+root          55       2  0 Jun11 ?        00:00:00 [kworker/R-quota]
+root          57       2  0 Jun11 ?        00:00:24 [kswapd0]
+root          58       2  0 Jun11 ?        00:00:00 [ecryptfs-kthread]
+root          59       2  0 Jun11 ?        00:00:00 [kworker/R-kthro]
+root          60       2  0 Jun11 ?        00:00:00 [irq/24-pciehp]
+root          61       2  0 Jun11 ?        00:00:00 [irq/25-pciehp]
+root          62       2  0 Jun11 ?        00:00:00 [irq/26-pciehp]
+root          63       2  0 Jun11 ?        00:00:00 [irq/27-pciehp]
+root          64       2  0 Jun11 ?        00:00:00 [irq/28-pciehp]
+root          65       2  0 Jun11 ?        00:00:00 [irq/29-pciehp]
+root          66       2  0 Jun11 ?        00:00:00 [irq/30-pciehp]
+root          67       2  0 Jun11 ?        00:00:00 [irq/31-pciehp]
+root          68       2  0 Jun11 ?        00:00:00 [irq/32-pciehp]
+root          69       2  0 Jun11 ?        00:00:00 [irq/33-pciehp]
+root          70       2  0 Jun11 ?        00:00:00 [irq/34-pciehp]
+root          71       2  0 Jun11 ?        00:00:00 [irq/35-pciehp]
+root          72       2  0 Jun11 ?        00:00:00 [irq/36-pciehp]
+root          73       2  0 Jun11 ?        00:00:00 [irq/37-pciehp]
+root          74       2  0 Jun11 ?        00:00:00 [irq/38-pciehp]
+root          75       2  0 Jun11 ?        00:00:00 [irq/39-pciehp]
+root          76       2  0 Jun11 ?        00:00:00 [irq/40-pciehp]
+root          77       2  0 Jun11 ?        00:00:00 [irq/41-pciehp]
+root          78       2  0 Jun11 ?        00:00:00 [irq/42-pciehp]
+root          79       2  0 Jun11 ?        00:00:00 [irq/43-pciehp]
+root          80       2  0 Jun11 ?        00:00:00 [irq/44-pciehp]
+root          81       2  0 Jun11 ?        00:00:00 [irq/45-pciehp]
+root          82       2  0 Jun11 ?        00:00:00 [irq/46-pciehp]
+root          83       2  0 Jun11 ?        00:00:00 [irq/47-pciehp]
+root          84       2  0 Jun11 ?        00:00:00 [irq/48-pciehp]
+root          85       2  0 Jun11 ?        00:00:00 [irq/49-pciehp]
+root          86       2  0 Jun11 ?        00:00:00 [irq/50-pciehp]
+root          87       2  0 Jun11 ?        00:00:00 [irq/51-pciehp]
+root          88       2  0 Jun11 ?        00:00:00 [irq/52-pciehp]
+root          89       2  0 Jun11 ?        00:00:00 [irq/53-pciehp]
+root          90       2  0 Jun11 ?        00:00:00 [irq/54-pciehp]
+root          91       2  0 Jun11 ?        00:00:00 [irq/55-pciehp]
+root          92       2  0 Jun11 ?        00:00:00 [kworker/R-acpi_]
+root          94       2  0 Jun11 ?        00:00:00 [scsi_eh_0]
+root          95       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root          96       2  0 Jun11 ?        00:00:00 [scsi_eh_1]
+root          97       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         100       2  0 Jun11 ?        00:00:00 [kworker/R-mld]
+root         101       2  0 Jun11 ?        00:00:00 [kworker/R-ipv6_]
+root         109       2  0 Jun11 ?        00:00:00 [kworker/R-kstrp]
+root         111       2  0 Jun11 ?        00:00:00 [kworker/u259:0]
+root         112       2  0 Jun11 ?        00:00:00 [kworker/u260:0]
+root         113       2  0 Jun11 ?        00:00:00 [kworker/u261:0]
+root         126       2  0 Jun11 ?        00:00:00 [kworker/R-charg]
+root         145       2  0 Jun11 ?        00:00:26 [kworker/0:1H-kblockd]
+root         171       2  0 Jun11 ?        00:00:00 [scsi_eh_2]
+root         172       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         173       2  0 Jun11 ?        00:00:00 [kworker/R-mpt_p]
+root         174       2  0 Jun11 ?        00:00:00 [kworker/R-mpt/0]
+root         175       2  0 Jun11 ?        00:00:00 [scsi_eh_3]
+root         176       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         177       2  0 Jun11 ?        00:00:00 [scsi_eh_4]
+root         178       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         179       2  0 Jun11 ?        00:00:00 [scsi_eh_5]
+root         180       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         181       2  0 Jun11 ?        00:00:00 [scsi_eh_6]
+root         182       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         183       2  0 Jun11 ?        00:00:00 [scsi_eh_7]
+root         184       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         185       2  0 Jun11 ?        00:00:00 [scsi_eh_8]
+root         186       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         187       2  0 Jun11 ?        00:00:00 [scsi_eh_9]
+root         188       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         189       2  0 Jun11 ?        00:00:00 [scsi_eh_10]
+root         190       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         191       2  0 Jun11 ?        00:00:00 [scsi_eh_11]
+root         192       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         193       2  0 Jun11 ?        00:00:00 [scsi_eh_12]
+root         194       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         195       2  0 Jun11 ?        00:00:00 [scsi_eh_13]
+root         196       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         197       2  0 Jun11 ?        00:00:00 [scsi_eh_14]
+root         198       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         199       2  0 Jun11 ?        00:00:00 [scsi_eh_15]
+root         200       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         201       2  0 Jun11 ?        00:00:00 [scsi_eh_16]
+root         202       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         203       2  0 Jun11 ?        00:00:00 [scsi_eh_17]
+root         204       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         205       2  0 Jun11 ?        00:00:00 [scsi_eh_18]
+root         206       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         207       2  0 Jun11 ?        00:00:00 [scsi_eh_19]
+root         208       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         209       2  0 Jun11 ?        00:00:00 [scsi_eh_20]
+root         210       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         211       2  0 Jun11 ?        00:00:00 [scsi_eh_21]
+root         212       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         213       2  0 Jun11 ?        00:00:00 [scsi_eh_22]
+root         214       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         215       2  0 Jun11 ?        00:00:00 [scsi_eh_23]
+root         216       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         217       2  0 Jun11 ?        00:00:00 [scsi_eh_24]
+root         218       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         219       2  0 Jun11 ?        00:00:00 [scsi_eh_25]
+root         220       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         221       2  0 Jun11 ?        00:00:00 [scsi_eh_26]
+root         222       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         223       2  0 Jun11 ?        00:00:00 [scsi_eh_27]
+root         224       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         225       2  0 Jun11 ?        00:00:00 [scsi_eh_28]
+root         226       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         227       2  0 Jun11 ?        00:00:00 [scsi_eh_29]
+root         228       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         229       2  0 Jun11 ?        00:00:00 [scsi_eh_30]
+root         230       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         231       2  0 Jun11 ?        00:00:00 [scsi_eh_31]
+root         232       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         264       2  0 Jun11 ?        00:00:00 [scsi_eh_32]
+root         265       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+root         269       2  0 Jun11 ?        00:00:26 [kworker/1:2H-kblockd]
+root         289       2  0 Jun11 ?        00:02:27 [jbd2/sda5-8]
+root         290       2  0 Jun11 ?        00:00:00 [kworker/R-ext4-]
+root         361       2  0 Jun11 ?        00:00:00 [kworker/R-rpcio]
+root         362       2  0 Jun11 ?        00:00:00 [kworker/R-xprti]
+root         419       2  0 Jun11 ?        00:00:37 [irq/60-vmw_vmci]
+root         420       2  0 Jun11 ?        00:00:00 [irq/61-vmw_vmci]
+root         432       2  0 Jun11 ?        00:00:00 [irq/16-vmwgfx]
+root         434       2  0 Jun11 ?        00:00:00 [kworker/R-ttm]
+_rpc         467       1  0 Jun11 ?        00:00:09 /sbin/rpcbind -f -w
+root         476       1  0 Jun11 ?        00:00:10 /usr/sbin/rpc.gssd
+root         489       2  0 Jun11 ?        00:00:00 [kworker/R-crypt]
+root         500       1  0 Jun11 ?        00:00:00 /usr/bin/VGAuthService
+root         501       1  0 Jun11 ?        02:06:40 /usr/bin/vmtoolsd
+root         520       2  0 Jun11 ?        00:00:00 [kworker/R-nfit]
+root         582       1  0 Jun11 ?        00:00:00 /usr/sbin/acpid
+root         621       1  0 Jun11 ?        00:07:19 /usr/sbin/irqbalance --foreground
+root         665       1  0 Jun11 ?        00:00:15 /usr/sbin/cron -f -P
+root         762       1  0 Jun11 ?        00:00:00 /opt/pbis/sbin/lwsmd --start-as-daemon
+root         777     762  0 Jun11 ?        00:02:17 lw-container lwreg
+root         843     762  0 Jun11 ?        00:00:08 lw-container eventlog
+root         892     762  0 Jun11 ?        00:01:52 lw-container netlogon
+gdm          960       1  0 Jun11 ?        00:00:04 /lib/systemd/systemd --user
+gdm          962     960  0 Jun11 ?        00:00:00 (sd-pam)
+root         963       2  0 Jun11 ?        00:00:00 [kworker/R-nfsio]
+root         972     762  0 Jun11 ?        00:00:00 lw-container lwio
+root         993     762  0 Jun11 ?        01:49:35 lw-container lsass
+root        1010       2  0 Jun11 ?        00:00:02 [NFSv4 callback]
+gdm         1013     960  0 Jun11 ?        00:00:00 /usr/bin/pipewire
+gdm         1014     960  0 Jun11 ?        00:00:01 /usr/bin/pipewire-media-session
+gdm         1018     960  0 Jun11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1042     762  0 Jun11 ?        00:00:00 lw-container reapsysl
+fm0105    359524       1  0 Jul05 ?        00:01:01 /nfs/home/STUDENTS/fm0105/bin/code --cli-data-dir /nfs/home/STUDENTS/fm0105/.vscode/cli agent host
+jlp0590   403711       1  0 Jul11 ?        00:03:17 /nfs/home/STUDENTS/jlp0590/bin/code --cli-data-dir /nfs/home/STUDENTS/jlp0590/.vscode/cli agent host
+amf0441   414687       1  0 Jul12 ?        00:03:15 /nfs/home/STUDENTS/amf0441/bin/code --cli-data-dir /nfs/home/STUDENTS/amf0441/.vscode/cli agent host
+fm0105    420071       1  0 Jul12 ?        00:00:45 /nfs/home/STUDENTS/fm0105/bin/code --cli-data-dir /nfs/home/STUDENTS/fm0105/.vscode/cli agent host
+root      437915       2  0 Jul14 ?        00:00:00 [kworker/R-tls-s]
+root      518521       1  0 Jul22 ?        00:00:00 /opt/CrowdStrike/falcond
+root      518522  518521  0 Jul22 ?        09:24:03 falcon-sensor-bpf
+root      519050       1  0 Jul22 ?        00:04:30 /opt/rapid7/ir_agent/ir_agent
+jv0582    522093       1  0 Jul22 ?        00:02:51 /nfs/home/STUDENTS/jv0582/.vscode-server/code-1b6a188127eeaf9194f945eb6eb89a657e93c54c --cli-data-dir /nfs/home/STUDENTS/jv0582/.vscode-server/cli agent host
+root      584194       2  0 Jul23 ?        00:00:00 [kworker/0:2H]
+systemd+ 1347408       1  0 Aug11 ?        00:01:38 /lib/systemd/systemd-resolved
+root     1347412       1  0 Aug11 ?        00:09:05 /lib/systemd/systemd-journald
+systemd+ 1347510       1  0 Aug11 ?        00:00:06 /lib/systemd/systemd-timesyncd
+root     1347555       1  0 Aug11 ?        00:00:05 /lib/systemd/systemd-udevd
+iuc0001  1846930       1  0 Aug24 ?        00:01:14 /nfs/home/STUDENTS/iuc0001/.vscode-server/code-93cfdd489c3b228840d0f86ec77c3636277c93ea --cli-data-dir /nfs/home/STUDENTS/iuc0001/.vscode-server/cli agent host
+iuc0001  1899032       1  0 Aug25 ?        00:00:43 /nfs/home/STUDENTS/iuc0001/.vscode-server/code-110a328ea54b42367b803ec53ee0bf52ef26b419 --cli-data-dir /nfs/home/STUDENTS/iuc0001/.vscode-server/cli agent host
+cdr0279  1984128       1  0 Aug28 ?        00:01:24 /nfs/home/STUDENTS/cdr0279/.vscode-server/code-fc3def6774c76082adf699d366f31a557ce5573f --cli-data-dir /nfs/home/STUDENTS/cdr0279/.vscode-server/cli agent host
+root     2164982  519050  0 Sep01 ?        00:04:08 /opt/rapid7/ir_agent/components/agent_core/1.3.3.32/rapid7_agent_core
+root     2167765  519050  0 Sep01 ?        00:02:23 /opt/rapid7/ir_agent/components/endpoint_broker/1.9.3.0/rapid7_endpoint_broker
+root     2254356       1  0 Sep05 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root     2354996       1  0 Sep07 ?        00:01:35 /snap/snapd/current/usr/lib/snapd/snapd
+systemd+ 2419916       1  0 Sep09 ?        01:01:26 /lib/systemd/systemd-oomd
+wrd0033  2455677       1  0 Sep09 ?        00:00:00 script -q rec03.typescript
+wrd0033  2455678 2455677  0 Sep09 pts/2    00:00:00 bash -i
+wjf0053  2499572       1  0 Sep11 ?        00:00:02 /lib/systemd/systemd --user
+wjf0053  2499574 2499572  0 Sep11 ?        00:00:00 (sd-pam)
+wjf0053  2499580 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire
+wjf0053  2499581 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire-media-session
+wjf0053  2499627 2499572  0 Sep11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wjf0053  2499738       1  0 Sep11 ?        00:00:00 script commands.txt
+wjf0053  2499739 2499738  0 Sep11 pts/3    00:00:00 bash -i
+wjf0053  2499757 2499739  0 Sep11 pts/3    00:00:00 script end commands.txt
+wjf0053  2499758 2499757  0 Sep11 pts/4    00:00:00 bash -i
+wjf0053  2499776 2499758  0 Sep11 pts/4    00:00:00 script commands.txt
+wjf0053  2499777 2499776  0 Sep11 pts/5    00:00:00 bash -i
+cqa0005  2553255       1  0 Sep15 ?        00:00:00 script rec03
+cqa0005  2553256 2553255  0 Sep15 pts/7    00:00:00 bash -i
+message+ 2580845       1  0 Sep16 ?        00:19:40 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root     2580859       1  0 Sep16 ?        00:10:21 /usr/libexec/polkitd --no-debug
+root     2580867       1  0 Sep16 ?        00:00:03 /lib/systemd/systemd-logind
+root     2580870       1  0 Sep16 ?        00:00:00 /usr/sbin/ModemManager
+root     2580910       1  0 Sep16 ?        00:00:05 /usr/libexec/packagekitd
+root     2580957       1  0 Sep16 ?        00:00:00 /usr/sbin/gdm3
+root     2580961       1  0 Sep16 ?        00:00:30 /usr/libexec/accounts-daemon
+root     2580971 2580957  0 Sep16 ?        00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm      2580975 2580971  0 Sep16 tty1     00:00:00 /usr/libexec/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm      2580978 2580975  0 Sep16 tty1     00:00:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm      2580979 2580978  0 Sep16 tty1     00:00:00 dbus-daemon --nofork --print-address 4 --session
+gdm      2580980 2580978  0 Sep16 tty1     00:00:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm      2580986 2580980  0 Sep16 tty1     00:26:10 /usr/bin/gnome-shell
+gdm      2581009       1  0 Sep16 tty1     00:00:00 /usr/libexec/at-spi-bus-launcher
+gdm      2581014 2581009  0 Sep16 tty1     00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/125/at-spi/bus
+gdm      2581023 2580986  0 Sep16 tty1     00:00:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/125/.mutter-Xwaylandauth.LUNLV3 -listen 4 -listen 5 -displayfd 6 -initfd 7
+gdm      2581037       1  0 Sep16 tty1     00:00:00 /usr/libexec/xdg-permission-store
+root     2581044       1  0 Sep16 ?        00:00:00 /usr/libexec/upowerd
+root     2581045       1  0 Sep16 ?        00:00:00 /usr/libexec/power-profiles-daemon
+gdm      2581046     960  0 Sep16 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+rtkit    2581047       1  0 Sep16 ?        00:00:11 /usr/libexec/rtkit-daemon
+gdm      2581081       1  0 Sep16 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm      2581082       1  0 Sep16 tty1     00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+root     2581089       1  0 Sep16 ?        00:00:04 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+gdm      2581094 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-sharing
+gdm      2581098 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-wacom
+avahi    2581099       1  0 Sep16 ?        00:02:56 avahi-daemon: running [cell13-cse.local]
+gdm      2581101 2580980  0 Sep16 tty1     00:00:04 /usr/libexec/gsd-color
+gdm      2581103 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-keyboard
+gdm      2581106 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-print-notifications
+avahi    2581109 2581099  0 Sep16 ?        00:00:00 avahi-daemon: chroot helper
+gdm      2581112 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-rfkill
+gdm      2581116 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-smartcard
+gdm      2581118 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-datetime
+gdm      2581119 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-media-keys
+gdm      2581121 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-screensaver-proxy
+gdm      2581124 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-sound
+gdm      2581130 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-a11y-settings
+gdm      2581134 2580980  0 Sep16 tty1     00:00:39 /usr/libexec/gsd-housekeeping
+gdm      2581140 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-power
+gdm      2581184       1  0 Sep16 tty1     00:00:00 /usr/libexec/gvfsd
+gdm      2581200       1  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-printer
+colord   2581232       1  0 Sep16 ?        00:00:00 /usr/libexec/colord
+gdm      2581246 2580986  0 Sep16 tty1     00:00:00 ibus-daemon --panel disable -r --xim
+gdm      2581251 2581246  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-dconf
+gdm      2581253       1  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm      2581255       1  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-portal
+gdm      2581265       1  0 Sep16 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+gdm      2581283 2581246  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-engine-simple
+root     2595100       1  0 Sep16 ?        00:00:01 /usr/libexec/udisks2/udisksd
+av1681   2606450       1  0 Sep16 ?        00:00:01 /lib/systemd/systemd --user
+av1681   2606451 2606450  0 Sep16 ?        00:00:00 (sd-pam)
+av1681   2606457 2606450  0 Sep16 ?        00:00:00 /usr/bin/pipewire
+av1681   2606458 2606450  0 Sep16 ?        00:00:00 /usr/bin/pipewire-media-session
+av1681   2606529       1  0 Sep16 ?        00:00:02 /nfs/home/STUDENTS/av1681/.vscode-server/code-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8 --cli-data-dir /nfs/home/STUDENTS/av1681/.vscode-server/cli agent host
+av1681   2606598 2606450  0 Sep16 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+av1681   2606758 2606450  0 Sep16 ?        00:00:00 /usr/libexec/gvfsd
+av1681   2606763 2606450  0 Sep16 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633646215/gvfs -f
+mdl0288  2642035       1  0 Sep17 ?        00:00:01 /lib/systemd/systemd --user
+mdl0288  2642037 2642035  0 Sep17 ?        00:00:00 (sd-pam)
+mdl0288  2642043 2642035  0 Sep17 ?        00:00:00 /usr/bin/pipewire
+mdl0288  2642044 2642035  0 Sep17 ?        00:00:00 /usr/bin/pipewire-media-session
+mdl0288  2642105 2642035  0 Sep17 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mdl0288  2642546       1  0 Sep17 ?        00:00:00 script rec03.log
+mdl0288  2642547 2642546  0 Sep17 pts/11   00:00:00 bash -i
+wjf0053  2696790       1  0 Sep18 ?        00:00:00 script recitation4
+wjf0053  2696791 2696790  0 Sep18 pts/13   00:00:00 bash -i
+wjf0053  2697217 2696791  0 Sep18 pts/13   00:00:00 script end
+wjf0053  2697218 2697217  0 Sep18 pts/8    00:00:00 bash -i
+wjf0053  2697246 2697218  0 Sep18 pts/8    00:00:00 script -q rec04.typescript
+wjf0053  2697247 2697246  0 Sep18 pts/12   00:00:00 bash -i
+mn1067   2704363       1  0 Sep18 ?        00:00:01 /lib/systemd/systemd --user
+mn1067   2704365 2704363  0 Sep18 ?        00:00:00 (sd-pam)
+mn1067   2704371 2704363  0 Sep18 ?        00:00:00 /usr/bin/pipewire
+mn1067   2704372 2704363  0 Sep18 ?        00:00:00 /usr/bin/pipewire-media-session
+mn1067   2704420 2704363  0 Sep18 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mn1067   2705555       1  0 Sep18 ?        00:00:00 script rec04.typescript
+mn1067   2705556 2705555  0 Sep18 pts/15   00:00:00 bash -i
+kap0382  2802025       1  0 Sep20 ?        00:00:01 /lib/systemd/systemd --user
+kap0382  2802026 2802025  0 Sep20 ?        00:00:00 (sd-pam)
+kap0382  2802032 2802025  0 Sep20 ?        00:00:00 /usr/bin/pipewire
+kap0382  2802033 2802025  0 Sep20 ?        00:00:00 /usr/bin/pipewire-media-session
+kap0382  2802059 2802025  0 Sep20 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+kap0382  2804419       1  0 Sep20 ?        00:00:23 ./orphan
+syslog   2908190       1  0 Sep23 ?        00:00:09 /usr/sbin/rsyslogd -n -iNONE
+root     2921502       2  0 Sep23 ?        00:00:01 [kworker/u256:2-ext4-rsv-conversion]
+root     2952342  519050  0 Sep24 ?        00:13:44 /opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent
+root     2952352 2952342  0 Sep24 ?        00:00:00 /opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent -S -I -c from multiprocessing.resource_tracker import main;main(15)
+root     2952413 2952342  0 Sep24 ?        00:08:00 /opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent --multiprocessing-fork tracker_fd=16 pipe_handle=28
+root     3020045       2  0 Sep28 ?        00:00:00 [kworker/u256:1-ext4-rsv-conversion]
+root     3031530       1  0 00:00 ?        00:00:00 /usr/sbin/cupsd -l
+root     3044867       2  0 19:42 ?        00:00:02 [kworker/0:2-events]
+root     3045109       2  0 20:33 ?        00:00:00 [kworker/u257:3-xprtiod]
+root     3045322 2254356  0 21:21 ?        00:00:00 sshd: sh1562 [priv]
+sh1562   3045331       1  0 21:21 ?        00:00:00 /lib/systemd/systemd --user
+sh1562   3045333 3045331  0 21:21 ?        00:00:00 (sd-pam)
+sh1562   3045339 3045331  0 21:21 ?        00:00:00 /usr/bin/pipewire
+sh1562   3045340 3045331  0 21:21 ?        00:00:00 /usr/bin/pipewire-media-session
+sh1562   3045341 3045331  0 21:21 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+sh1562   3045381 3045322  0 21:21 ?        00:00:00 sshd: sh1562@pts/17
+sh1562   3045383 3045381  0 21:21 pts/17   00:00:00 -bash
+sh1562   3045401 3045331  0 21:21 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root     3045462       2  0 21:32 ?        00:00:00 [kworker/u258:2-flush-8:0]
+root     3046467       2  0 21:42 ?        00:00:00 [kworker/1:0-events]
+root     3046537       2  0 21:56 ?        00:00:00 [kworker/u258:3-rpciod]
+root     3046637       2  0 22:16 ?        00:00:00 [kworker/u258:0-events_power_efficient]
+root     3046725       2  0 22:33 ?        00:00:00 [kworker/1:1]
+root     3046733       2  0 22:35 ?        00:00:00 [kworker/u257:0-events_unbound]
+root     3046759       2  0 22:42 ?        00:00:00 [kworker/0:1-rcu_par_gp]
+root     3046766       2  0 22:44 ?        00:00:00 [kworker/u257:2-events_power_efficient]
+root     3046800       2  0 22:50 ?        00:00:00 [kworker/u257:1-rpciod]
+root     3046809 2254356  0 22:53 ?        00:00:00 sshd: wjf0053 [priv]
+wjf0053  3046854 3046809  0 22:53 ?        00:00:00 sshd: wjf0053@notty
+wjf0053  3046855 3046854  0 22:53 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     3046857 2254356  0 22:55 ?        00:00:00 sshd: wjf0053 [priv]
+wjf0053  3046882 3046857  0 22:55 ?        00:00:00 sshd: wjf0053@pts/18
+wjf0053  3046883 3046882  0 22:55 pts/18   00:00:00 -bash
+root     3046908       2  0 22:56 ?        00:00:00 [kworker/0:0-events]
+wjf0053  3046911 3046883  0 22:57 pts/18   00:00:00 script rec05.typescript
+wjf0053  3046912 3046911  0 22:57 pts/19   00:00:00 bash -i
+root     3046923       2  0 22:57 ?        00:00:00 [kworker/u258:1-events_power_efficient]
+wjf0053  3046952 3046912  0 22:58 pts/19   00:00:00 ps -ef

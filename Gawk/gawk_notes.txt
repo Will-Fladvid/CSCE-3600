@@ -1,0 +1,30 @@
+Gawk is a scripting language that is used for manipulating sata and generating reports
+
+Gawk scans line by line 
+
+
+A gawk program consists of:
+	 An optional BEGIN segment
+		 For processing to execute prior to reading input
+	 Pattern – Action pairs
+		 Processing for input data
+		 For each pattern matched, the corresponding action is taken
+	 An optional END segment
+		 Processing after end of input data
+
+How to rung a gawk program:
+There are several ways of how to run a gawk program
+	-gawk 'program' input_file(s)
+
+-Program and input files are provided as command-line arguments
+
+	gawk 'program'
+
+-program is a command-line argument
+-input is taken from standard input
+
+	gawk -f program_file input_files
+
+-program is read from a file
+
+

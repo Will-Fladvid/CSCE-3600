@@ -1,0 +1,10 @@
+credit_card_number:1323456476890987
+credit_card_number:3456341298456787
+credit_card_number:5678983400239846
+credit_card_number:9987341956081155
+credit_card_number:6789388463654781
+credit_card_number:1323456476890987
+credit_card_number:3456341298456787
+credit_card_number:5678983400239846
+credit_card_number:9987341956081155
+credit_card_number:6789388463654781

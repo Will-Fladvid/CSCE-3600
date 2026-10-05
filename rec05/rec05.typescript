@@ -1,0 +1,4949 @@
+Script started on 2026-09-29 22:57:03-05:00 [TERM="xterm-256color" TTY="/dev/pts/18" COLUMNS="138" LINES="70"]
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ nano gawkfile.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;70r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[68;64H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                                   gawkfile.txt                                                             [1;137H(B[m[69d(B[0;7m^G(B[m Help[69;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[69;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[69;120H(B[0;7mM-A(B[m Set Mark[70d(B[0;7m^X(B[m Exit[70;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[70;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[70;120H(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[68d[J[70d[?12l[?25h[70;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ nano gawkfile.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;70r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[68;64H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                                   gawkfile.txt                                                             [1;137H(B[m[69d(B[0;7m^G(B[m Help[69;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[69;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[69;120H(B[0;7mM-A(B[m Set Mark[70d(B[0;7m^X(B[m Exit[70;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[70;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[70;120H(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[69;18H[17X[69;35H(B[0;7mM-D(B[m DOS Format         [69;69H(B[0;7mM-A(B[m Append[86G           [69;105H(B[0;7mB(B[m Backup File[K[70;2H(B[0;7mC(B[m Cancel[70;18H[17X[70;35H(B[0;7mM-M(B[m Mac Format           [70;69H(B[0;7mM-P(B[m Prepend[86G[17X[70;103H(B[0;7m^T(B[m Browse[K[68d(B[0;7mFile Name to Write: gawkfile.txt                                                                                                          [68;33H(B[m[?12l[?25h[?25l[68;62H[1K (B[0;7m[ Writing... ](B[m[K[1;137H[68;61H(B[0;7m[ Wrote 0 lines ](B[m[69;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut[69;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[69;105H(B[0;7mU(B[m Undo         (B[0;7mM-A(B[m Set Mark[70;2H(B[0;7mX(B[m Exit  [70;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Paste[70;69H(B[0;7m^J(B[m Justify [86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo [70;120H(B[0;7mM-6(B[m Copy[?12l[?25h[2d[?25l[68d[J[70d[?12l[?25h[70;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ ls
+[?2004lgawkfile.txt  rec05.typescript
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ rn gawkfile.txt
+[?2004lCommand 'rn' not found, but can be installed with:
+apt install trn4
+Please ask your administrator.
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ rn gawkfile.txt[C[1P gawkfile.txtm gawkfile.txt
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ ps -ef gawkfile.txt
+[?2004lerror: unknown sort specifier
+
+Usage:
+ ps [options]
+
+ Try 'ps --help <simple|list|output|threads|misc|all>'
+  or 'ps --help <s|l|o|t|m|a>'
+ for additional help text.
+
+For more details see ps(1).
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ ps -ef gawkfile.txt[C gawkfile.txt> gawkfile.txt
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk {prin[K[K[K[K[K'{print p[K[K[K[K[K[K[K[KNR >[K<= 10' gawkfile.txt
+[?2004lUID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 Jun11 ?        03:11:48 /lib/systemd/systemd --system --deserialize 53 splash
+root           2       0  0 Jun11 ?        00:00:02 [kthreadd]
+root           3       2  0 Jun11 ?        00:00:00 [pool_workqueue_release]
+root           4       2  0 Jun11 ?        00:00:00 [kworker/R-rcu_g]
+root           5       2  0 Jun11 ?        00:00:00 [kworker/R-rcu_p]
+root           6       2  0 Jun11 ?        00:00:00 [kworker/R-slub_]
+root           7       2  0 Jun11 ?        00:00:00 [kworker/R-netns]
+root          12       2  0 Jun11 ?        00:00:00 [kworker/R-mm_pe]
+root          13       2  0 Jun11 ?        00:00:01 [rcu_tasks_kthread]
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk '{print NR}' gawkfile.txt
+[?2004l1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+340
+341
+342
+343
+344
+345
+346
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk "[K'[K'END [K{[K P{[K[K{priont[K[K[K[Kint NR} [K' gawkfile.txt
+[?2004l346
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ echo u[K[K I [K[KNote: I[KUse ENF[KD to have it count all of them without e[Ksending it out [K to the terminal, si[K[K[K [K[K since end happens  after processing
+[?2004lNote: Use END to have it count all of them without sending it out to the terminal since end happens after processing
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ aho[K[K[Kwhoami
+[?2004lwjf0053
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk "[K'/wjf0053/' gawkfile.txt
+[?2004lwjf0053  2499572       1  0 Sep11 ?        00:00:02 /lib/systemd/systemd --user
+wjf0053  2499574 2499572  0 Sep11 ?        00:00:00 (sd-pam)
+wjf0053  2499580 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire
+wjf0053  2499581 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire-media-session
+wjf0053  2499627 2499572  0 Sep11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wjf0053  2499738       1  0 Sep11 ?        00:00:00 script commands.txt
+wjf0053  2499739 2499738  0 Sep11 pts/3    00:00:00 bash -i
+wjf0053  2499757 2499739  0 Sep11 pts/3    00:00:00 script end commands.txt
+wjf0053  2499758 2499757  0 Sep11 pts/4    00:00:00 bash -i
+wjf0053  2499776 2499758  0 Sep11 pts/4    00:00:00 script commands.txt
+wjf0053  2499777 2499776  0 Sep11 pts/5    00:00:00 bash -i
+wjf0053  2696790       1  0 Sep18 ?        00:00:00 script recitation4
+wjf0053  2696791 2696790  0 Sep18 pts/13   00:00:00 bash -i
+wjf0053  2697217 2696791  0 Sep18 pts/13   00:00:00 script end
+wjf0053  2697218 2697217  0 Sep18 pts/8    00:00:00 bash -i
+wjf0053  2697246 2697218  0 Sep18 pts/8    00:00:00 script -q rec04.typescript
+wjf0053  2697247 2697246  0 Sep18 pts/12   00:00:00 bash -i
+root     3046809 2254356  0 22:53 ?        00:00:00 sshd: wjf0053 [priv]
+wjf0053  3046854 3046809  0 22:53 ?        00:00:00 sshd: wjf0053@notty
+wjf0053  3046855 3046854  0 22:53 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     3046857 2254356  0 22:55 ?        00:00:00 sshd: wjf0053 [priv]
+wjf0053  3046882 3046857  0 22:55 ?        00:00:00 sshd: wjf0053@pts/18
+wjf0053  3046883 3046882  0 22:55 pts/18   00:00:00 -bash
+wjf0053  3046911 3046883  0 22:57 pts/18   00:00:00 script rec05.typescript
+wjf0053  3046912 3046911  0 22:57 pts/19   00:00:00 bash -i
+wjf0053  3046952 3046912  0 22:58 pts/19   00:00:00 ps -ef
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk "[K'/wjf00[K[K0053/ {print $1}' gawkfile.txt
+[?2004lwjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+root
+wjf0053
+wjf0053
+root
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+wjf0053
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk '/wjf0053/ {print $1}' gawkfile.txt[1P[1@0[1@^
+[?2004lwjf0053  2499572       1  0 Sep11 ?        00:00:02 /lib/systemd/systemd --user
+wjf0053  2499574 2499572  0 Sep11 ?        00:00:00 (sd-pam)
+wjf0053  2499580 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire
+wjf0053  2499581 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire-media-session
+wjf0053  2499627 2499572  0 Sep11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+wjf0053  2499738       1  0 Sep11 ?        00:00:00 script commands.txt
+wjf0053  2499739 2499738  0 Sep11 pts/3    00:00:00 bash -i
+wjf0053  2499757 2499739  0 Sep11 pts/3    00:00:00 script end commands.txt
+wjf0053  2499758 2499757  0 Sep11 pts/4    00:00:00 bash -i
+wjf0053  2499776 2499758  0 Sep11 pts/4    00:00:00 script commands.txt
+wjf0053  2499777 2499776  0 Sep11 pts/5    00:00:00 bash -i
+wjf0053  2696790       1  0 Sep18 ?        00:00:00 script recitation4
+wjf0053  2696791 2696790  0 Sep18 pts/13   00:00:00 bash -i
+wjf0053  2697217 2696791  0 Sep18 pts/13   00:00:00 script end
+wjf0053  2697218 2697217  0 Sep18 pts/8    00:00:00 bash -i
+wjf0053  2697246 2697218  0 Sep18 pts/8    00:00:00 script -q rec04.typescript
+wjf0053  2697247 2697246  0 Sep18 pts/12   00:00:00 bash -i
+wjf0053  3046854 3046809  0 22:53 ?        00:00:00 sshd: wjf0053@notty
+wjf0053  3046855 3046854  0 22:53 ?        00:00:00 /usr/lib/openssh/sftp-server
+wjf0053  3046882 3046857  0 22:55 ?        00:00:00 sshd: wjf0053@pts/18
+wjf0053  3046883 3046882  0 22:55 pts/18   00:00:00 -bash
+wjf0053  3046911 3046883  0 22:57 pts/18   00:00:00 script rec05.typescript
+wjf0053  3046912 3046911  0 22:57 pts/19   00:00:00 bash -i
+wjf0053  3046952 3046912  0 22:58 pts/19   00:00:00 ps -ef
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk "[K' [KFs [K[KS>[K >= 8 [K
+[?2004l[?2004h> re[K[K{print NR, [K[K} {print NF} P[K{print "En[Knd"}[C[1P"}[1P"}[1P"}D"}S"}[1P"}o"}n"}e"}[C[C" [K[K' gawkfiul[K[Kle.txt
+[?2004l1
+8
+Done
+2
+12
+Done
+3
+8
+Done
+4
+8
+Done
+5
+8
+Done
+6
+8
+Done
+7
+8
+Done
+8
+8
+Done
+9
+8
+Done
+10
+8
+Done
+11
+8
+Done
+12
+8
+Done
+13
+8
+Done
+14
+8
+Done
+15
+8
+Done
+16
+8
+Done
+17
+8
+Done
+18
+8
+Done
+19
+8
+Done
+20
+8
+Done
+21
+8
+Done
+22
+8
+Done
+23
+8
+Done
+24
+8
+Done
+25
+8
+Done
+26
+8
+Done
+27
+8
+Done
+28
+8
+Done
+29
+8
+Done
+30
+8
+Done
+31
+8
+Done
+32
+8
+Done
+33
+8
+Done
+34
+8
+Done
+35
+8
+Done
+36
+8
+Done
+37
+8
+Done
+38
+8
+Done
+39
+8
+Done
+40
+8
+Done
+41
+8
+Done
+42
+8
+Done
+43
+8
+Done
+44
+8
+Done
+45
+8
+Done
+46
+8
+Done
+47
+8
+Done
+48
+8
+Done
+49
+8
+Done
+50
+8
+Done
+51
+8
+Done
+52
+8
+Done
+53
+8
+Done
+54
+8
+Done
+55
+8
+Done
+56
+8
+Done
+57
+8
+Done
+58
+8
+Done
+59
+8
+Done
+60
+8
+Done
+61
+8
+Done
+62
+8
+Done
+63
+8
+Done
+64
+8
+Done
+65
+8
+Done
+66
+8
+Done
+67
+8
+Done
+68
+8
+Done
+69
+8
+Done
+70
+8
+Done
+71
+8
+Done
+72
+8
+Done
+73
+8
+Done
+74
+8
+Done
+75
+8
+Done
+76
+8
+Done
+77
+8
+Done
+78
+8
+Done
+79
+8
+Done
+80
+8
+Done
+81
+8
+Done
+82
+8
+Done
+83
+8
+Done
+84
+8
+Done
+85
+8
+Done
+86
+8
+Done
+87
+8
+Done
+88
+8
+Done
+89
+8
+Done
+90
+8
+Done
+91
+8
+Done
+92
+8
+Done
+93
+8
+Done
+94
+8
+Done
+95
+8
+Done
+96
+8
+Done
+97
+8
+Done
+98
+8
+Done
+99
+8
+Done
+100
+8
+Done
+101
+8
+Done
+102
+8
+Done
+103
+8
+Done
+104
+8
+Done
+105
+8
+Done
+106
+8
+Done
+107
+8
+Done
+108
+8
+Done
+109
+8
+Done
+110
+8
+Done
+111
+8
+Done
+112
+8
+Done
+113
+8
+Done
+114
+8
+Done
+115
+8
+Done
+116
+8
+Done
+117
+8
+Done
+118
+8
+Done
+119
+8
+Done
+120
+8
+Done
+121
+8
+Done
+122
+8
+Done
+123
+8
+Done
+124
+8
+Done
+125
+8
+Done
+126
+8
+Done
+127
+8
+Done
+128
+8
+Done
+129
+8
+Done
+130
+8
+Done
+131
+8
+Done
+132
+8
+Done
+133
+8
+Done
+134
+8
+Done
+135
+8
+Done
+136
+8
+Done
+137
+8
+Done
+138
+8
+Done
+139
+8
+Done
+140
+8
+Done
+141
+8
+Done
+142
+8
+Done
+143
+8
+Done
+144
+8
+Done
+145
+8
+Done
+146
+8
+Done
+147
+8
+Done
+148
+8
+Done
+149
+8
+Done
+150
+8
+Done
+151
+8
+Done
+152
+8
+Done
+153
+8
+Done
+154
+8
+Done
+155
+8
+Done
+156
+8
+Done
+157
+8
+Done
+158
+8
+Done
+159
+8
+Done
+160
+8
+Done
+161
+8
+Done
+162
+8
+Done
+163
+8
+Done
+164
+8
+Done
+165
+10
+Done
+166
+8
+Done
+167
+8
+Done
+168
+8
+Done
+169
+8
+Done
+170
+8
+Done
+171
+8
+Done
+172
+9
+Done
+173
+10
+Done
+174
+9
+Done
+175
+9
+Done
+176
+9
+Done
+177
+9
+Done
+178
+9
+Done
+179
+8
+Done
+180
+8
+Done
+181
+9
+Done
+182
+9
+Done
+183
+9
+Done
+184
+8
+Done
+185
+8
+Done
+186
+14
+Done
+187
+9
+Done
+188
+12
+Done
+189
+12
+Done
+190
+12
+Done
+191
+12
+Done
+192
+8
+Done
+193
+8
+Done
+194
+8
+Done
+195
+8
+Done
+196
+12
+Done
+197
+8
+Done
+198
+8
+Done
+199
+8
+Done
+200
+8
+Done
+201
+8
+Done
+202
+12
+Done
+203
+12
+Done
+204
+12
+Done
+205
+8
+Done
+206
+8
+Done
+207
+15
+Done
+208
+8
+Done
+209
+8
+Done
+210
+10
+Done
+211
+9
+Done
+212
+9
+Done
+213
+8
+Done
+214
+8
+Done
+215
+8
+Done
+216
+14
+Done
+217
+9
+Done
+218
+9
+Done
+219
+10
+Done
+220
+9
+Done
+221
+9
+Done
+222
+9
+Done
+223
+9
+Done
+224
+9
+Done
+225
+14
+Done
+226
+9
+Done
+227
+8
+Done
+228
+8
+Done
+229
+8
+Done
+230
+8
+Done
+231
+8
+Done
+232
+9
+Done
+233
+13
+Done
+234
+12
+Done
+235
+12
+Done
+236
+10
+Done
+237
+8
+Done
+238
+8
+Done
+239
+13
+Done
+240
+23
+Done
+241
+8
+Done
+242
+8
+Done
+243
+8
+Done
+244
+10
+Done
+245
+8
+Done
+246
+9
+Done
+247
+9
+Done
+248
+12
+Done
+249
+8
+Done
+250
+8
+Done
+251
+10
+Done
+252
+8
+Done
+253
+8
+Done
+254
+8
+Done
+255
+10
+Done
+256
+8
+Done
+257
+8
+Done
+258
+8
+Done
+259
+8
+Done
+260
+8
+Done
+261
+8
+Done
+262
+8
+Done
+263
+8
+Done
+264
+8
+Done
+265
+8
+Done
+266
+8
+Done
+267
+8
+Done
+268
+12
+Done
+269
+8
+Done
+270
+9
+Done
+271
+8
+Done
+272
+9
+Done
+273
+8
+Done
+274
+8
+Done
+275
+9
+Done
+276
+8
+Done
+277
+8
+Done
+278
+8
+Done
+279
+12
+Done
+280
+14
+Done
+281
+8
+Done
+282
+10
+Done
+283
+9
+Done
+284
+8
+Done
+285
+8
+Done
+286
+8
+Done
+287
+14
+Done
+288
+9
+Done
+289
+9
+Done
+290
+9
+Done
+291
+9
+Done
+292
+9
+Done
+293
+9
+Done
+294
+10
+Done
+295
+9
+Done
+296
+9
+Done
+297
+8
+Done
+298
+8
+Done
+299
+8
+Done
+300
+14
+Done
+301
+9
+Done
+302
+9
+Done
+303
+9
+Done
+304
+8
+Done
+305
+8
+Done
+306
+8
+Done
+307
+14
+Done
+308
+8
+Done
+309
+10
+Done
+310
+8
+Done
+311
+8
+Done
+312
+15
+Done
+313
+11
+Done
+314
+8
+Done
+315
+9
+Done
+316
+8
+Done
+317
+8
+Done
+318
+10
+Done
+319
+9
+Done
+320
+8
+Done
+321
+8
+Done
+322
+8
+Done
+323
+10
+Done
+324
+9
+Done
+325
+8
+Done
+326
+14
+Done
+327
+8
+Done
+328
+8
+Done
+329
+8
+Done
+330
+8
+Done
+331
+8
+Done
+332
+8
+Done
+333
+8
+Done
+334
+8
+Done
+335
+8
+Done
+336
+10
+Done
+337
+9
+Done
+338
+8
+Done
+339
+10
+Done
+340
+9
+Done
+341
+8
+Done
+342
+8
+Done
+343
+9
+Done
+344
+9
+Done
+345
+8
+Done
+346
+9
+Done
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'FS >= 8
+{print NR} {print NF} {print "Done"}' gawkfile.txt[C[C[C[C[C[1@ [1@E[1@N[1@D[C[1P
+[?2004l1
+8
+2
+12
+3
+8
+4
+8
+5
+8
+6
+8
+7
+8
+8
+8
+9
+8
+10
+8
+11
+8
+12
+8
+13
+8
+14
+8
+15
+8
+16
+8
+17
+8
+18
+8
+19
+8
+20
+8
+21
+8
+22
+8
+23
+8
+24
+8
+25
+8
+26
+8
+27
+8
+28
+8
+29
+8
+30
+8
+31
+8
+32
+8
+33
+8
+34
+8
+35
+8
+36
+8
+37
+8
+38
+8
+39
+8
+40
+8
+41
+8
+42
+8
+43
+8
+44
+8
+45
+8
+46
+8
+47
+8
+48
+8
+49
+8
+50
+8
+51
+8
+52
+8
+53
+8
+54
+8
+55
+8
+56
+8
+57
+8
+58
+8
+59
+8
+60
+8
+61
+8
+62
+8
+63
+8
+64
+8
+65
+8
+66
+8
+67
+8
+68
+8
+69
+8
+70
+8
+71
+8
+72
+8
+73
+8
+74
+8
+75
+8
+76
+8
+77
+8
+78
+8
+79
+8
+80
+8
+81
+8
+82
+8
+83
+8
+84
+8
+85
+8
+86
+8
+87
+8
+88
+8
+89
+8
+90
+8
+91
+8
+92
+8
+93
+8
+94
+8
+95
+8
+96
+8
+97
+8
+98
+8
+99
+8
+100
+8
+101
+8
+102
+8
+103
+8
+104
+8
+105
+8
+106
+8
+107
+8
+108
+8
+109
+8
+110
+8
+111
+8
+112
+8
+113
+8
+114
+8
+115
+8
+116
+8
+117
+8
+118
+8
+119
+8
+120
+8
+121
+8
+122
+8
+123
+8
+124
+8
+125
+8
+126
+8
+127
+8
+128
+8
+129
+8
+130
+8
+131
+8
+132
+8
+133
+8
+134
+8
+135
+8
+136
+8
+137
+8
+138
+8
+139
+8
+140
+8
+141
+8
+142
+8
+143
+8
+144
+8
+145
+8
+146
+8
+147
+8
+148
+8
+149
+8
+150
+8
+151
+8
+152
+8
+153
+8
+154
+8
+155
+8
+156
+8
+157
+8
+158
+8
+159
+8
+160
+8
+161
+8
+162
+8
+163
+8
+164
+8
+165
+10
+166
+8
+167
+8
+168
+8
+169
+8
+170
+8
+171
+8
+172
+9
+173
+10
+174
+9
+175
+9
+176
+9
+177
+9
+178
+9
+179
+8
+180
+8
+181
+9
+182
+9
+183
+9
+184
+8
+185
+8
+186
+14
+187
+9
+188
+12
+189
+12
+190
+12
+191
+12
+192
+8
+193
+8
+194
+8
+195
+8
+196
+12
+197
+8
+198
+8
+199
+8
+200
+8
+201
+8
+202
+12
+203
+12
+204
+12
+205
+8
+206
+8
+207
+15
+208
+8
+209
+8
+210
+10
+211
+9
+212
+9
+213
+8
+214
+8
+215
+8
+216
+14
+217
+9
+218
+9
+219
+10
+220
+9
+221
+9
+222
+9
+223
+9
+224
+9
+225
+14
+226
+9
+227
+8
+228
+8
+229
+8
+230
+8
+231
+8
+232
+9
+233
+13
+234
+12
+235
+12
+236
+10
+237
+8
+238
+8
+239
+13
+240
+23
+241
+8
+242
+8
+243
+8
+244
+10
+245
+8
+246
+9
+247
+9
+248
+12
+249
+8
+250
+8
+251
+10
+252
+8
+253
+8
+254
+8
+255
+10
+256
+8
+257
+8
+258
+8
+259
+8
+260
+8
+261
+8
+262
+8
+263
+8
+264
+8
+265
+8
+266
+8
+267
+8
+268
+12
+269
+8
+270
+9
+271
+8
+272
+9
+273
+8
+274
+8
+275
+9
+276
+8
+277
+8
+278
+8
+279
+12
+280
+14
+281
+8
+282
+10
+283
+9
+284
+8
+285
+8
+286
+8
+287
+14
+288
+9
+289
+9
+290
+9
+291
+9
+292
+9
+293
+9
+294
+10
+295
+9
+296
+9
+297
+8
+298
+8
+299
+8
+300
+14
+301
+9
+302
+9
+303
+9
+304
+8
+305
+8
+306
+8
+307
+14
+308
+8
+309
+10
+310
+8
+311
+8
+312
+15
+313
+11
+314
+8
+315
+9
+316
+8
+317
+8
+318
+10
+319
+9
+320
+8
+321
+8
+322
+8
+323
+10
+324
+9
+325
+8
+326
+14
+327
+8
+328
+8
+329
+8
+330
+8
+331
+8
+332
+8
+333
+8
+334
+8
+335
+8
+336
+10
+337
+9
+338
+8
+339
+10
+340
+9
+341
+8
+342
+8
+343
+9
+344
+9
+345
+8
+346
+9
+Done
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'FS >= 8
+{print NR} {print NF} END{print "Done"}' gawkfile.txt[1P[1P[1P[C[C[C[C[C[1P[1P[1P[1P[1P[1@,[1@"[C[1@ [1@"[1@,
+[?2004l1   8
+2   12
+3   8
+4   8
+5   8
+6   8
+7   8
+8   8
+9   8
+10   8
+11   8
+12   8
+13   8
+14   8
+15   8
+16   8
+17   8
+18   8
+19   8
+20   8
+21   8
+22   8
+23   8
+24   8
+25   8
+26   8
+27   8
+28   8
+29   8
+30   8
+31   8
+32   8
+33   8
+34   8
+35   8
+36   8
+37   8
+38   8
+39   8
+40   8
+41   8
+42   8
+43   8
+44   8
+45   8
+46   8
+47   8
+48   8
+49   8
+50   8
+51   8
+52   8
+53   8
+54   8
+55   8
+56   8
+57   8
+58   8
+59   8
+60   8
+61   8
+62   8
+63   8
+64   8
+65   8
+66   8
+67   8
+68   8
+69   8
+70   8
+71   8
+72   8
+73   8
+74   8
+75   8
+76   8
+77   8
+78   8
+79   8
+80   8
+81   8
+82   8
+83   8
+84   8
+85   8
+86   8
+87   8
+88   8
+89   8
+90   8
+91   8
+92   8
+93   8
+94   8
+95   8
+96   8
+97   8
+98   8
+99   8
+100   8
+101   8
+102   8
+103   8
+104   8
+105   8
+106   8
+107   8
+108   8
+109   8
+110   8
+111   8
+112   8
+113   8
+114   8
+115   8
+116   8
+117   8
+118   8
+119   8
+120   8
+121   8
+122   8
+123   8
+124   8
+125   8
+126   8
+127   8
+128   8
+129   8
+130   8
+131   8
+132   8
+133   8
+134   8
+135   8
+136   8
+137   8
+138   8
+139   8
+140   8
+141   8
+142   8
+143   8
+144   8
+145   8
+146   8
+147   8
+148   8
+149   8
+150   8
+151   8
+152   8
+153   8
+154   8
+155   8
+156   8
+157   8
+158   8
+159   8
+160   8
+161   8
+162   8
+163   8
+164   8
+165   10
+166   8
+167   8
+168   8
+169   8
+170   8
+171   8
+172   9
+173   10
+174   9
+175   9
+176   9
+177   9
+178   9
+179   8
+180   8
+181   9
+182   9
+183   9
+184   8
+185   8
+186   14
+187   9
+188   12
+189   12
+190   12
+191   12
+192   8
+193   8
+194   8
+195   8
+196   12
+197   8
+198   8
+199   8
+200   8
+201   8
+202   12
+203   12
+204   12
+205   8
+206   8
+207   15
+208   8
+209   8
+210   10
+211   9
+212   9
+213   8
+214   8
+215   8
+216   14
+217   9
+218   9
+219   10
+220   9
+221   9
+222   9
+223   9
+224   9
+225   14
+226   9
+227   8
+228   8
+229   8
+230   8
+231   8
+232   9
+233   13
+234   12
+235   12
+236   10
+237   8
+238   8
+239   13
+240   23
+241   8
+242   8
+243   8
+244   10
+245   8
+246   9
+247   9
+248   12
+249   8
+250   8
+251   10
+252   8
+253   8
+254   8
+255   10
+256   8
+257   8
+258   8
+259   8
+260   8
+261   8
+262   8
+263   8
+264   8
+265   8
+266   8
+267   8
+268   12
+269   8
+270   9
+271   8
+272   9
+273   8
+274   8
+275   9
+276   8
+277   8
+278   8
+279   12
+280   14
+281   8
+282   10
+283   9
+284   8
+285   8
+286   8
+287   14
+288   9
+289   9
+290   9
+291   9
+292   9
+293   9
+294   10
+295   9
+296   9
+297   8
+298   8
+299   8
+300   14
+301   9
+302   9
+303   9
+304   8
+305   8
+306   8
+307   14
+308   8
+309   10
+310   8
+311   8
+312   15
+313   11
+314   8
+315   9
+316   8
+317   8
+318   10
+319   9
+320   8
+321   8
+322   8
+323   10
+324   9
+325   8
+326   14
+327   8
+328   8
+329   8
+330   8
+331   8
+332   8
+333   8
+334   8
+335   8
+336   10
+337   9
+338   8
+339   10
+340   9
+341   8
+342   8
+343   9
+344   9
+345   8
+346   9
+Done
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'FS >= 8
+{print NR," ", NF} END{print "Done"}' gawkfile.txt [K[C[1@ [1@f[1@o[1@r[1@([1P[1P[1P[1P[1@{[1@g[1P[1@f[1@o[1@r[C[1@ [1P[C[1@ [1@([1@i[1@=[1@1[1@;[C[1@ [1@i[1@<[1@=[1@N[1@R[1@;[C[1@ [1@i[C[1@ [1@=[C[1@ [1@i[1@+[1P[C[1@ [1@+[C[1@ [1@1[1@)
+[?2004lgawk: cmd. line:2: {print NR," ", NF} {for (i=1; i<=NR; i = i + 1) END{print "Done"}
+gawk: cmd. line:2:                                                 ^ syntax error
+gawk: cmd. line:2: {print NR," ", NF} {for (i=1; i<=NR; i = i + 1) END{print "Done"}
+gawk: cmd. line:2:                                                                  ^ unexpected newline or end of string
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'FS >= 8
+{print NR," ", NF} {for (i=1; i<=NR; i = i + 1) END{print "Done"}' gawkfile.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgawk 'FS >= 8
+{print NR," ", NF} {for (i=1; i<=NR; i = i + 1) END{print "Done"}' gawkfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l[?2004h> print[K[K[K[K[Kif [K [K[K[KNr[KR > 8 {[1P[1@F[C[C[C[C[C[Cprint[1P{print[1P8{print[1P>8{print[C[C[C[C[C[C {print[C[C[C[C[C[C[1P{print[C[C[C[C[C[C --[K[K[K "trs[K[Kest"} END{print :[K"Done"}' gawkfile.txt
+[?2004lgawk: cmd. line:3: NF>8{print "test"} END{print "Done"}
+gawk: cmd. line:3:     ^ syntax error
+gawk: cmd. line:3: NF>8{print "test"} END{print "Done"}
+gawk: cmd. line:3:                    ^ syntax error
+gawk: cmd. line:3: NF>8{print "test"} END{print "Done"}
+gawk: cmd. line:3:                                     ^ unexpected newline or end of string
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'FS >= 8
+{print NR," ", NF} {for (i=1; i<=NR; i = i + 1)
+NF>8{print "test"} END{print "Done"}' gawkfile.txt[1@ 
+[?2004lgawk: cmd. line:3: NF>8{print "test"} END {print "Done"}
+gawk: cmd. line:3:     ^ syntax error
+gawk: cmd. line:3: NF>8{print "test"} END {print "Done"}
+gawk: cmd. line:3:                    ^ syntax error
+gawk: cmd. line:3: NF>8{print "test"} END {print "Done"}
+gawk: cmd. line:3:                                      ^ unexpected newline or end of string
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'FS >= 8
+{print NR," ", NF} {for (i=1; i<=NR; i = i + 1)
+NF>8{print "test"} END {print "Done"}' gawkfile.txt[C[1@ [1@ [1@ 
+[?2004lgawk: cmd. line:3: NF > 8 {print "test"} END {print "Done"}
+gawk: cmd. line:3:        ^ syntax error
+gawk: cmd. line:3: NF > 8 {print "test"} END {print "Done"}
+gawk: cmd. line:3:                       ^ syntax error
+gawk: cmd. line:3: NF > 8 {print "test"} END {print "Done"}
+gawk: cmd. line:3:                                         ^ unexpected newline or end of string
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'FS >= 8
+{print NR," ", NF} {for (i=1; i<=NR; i = i + 1)
+NF > 8 {print "test"} END {print "Done"}' gawkfile.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1@i[1@f[1@ 
+[?2004lgawk: cmd. line:3: if NF > 8 {print "test"} END {print "Done"}
+gawk: cmd. line:3:    ^ syntax error
+gawk: cmd. line:3: if NF > 8 {print "test"} END {print "Done"}
+gawk: cmd. line:3:           ^ syntax error
+gawk: cmd. line:3: if NF > 8 {print "test"} END {print "Done"}
+gawk: cmd. line:3:                          ^ syntax error
+gawk: cmd. line:3: if NF > 8 {print "test"} END {print "Done"}
+gawk: cmd. line:3:                                            ^ unexpected newline or end of string
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'FS >= 8
+{print NR," ", NF} {for (i=1; i<=NR; i = i + 1)
+if NF > 8 {print "test"} END {print "Done"}' gawkfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[7mgawk 'FS >= 8[27m
+[7m{print NR," ", NF} END{print "Done"}' gawkfile.txt[27m[Agawk 'FS >= 8
+{print NR," ", NF} END{print "Done"}' gawkfile.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3P{for (i=1; i<=NR; i = i + 1)
+NF > 8 {print "test"} END {print "Done"}' gawkfile.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CEND{print "Done"}' gawkfile.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@N[1@F
+
+[?2004lUID          PID    PPID  C STIME TTY          TIME CMD
+1   8
+root           1       0  0 Jun11 ?        03:11:48 /lib/systemd/systemd --system --deserialize 53 splash
+2   12
+root           2       0  0 Jun11 ?        00:00:02 [kthreadd]
+3   8
+root           3       2  0 Jun11 ?        00:00:00 [pool_workqueue_release]
+4   8
+root           4       2  0 Jun11 ?        00:00:00 [kworker/R-rcu_g]
+5   8
+root           5       2  0 Jun11 ?        00:00:00 [kworker/R-rcu_p]
+6   8
+root           6       2  0 Jun11 ?        00:00:00 [kworker/R-slub_]
+7   8
+root           7       2  0 Jun11 ?        00:00:00 [kworker/R-netns]
+8   8
+root          12       2  0 Jun11 ?        00:00:00 [kworker/R-mm_pe]
+9   8
+root          13       2  0 Jun11 ?        00:00:01 [rcu_tasks_kthread]
+10   8
+root          14       2  0 Jun11 ?        00:00:00 [rcu_tasks_rude_kthread]
+11   8
+root          15       2  0 Jun11 ?        00:00:00 [rcu_tasks_trace_kthread]
+12   8
+root          16       2  0 Jun11 ?        00:00:12 [ksoftirqd/0]
+13   8
+root          17       2  0 Jun11 ?        00:07:21 [rcu_preempt]
+14   8
+root          18       2  0 Jun11 ?        00:00:35 [migration/0]
+15   8
+root          19       2  0 Jun11 ?        00:00:00 [idle_inject/0]
+16   8
+root          20       2  0 Jun11 ?        00:00:00 [cpuhp/0]
+17   8
+root          21       2  0 Jun11 ?        00:00:00 [cpuhp/1]
+18   8
+root          22       2  0 Jun11 ?        00:00:00 [idle_inject/1]
+19   8
+root          23       2  0 Jun11 ?        00:00:30 [migration/1]
+20   8
+root          24       2  0 Jun11 ?        00:00:13 [ksoftirqd/1]
+21   8
+root          26       2  0 Jun11 ?        00:00:00 [kworker/1:0H-kblockd]
+22   8
+root          29       2  0 Jun11 ?        00:00:00 [kdevtmpfs]
+23   8
+root          30       2  0 Jun11 ?        00:00:00 [kworker/R-inet_]
+24   8
+root          31       2  0 Jun11 ?        00:00:00 [kauditd]
+25   8
+root          33       2  0 Jun11 ?        00:00:13 [khungtaskd]
+26   8
+root          34       2  0 Jun11 ?        00:00:00 [oom_reaper]
+27   8
+root          37       2  0 Jun11 ?        00:00:00 [kworker/R-write]
+28   8
+root          38       2  0 Jun11 ?        00:06:18 [kcompactd0]
+29   8
+root          39       2  0 Jun11 ?        00:00:00 [ksmd]
+30   8
+root          42       2  0 Jun11 ?        00:00:00 [khugepaged]
+31   8
+root          43       2  0 Jun11 ?        00:00:00 [kworker/R-kinte]
+32   8
+root          44       2  0 Jun11 ?        00:00:00 [kworker/R-kbloc]
+33   8
+root          45       2  0 Jun11 ?        00:00:00 [kworker/R-blkcg]
+34   8
+root          46       2  0 Jun11 ?        00:00:00 [irq/9-acpi]
+35   8
+root          47       2  0 Jun11 ?        00:00:00 [kworker/R-tpm_d]
+36   8
+root          48       2  0 Jun11 ?        00:00:00 [kworker/R-ata_s]
+37   8
+root          49       2  0 Jun11 ?        00:00:00 [kworker/R-md]
+38   8
+root          50       2  0 Jun11 ?        00:00:00 [kworker/R-md_bi]
+39   8
+root          51       2  0 Jun11 ?        00:00:00 [kworker/R-edac-]
+40   8
+root          52       2  0 Jun11 ?        00:00:00 [kworker/R-devfr]
+41   8
+root          53       2  0 Jun11 ?        00:00:00 [watchdogd]
+42   8
+root          55       2  0 Jun11 ?        00:00:00 [kworker/R-quota]
+43   8
+root          57       2  0 Jun11 ?        00:00:24 [kswapd0]
+44   8
+root          58       2  0 Jun11 ?        00:00:00 [ecryptfs-kthread]
+45   8
+root          59       2  0 Jun11 ?        00:00:00 [kworker/R-kthro]
+46   8
+root          60       2  0 Jun11 ?        00:00:00 [irq/24-pciehp]
+47   8
+root          61       2  0 Jun11 ?        00:00:00 [irq/25-pciehp]
+48   8
+root          62       2  0 Jun11 ?        00:00:00 [irq/26-pciehp]
+49   8
+root          63       2  0 Jun11 ?        00:00:00 [irq/27-pciehp]
+50   8
+root          64       2  0 Jun11 ?        00:00:00 [irq/28-pciehp]
+51   8
+root          65       2  0 Jun11 ?        00:00:00 [irq/29-pciehp]
+52   8
+root          66       2  0 Jun11 ?        00:00:00 [irq/30-pciehp]
+53   8
+root          67       2  0 Jun11 ?        00:00:00 [irq/31-pciehp]
+54   8
+root          68       2  0 Jun11 ?        00:00:00 [irq/32-pciehp]
+55   8
+root          69       2  0 Jun11 ?        00:00:00 [irq/33-pciehp]
+56   8
+root          70       2  0 Jun11 ?        00:00:00 [irq/34-pciehp]
+57   8
+root          71       2  0 Jun11 ?        00:00:00 [irq/35-pciehp]
+58   8
+root          72       2  0 Jun11 ?        00:00:00 [irq/36-pciehp]
+59   8
+root          73       2  0 Jun11 ?        00:00:00 [irq/37-pciehp]
+60   8
+root          74       2  0 Jun11 ?        00:00:00 [irq/38-pciehp]
+61   8
+root          75       2  0 Jun11 ?        00:00:00 [irq/39-pciehp]
+62   8
+root          76       2  0 Jun11 ?        00:00:00 [irq/40-pciehp]
+63   8
+root          77       2  0 Jun11 ?        00:00:00 [irq/41-pciehp]
+64   8
+root          78       2  0 Jun11 ?        00:00:00 [irq/42-pciehp]
+65   8
+root          79       2  0 Jun11 ?        00:00:00 [irq/43-pciehp]
+66   8
+root          80       2  0 Jun11 ?        00:00:00 [irq/44-pciehp]
+67   8
+root          81       2  0 Jun11 ?        00:00:00 [irq/45-pciehp]
+68   8
+root          82       2  0 Jun11 ?        00:00:00 [irq/46-pciehp]
+69   8
+root          83       2  0 Jun11 ?        00:00:00 [irq/47-pciehp]
+70   8
+root          84       2  0 Jun11 ?        00:00:00 [irq/48-pciehp]
+71   8
+root          85       2  0 Jun11 ?        00:00:00 [irq/49-pciehp]
+72   8
+root          86       2  0 Jun11 ?        00:00:00 [irq/50-pciehp]
+73   8
+root          87       2  0 Jun11 ?        00:00:00 [irq/51-pciehp]
+74   8
+root          88       2  0 Jun11 ?        00:00:00 [irq/52-pciehp]
+75   8
+root          89       2  0 Jun11 ?        00:00:00 [irq/53-pciehp]
+76   8
+root          90       2  0 Jun11 ?        00:00:00 [irq/54-pciehp]
+77   8
+root          91       2  0 Jun11 ?        00:00:00 [irq/55-pciehp]
+78   8
+root          92       2  0 Jun11 ?        00:00:00 [kworker/R-acpi_]
+79   8
+root          94       2  0 Jun11 ?        00:00:00 [scsi_eh_0]
+80   8
+root          95       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+81   8
+root          96       2  0 Jun11 ?        00:00:00 [scsi_eh_1]
+82   8
+root          97       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+83   8
+root         100       2  0 Jun11 ?        00:00:00 [kworker/R-mld]
+84   8
+root         101       2  0 Jun11 ?        00:00:00 [kworker/R-ipv6_]
+85   8
+root         109       2  0 Jun11 ?        00:00:00 [kworker/R-kstrp]
+86   8
+root         111       2  0 Jun11 ?        00:00:00 [kworker/u259:0]
+87   8
+root         112       2  0 Jun11 ?        00:00:00 [kworker/u260:0]
+88   8
+root         113       2  0 Jun11 ?        00:00:00 [kworker/u261:0]
+89   8
+root         126       2  0 Jun11 ?        00:00:00 [kworker/R-charg]
+90   8
+root         145       2  0 Jun11 ?        00:00:26 [kworker/0:1H-kblockd]
+91   8
+root         171       2  0 Jun11 ?        00:00:00 [scsi_eh_2]
+92   8
+root         172       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+93   8
+root         173       2  0 Jun11 ?        00:00:00 [kworker/R-mpt_p]
+94   8
+root         174       2  0 Jun11 ?        00:00:00 [kworker/R-mpt/0]
+95   8
+root         175       2  0 Jun11 ?        00:00:00 [scsi_eh_3]
+96   8
+root         176       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+97   8
+root         177       2  0 Jun11 ?        00:00:00 [scsi_eh_4]
+98   8
+root         178       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+99   8
+root         179       2  0 Jun11 ?        00:00:00 [scsi_eh_5]
+100   8
+root         180       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+101   8
+root         181       2  0 Jun11 ?        00:00:00 [scsi_eh_6]
+102   8
+root         182       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+103   8
+root         183       2  0 Jun11 ?        00:00:00 [scsi_eh_7]
+104   8
+root         184       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+105   8
+root         185       2  0 Jun11 ?        00:00:00 [scsi_eh_8]
+106   8
+root         186       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+107   8
+root         187       2  0 Jun11 ?        00:00:00 [scsi_eh_9]
+108   8
+root         188       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+109   8
+root         189       2  0 Jun11 ?        00:00:00 [scsi_eh_10]
+110   8
+root         190       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+111   8
+root         191       2  0 Jun11 ?        00:00:00 [scsi_eh_11]
+112   8
+root         192       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+113   8
+root         193       2  0 Jun11 ?        00:00:00 [scsi_eh_12]
+114   8
+root         194       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+115   8
+root         195       2  0 Jun11 ?        00:00:00 [scsi_eh_13]
+116   8
+root         196       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+117   8
+root         197       2  0 Jun11 ?        00:00:00 [scsi_eh_14]
+118   8
+root         198       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+119   8
+root         199       2  0 Jun11 ?        00:00:00 [scsi_eh_15]
+120   8
+root         200       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+121   8
+root         201       2  0 Jun11 ?        00:00:00 [scsi_eh_16]
+122   8
+root         202       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+123   8
+root         203       2  0 Jun11 ?        00:00:00 [scsi_eh_17]
+124   8
+root         204       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+125   8
+root         205       2  0 Jun11 ?        00:00:00 [scsi_eh_18]
+126   8
+root         206       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+127   8
+root         207       2  0 Jun11 ?        00:00:00 [scsi_eh_19]
+128   8
+root         208       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+129   8
+root         209       2  0 Jun11 ?        00:00:00 [scsi_eh_20]
+130   8
+root         210       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+131   8
+root         211       2  0 Jun11 ?        00:00:00 [scsi_eh_21]
+132   8
+root         212       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+133   8
+root         213       2  0 Jun11 ?        00:00:00 [scsi_eh_22]
+134   8
+root         214       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+135   8
+root         215       2  0 Jun11 ?        00:00:00 [scsi_eh_23]
+136   8
+root         216       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+137   8
+root         217       2  0 Jun11 ?        00:00:00 [scsi_eh_24]
+138   8
+root         218       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+139   8
+root         219       2  0 Jun11 ?        00:00:00 [scsi_eh_25]
+140   8
+root         220       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+141   8
+root         221       2  0 Jun11 ?        00:00:00 [scsi_eh_26]
+142   8
+root         222       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+143   8
+root         223       2  0 Jun11 ?        00:00:00 [scsi_eh_27]
+144   8
+root         224       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+145   8
+root         225       2  0 Jun11 ?        00:00:00 [scsi_eh_28]
+146   8
+root         226       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+147   8
+root         227       2  0 Jun11 ?        00:00:00 [scsi_eh_29]
+148   8
+root         228       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+149   8
+root         229       2  0 Jun11 ?        00:00:00 [scsi_eh_30]
+150   8
+root         230       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+151   8
+root         231       2  0 Jun11 ?        00:00:00 [scsi_eh_31]
+152   8
+root         232       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+153   8
+root         264       2  0 Jun11 ?        00:00:00 [scsi_eh_32]
+154   8
+root         265       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+155   8
+root         269       2  0 Jun11 ?        00:00:26 [kworker/1:2H-kblockd]
+156   8
+root         289       2  0 Jun11 ?        00:02:27 [jbd2/sda5-8]
+157   8
+root         290       2  0 Jun11 ?        00:00:00 [kworker/R-ext4-]
+158   8
+root         361       2  0 Jun11 ?        00:00:00 [kworker/R-rpcio]
+159   8
+root         362       2  0 Jun11 ?        00:00:00 [kworker/R-xprti]
+160   8
+root         419       2  0 Jun11 ?        00:00:37 [irq/60-vmw_vmci]
+161   8
+root         420       2  0 Jun11 ?        00:00:00 [irq/61-vmw_vmci]
+162   8
+root         432       2  0 Jun11 ?        00:00:00 [irq/16-vmwgfx]
+163   8
+root         434       2  0 Jun11 ?        00:00:00 [kworker/R-ttm]
+164   8
+_rpc         467       1  0 Jun11 ?        00:00:09 /sbin/rpcbind -f -w
+165   10
+root         476       1  0 Jun11 ?        00:00:10 /usr/sbin/rpc.gssd
+166   8
+root         489       2  0 Jun11 ?        00:00:00 [kworker/R-crypt]
+167   8
+root         500       1  0 Jun11 ?        00:00:00 /usr/bin/VGAuthService
+168   8
+root         501       1  0 Jun11 ?        02:06:40 /usr/bin/vmtoolsd
+169   8
+root         520       2  0 Jun11 ?        00:00:00 [kworker/R-nfit]
+170   8
+root         582       1  0 Jun11 ?        00:00:00 /usr/sbin/acpid
+171   8
+root         621       1  0 Jun11 ?        00:07:19 /usr/sbin/irqbalance --foreground
+172   9
+root         665       1  0 Jun11 ?        00:00:15 /usr/sbin/cron -f -P
+173   10
+root         762       1  0 Jun11 ?        00:00:00 /opt/pbis/sbin/lwsmd --start-as-daemon
+174   9
+root         777     762  0 Jun11 ?        00:02:17 lw-container lwreg
+175   9
+root         843     762  0 Jun11 ?        00:00:08 lw-container eventlog
+176   9
+root         892     762  0 Jun11 ?        00:01:52 lw-container netlogon
+177   9
+gdm          960       1  0 Jun11 ?        00:00:04 /lib/systemd/systemd --user
+178   9
+gdm          962     960  0 Jun11 ?        00:00:00 (sd-pam)
+179   8
+root         963       2  0 Jun11 ?        00:00:00 [kworker/R-nfsio]
+180   8
+root         972     762  0 Jun11 ?        00:00:00 lw-container lwio
+181   9
+root         993     762  0 Jun11 ?        01:49:35 lw-container lsass
+182   9
+root        1010       2  0 Jun11 ?        00:00:02 [NFSv4 callback]
+183   9
+gdm         1013     960  0 Jun11 ?        00:00:00 /usr/bin/pipewire
+184   8
+gdm         1014     960  0 Jun11 ?        00:00:01 /usr/bin/pipewire-media-session
+185   8
+gdm         1018     960  0 Jun11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+186   14
+root        1042     762  0 Jun11 ?        00:00:00 lw-container reapsysl
+187   9
+fm0105    359524       1  0 Jul05 ?        00:01:01 /nfs/home/STUDENTS/fm0105/bin/code --cli-data-dir /nfs/home/STUDENTS/fm0105/.vscode/cli agent host
+188   12
+jlp0590   403711       1  0 Jul11 ?        00:03:17 /nfs/home/STUDENTS/jlp0590/bin/code --cli-data-dir /nfs/home/STUDENTS/jlp0590/.vscode/cli agent host
+189   12
+amf0441   414687       1  0 Jul12 ?        00:03:15 /nfs/home/STUDENTS/amf0441/bin/code --cli-data-dir /nfs/home/STUDENTS/amf0441/.vscode/cli agent host
+190   12
+fm0105    420071       1  0 Jul12 ?        00:00:45 /nfs/home/STUDENTS/fm0105/bin/code --cli-data-dir /nfs/home/STUDENTS/fm0105/.vscode/cli agent host
+191   12
+root      437915       2  0 Jul14 ?        00:00:00 [kworker/R-tls-s]
+192   8
+root      518521       1  0 Jul22 ?        00:00:00 /opt/CrowdStrike/falcond
+193   8
+root      518522  518521  0 Jul22 ?        09:24:03 falcon-sensor-bpf
+194   8
+root      519050       1  0 Jul22 ?        00:04:30 /opt/rapid7/ir_agent/ir_agent
+195   8
+jv0582    522093       1  0 Jul22 ?        00:02:51 /nfs/home/STUDENTS/jv0582/.vscode-server/code-1b6a188127eeaf9194f945eb6eb89a657e93c54c --cli-data-dir /nfs/home/STUDENTS/jv0582/.vscode-server/cli agent host
+196   12
+root      584194       2  0 Jul23 ?        00:00:00 [kworker/0:2H]
+197   8
+systemd+ 1347408       1  0 Aug11 ?        00:01:38 /lib/systemd/systemd-resolved
+198   8
+root     1347412       1  0 Aug11 ?        00:09:05 /lib/systemd/systemd-journald
+199   8
+systemd+ 1347510       1  0 Aug11 ?        00:00:06 /lib/systemd/systemd-timesyncd
+200   8
+root     1347555       1  0 Aug11 ?        00:00:05 /lib/systemd/systemd-udevd
+201   8
+iuc0001  1846930       1  0 Aug24 ?        00:01:14 /nfs/home/STUDENTS/iuc0001/.vscode-server/code-93cfdd489c3b228840d0f86ec77c3636277c93ea --cli-data-dir /nfs/home/STUDENTS/iuc0001/.vscode-server/cli agent host
+202   12
+iuc0001  1899032       1  0 Aug25 ?        00:00:43 /nfs/home/STUDENTS/iuc0001/.vscode-server/code-110a328ea54b42367b803ec53ee0bf52ef26b419 --cli-data-dir /nfs/home/STUDENTS/iuc0001/.vscode-server/cli agent host
+203   12
+cdr0279  1984128       1  0 Aug28 ?        00:01:24 /nfs/home/STUDENTS/cdr0279/.vscode-server/code-fc3def6774c76082adf699d366f31a557ce5573f --cli-data-dir /nfs/home/STUDENTS/cdr0279/.vscode-server/cli agent host
+204   12
+root     2164982  519050  0 Sep01 ?        00:04:08 /opt/rapid7/ir_agent/components/agent_core/1.3.3.32/rapid7_agent_core
+205   8
+root     2167765  519050  0 Sep01 ?        00:02:23 /opt/rapid7/ir_agent/components/endpoint_broker/1.9.3.0/rapid7_endpoint_broker
+206   8
+root     2254356       1  0 Sep05 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+207   15
+root     2354996       1  0 Sep07 ?        00:01:35 /snap/snapd/current/usr/lib/snapd/snapd
+208   8
+systemd+ 2419916       1  0 Sep09 ?        01:01:26 /lib/systemd/systemd-oomd
+209   8
+wrd0033  2455677       1  0 Sep09 ?        00:00:00 script -q rec03.typescript
+210   10
+wrd0033  2455678 2455677  0 Sep09 pts/2    00:00:00 bash -i
+211   9
+wjf0053  2499572       1  0 Sep11 ?        00:00:02 /lib/systemd/systemd --user
+212   9
+wjf0053  2499574 2499572  0 Sep11 ?        00:00:00 (sd-pam)
+213   8
+wjf0053  2499580 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire
+214   8
+wjf0053  2499581 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire-media-session
+215   8
+wjf0053  2499627 2499572  0 Sep11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+216   14
+wjf0053  2499738       1  0 Sep11 ?        00:00:00 script commands.txt
+217   9
+wjf0053  2499739 2499738  0 Sep11 pts/3    00:00:00 bash -i
+218   9
+wjf0053  2499757 2499739  0 Sep11 pts/3    00:00:00 script end commands.txt
+219   10
+wjf0053  2499758 2499757  0 Sep11 pts/4    00:00:00 bash -i
+220   9
+wjf0053  2499776 2499758  0 Sep11 pts/4    00:00:00 script commands.txt
+221   9
+wjf0053  2499777 2499776  0 Sep11 pts/5    00:00:00 bash -i
+222   9
+cqa0005  2553255       1  0 Sep15 ?        00:00:00 script rec03
+223   9
+cqa0005  2553256 2553255  0 Sep15 pts/7    00:00:00 bash -i
+224   9
+message+ 2580845       1  0 Sep16 ?        00:19:40 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+225   14
+root     2580859       1  0 Sep16 ?        00:10:21 /usr/libexec/polkitd --no-debug
+226   9
+root     2580867       1  0 Sep16 ?        00:00:03 /lib/systemd/systemd-logind
+227   8
+root     2580870       1  0 Sep16 ?        00:00:00 /usr/sbin/ModemManager
+228   8
+root     2580910       1  0 Sep16 ?        00:00:05 /usr/libexec/packagekitd
+229   8
+root     2580957       1  0 Sep16 ?        00:00:00 /usr/sbin/gdm3
+230   8
+root     2580961       1  0 Sep16 ?        00:00:30 /usr/libexec/accounts-daemon
+231   8
+root     2580971 2580957  0 Sep16 ?        00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+232   9
+gdm      2580975 2580971  0 Sep16 tty1     00:00:00 /usr/libexec/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+233   13
+gdm      2580978 2580975  0 Sep16 tty1     00:00:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+234   12
+gdm      2580979 2580978  0 Sep16 tty1     00:00:00 dbus-daemon --nofork --print-address 4 --session
+235   12
+gdm      2580980 2580978  0 Sep16 tty1     00:00:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+236   10
+gdm      2580986 2580980  0 Sep16 tty1     00:26:10 /usr/bin/gnome-shell
+237   8
+gdm      2581009       1  0 Sep16 tty1     00:00:00 /usr/libexec/at-spi-bus-launcher
+238   8
+gdm      2581014 2581009  0 Sep16 tty1     00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/125/at-spi/bus
+239   13
+gdm      2581023 2580986  0 Sep16 tty1     00:00:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/125/.mutter-Xwaylandauth.LUNLV3 -listen 4 -listen 5 -displayfd 6 -initfd 7
+240   23
+gdm      2581037       1  0 Sep16 tty1     00:00:00 /usr/libexec/xdg-permission-store
+241   8
+root     2581044       1  0 Sep16 ?        00:00:00 /usr/libexec/upowerd
+242   8
+root     2581045       1  0 Sep16 ?        00:00:00 /usr/libexec/power-profiles-daemon
+243   8
+gdm      2581046     960  0 Sep16 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+244   10
+rtkit    2581047       1  0 Sep16 ?        00:00:11 /usr/libexec/rtkit-daemon
+245   8
+gdm      2581081       1  0 Sep16 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+246   9
+gdm      2581082       1  0 Sep16 tty1     00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+247   9
+root     2581089       1  0 Sep16 ?        00:00:04 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+248   12
+gdm      2581094 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-sharing
+249   8
+gdm      2581098 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-wacom
+250   8
+avahi    2581099       1  0 Sep16 ?        00:02:56 avahi-daemon: running [cell13-cse.local]
+251   10
+gdm      2581101 2580980  0 Sep16 tty1     00:00:04 /usr/libexec/gsd-color
+252   8
+gdm      2581103 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-keyboard
+253   8
+gdm      2581106 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-print-notifications
+254   8
+avahi    2581109 2581099  0 Sep16 ?        00:00:00 avahi-daemon: chroot helper
+255   10
+gdm      2581112 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-rfkill
+256   8
+gdm      2581116 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-smartcard
+257   8
+gdm      2581118 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-datetime
+258   8
+gdm      2581119 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-media-keys
+259   8
+gdm      2581121 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-screensaver-proxy
+260   8
+gdm      2581124 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-sound
+261   8
+gdm      2581130 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-a11y-settings
+262   8
+gdm      2581134 2580980  0 Sep16 tty1     00:00:39 /usr/libexec/gsd-housekeeping
+263   8
+gdm      2581140 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-power
+264   8
+gdm      2581184       1  0 Sep16 tty1     00:00:00 /usr/libexec/gvfsd
+265   8
+gdm      2581200       1  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-printer
+266   8
+colord   2581232       1  0 Sep16 ?        00:00:00 /usr/libexec/colord
+267   8
+gdm      2581246 2580986  0 Sep16 tty1     00:00:00 ibus-daemon --panel disable -r --xim
+268   12
+gdm      2581251 2581246  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-dconf
+269   8
+gdm      2581253       1  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+270   9
+gdm      2581255       1  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-portal
+271   8
+gdm      2581265       1  0 Sep16 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+272   9
+gdm      2581283 2581246  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-engine-simple
+273   8
+root     2595100       1  0 Sep16 ?        00:00:01 /usr/libexec/udisks2/udisksd
+274   8
+av1681   2606450       1  0 Sep16 ?        00:00:01 /lib/systemd/systemd --user
+275   9
+av1681   2606451 2606450  0 Sep16 ?        00:00:00 (sd-pam)
+276   8
+av1681   2606457 2606450  0 Sep16 ?        00:00:00 /usr/bin/pipewire
+277   8
+av1681   2606458 2606450  0 Sep16 ?        00:00:00 /usr/bin/pipewire-media-session
+278   8
+av1681   2606529       1  0 Sep16 ?        00:00:02 /nfs/home/STUDENTS/av1681/.vscode-server/code-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8 --cli-data-dir /nfs/home/STUDENTS/av1681/.vscode-server/cli agent host
+279   12
+av1681   2606598 2606450  0 Sep16 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+280   14
+av1681   2606758 2606450  0 Sep16 ?        00:00:00 /usr/libexec/gvfsd
+281   8
+av1681   2606763 2606450  0 Sep16 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633646215/gvfs -f
+282   10
+mdl0288  2642035       1  0 Sep17 ?        00:00:01 /lib/systemd/systemd --user
+283   9
+mdl0288  2642037 2642035  0 Sep17 ?        00:00:00 (sd-pam)
+284   8
+mdl0288  2642043 2642035  0 Sep17 ?        00:00:00 /usr/bin/pipewire
+285   8
+mdl0288  2642044 2642035  0 Sep17 ?        00:00:00 /usr/bin/pipewire-media-session
+286   8
+mdl0288  2642105 2642035  0 Sep17 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+287   14
+mdl0288  2642546       1  0 Sep17 ?        00:00:00 script rec03.log
+288   9
+mdl0288  2642547 2642546  0 Sep17 pts/11   00:00:00 bash -i
+289   9
+wjf0053  2696790       1  0 Sep18 ?        00:00:00 script recitation4
+290   9
+wjf0053  2696791 2696790  0 Sep18 pts/13   00:00:00 bash -i
+291   9
+wjf0053  2697217 2696791  0 Sep18 pts/13   00:00:00 script end
+292   9
+wjf0053  2697218 2697217  0 Sep18 pts/8    00:00:00 bash -i
+293   9
+wjf0053  2697246 2697218  0 Sep18 pts/8    00:00:00 script -q rec04.typescript
+294   10
+wjf0053  2697247 2697246  0 Sep18 pts/12   00:00:00 bash -i
+295   9
+mn1067   2704363       1  0 Sep18 ?        00:00:01 /lib/systemd/systemd --user
+296   9
+mn1067   2704365 2704363  0 Sep18 ?        00:00:00 (sd-pam)
+297   8
+mn1067   2704371 2704363  0 Sep18 ?        00:00:00 /usr/bin/pipewire
+298   8
+mn1067   2704372 2704363  0 Sep18 ?        00:00:00 /usr/bin/pipewire-media-session
+299   8
+mn1067   2704420 2704363  0 Sep18 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+300   14
+mn1067   2705555       1  0 Sep18 ?        00:00:00 script rec04.typescript
+301   9
+mn1067   2705556 2705555  0 Sep18 pts/15   00:00:00 bash -i
+302   9
+kap0382  2802025       1  0 Sep20 ?        00:00:01 /lib/systemd/systemd --user
+303   9
+kap0382  2802026 2802025  0 Sep20 ?        00:00:00 (sd-pam)
+304   8
+kap0382  2802032 2802025  0 Sep20 ?        00:00:00 /usr/bin/pipewire
+305   8
+kap0382  2802033 2802025  0 Sep20 ?        00:00:00 /usr/bin/pipewire-media-session
+306   8
+kap0382  2802059 2802025  0 Sep20 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+307   14
+kap0382  2804419       1  0 Sep20 ?        00:00:23 ./orphan
+308   8
+syslog   2908190       1  0 Sep23 ?        00:00:09 /usr/sbin/rsyslogd -n -iNONE
+309   10
+root     2921502       2  0 Sep23 ?        00:00:01 [kworker/u256:2-ext4-rsv-conversion]
+310   8
+root     2952342  519050  0 Sep24 ?        00:13:44 /opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent
+311   8
+root     2952352 2952342  0 Sep24 ?        00:00:00 /opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent -S -I -c from multiprocessing.resource_tracker import main;main(15)
+312   15
+root     2952413 2952342  0 Sep24 ?        00:08:00 /opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent --multiprocessing-fork tracker_fd=16 pipe_handle=28
+313   11
+root     3020045       2  0 Sep28 ?        00:00:00 [kworker/u256:1-ext4-rsv-conversion]
+314   8
+root     3031530       1  0 00:00 ?        00:00:00 /usr/sbin/cupsd -l
+315   9
+root     3044867       2  0 19:42 ?        00:00:02 [kworker/0:2-events]
+316   8
+root     3045109       2  0 20:33 ?        00:00:00 [kworker/u257:3-xprtiod]
+317   8
+root     3045322 2254356  0 21:21 ?        00:00:00 sshd: sh1562 [priv]
+318   10
+sh1562   3045331       1  0 21:21 ?        00:00:00 /lib/systemd/systemd --user
+319   9
+sh1562   3045333 3045331  0 21:21 ?        00:00:00 (sd-pam)
+320   8
+sh1562   3045339 3045331  0 21:21 ?        00:00:00 /usr/bin/pipewire
+321   8
+sh1562   3045340 3045331  0 21:21 ?        00:00:00 /usr/bin/pipewire-media-session
+322   8
+sh1562   3045341 3045331  0 21:21 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+323   10
+sh1562   3045381 3045322  0 21:21 ?        00:00:00 sshd: sh1562@pts/17
+324   9
+sh1562   3045383 3045381  0 21:21 pts/17   00:00:00 -bash
+325   8
+sh1562   3045401 3045331  0 21:21 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+326   14
+root     3045462       2  0 21:32 ?        00:00:00 [kworker/u258:2-flush-8:0]
+327   8
+root     3046467       2  0 21:42 ?        00:00:00 [kworker/1:0-events]
+328   8
+root     3046537       2  0 21:56 ?        00:00:00 [kworker/u258:3-rpciod]
+329   8
+root     3046637       2  0 22:16 ?        00:00:00 [kworker/u258:0-events_power_efficient]
+330   8
+root     3046725       2  0 22:33 ?        00:00:00 [kworker/1:1]
+331   8
+root     3046733       2  0 22:35 ?        00:00:00 [kworker/u257:0-events_unbound]
+332   8
+root     3046759       2  0 22:42 ?        00:00:00 [kworker/0:1-rcu_par_gp]
+333   8
+root     3046766       2  0 22:44 ?        00:00:00 [kworker/u257:2-events_power_efficient]
+334   8
+root     3046800       2  0 22:50 ?        00:00:00 [kworker/u257:1-rpciod]
+335   8
+root     3046809 2254356  0 22:53 ?        00:00:00 sshd: wjf0053 [priv]
+336   10
+wjf0053  3046854 3046809  0 22:53 ?        00:00:00 sshd: wjf0053@notty
+337   9
+wjf0053  3046855 3046854  0 22:53 ?        00:00:00 /usr/lib/openssh/sftp-server
+338   8
+root     3046857 2254356  0 22:55 ?        00:00:00 sshd: wjf0053 [priv]
+339   10
+wjf0053  3046882 3046857  0 22:55 ?        00:00:00 sshd: wjf0053@pts/18
+340   9
+wjf0053  3046883 3046882  0 22:55 pts/18   00:00:00 -bash
+341   8
+root     3046908       2  0 22:56 ?        00:00:00 [kworker/0:0-events]
+342   8
+wjf0053  3046911 3046883  0 22:57 pts/18   00:00:00 script rec05.typescript
+343   9
+wjf0053  3046912 3046911  0 22:57 pts/19   00:00:00 bash -i
+344   9
+root     3046923       2  0 22:57 ?        00:00:00 [kworker/u258:1-events_power_efficient]
+345   8
+wjf0053  3046952 3046912  0 22:58 pts/19   00:00:00 ps -ef
+346   9
+Done
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'NF >= 8
+{print NR," ", NF} END{print "Done"}' gawkfile.txt[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lUID          PID    PPID  C STIME TTY          TIME CMD
+1   8
+root           1       0  0 Jun11 ?        03:11:48 /lib/systemd/systemd --system --deserialize 53 splash
+2   12
+root           2       0  0 Jun11 ?        00:00:02 [kthreadd]
+3   8
+root           3       2  0 Jun11 ?        00:00:00 [pool_workqueue_release]
+4   8
+root           4       2  0 Jun11 ?        00:00:00 [kworker/R-rcu_g]
+5   8
+root           5       2  0 Jun11 ?        00:00:00 [kworker/R-rcu_p]
+6   8
+root           6       2  0 Jun11 ?        00:00:00 [kworker/R-slub_]
+7   8
+root           7       2  0 Jun11 ?        00:00:00 [kworker/R-netns]
+8   8
+root          12       2  0 Jun11 ?        00:00:00 [kworker/R-mm_pe]
+9   8
+root          13       2  0 Jun11 ?        00:00:01 [rcu_tasks_kthread]
+10   8
+root          14       2  0 Jun11 ?        00:00:00 [rcu_tasks_rude_kthread]
+11   8
+root          15       2  0 Jun11 ?        00:00:00 [rcu_tasks_trace_kthread]
+12   8
+root          16       2  0 Jun11 ?        00:00:12 [ksoftirqd/0]
+13   8
+root          17       2  0 Jun11 ?        00:07:21 [rcu_preempt]
+14   8
+root          18       2  0 Jun11 ?        00:00:35 [migration/0]
+15   8
+root          19       2  0 Jun11 ?        00:00:00 [idle_inject/0]
+16   8
+root          20       2  0 Jun11 ?        00:00:00 [cpuhp/0]
+17   8
+root          21       2  0 Jun11 ?        00:00:00 [cpuhp/1]
+18   8
+root          22       2  0 Jun11 ?        00:00:00 [idle_inject/1]
+19   8
+root          23       2  0 Jun11 ?        00:00:30 [migration/1]
+20   8
+root          24       2  0 Jun11 ?        00:00:13 [ksoftirqd/1]
+21   8
+root          26       2  0 Jun11 ?        00:00:00 [kworker/1:0H-kblockd]
+22   8
+root          29       2  0 Jun11 ?        00:00:00 [kdevtmpfs]
+23   8
+root          30       2  0 Jun11 ?        00:00:00 [kworker/R-inet_]
+24   8
+root          31       2  0 Jun11 ?        00:00:00 [kauditd]
+25   8
+root          33       2  0 Jun11 ?        00:00:13 [khungtaskd]
+26   8
+root          34       2  0 Jun11 ?        00:00:00 [oom_reaper]
+27   8
+root          37       2  0 Jun11 ?        00:00:00 [kworker/R-write]
+28   8
+root          38       2  0 Jun11 ?        00:06:18 [kcompactd0]
+29   8
+root          39       2  0 Jun11 ?        00:00:00 [ksmd]
+30   8
+root          42       2  0 Jun11 ?        00:00:00 [khugepaged]
+31   8
+root          43       2  0 Jun11 ?        00:00:00 [kworker/R-kinte]
+32   8
+root          44       2  0 Jun11 ?        00:00:00 [kworker/R-kbloc]
+33   8
+root          45       2  0 Jun11 ?        00:00:00 [kworker/R-blkcg]
+34   8
+root          46       2  0 Jun11 ?        00:00:00 [irq/9-acpi]
+35   8
+root          47       2  0 Jun11 ?        00:00:00 [kworker/R-tpm_d]
+36   8
+root          48       2  0 Jun11 ?        00:00:00 [kworker/R-ata_s]
+37   8
+root          49       2  0 Jun11 ?        00:00:00 [kworker/R-md]
+38   8
+root          50       2  0 Jun11 ?        00:00:00 [kworker/R-md_bi]
+39   8
+root          51       2  0 Jun11 ?        00:00:00 [kworker/R-edac-]
+40   8
+root          52       2  0 Jun11 ?        00:00:00 [kworker/R-devfr]
+41   8
+root          53       2  0 Jun11 ?        00:00:00 [watchdogd]
+42   8
+root          55       2  0 Jun11 ?        00:00:00 [kworker/R-quota]
+43   8
+root          57       2  0 Jun11 ?        00:00:24 [kswapd0]
+44   8
+root          58       2  0 Jun11 ?        00:00:00 [ecryptfs-kthread]
+45   8
+root          59       2  0 Jun11 ?        00:00:00 [kworker/R-kthro]
+46   8
+root          60       2  0 Jun11 ?        00:00:00 [irq/24-pciehp]
+47   8
+root          61       2  0 Jun11 ?        00:00:00 [irq/25-pciehp]
+48   8
+root          62       2  0 Jun11 ?        00:00:00 [irq/26-pciehp]
+49   8
+root          63       2  0 Jun11 ?        00:00:00 [irq/27-pciehp]
+50   8
+root          64       2  0 Jun11 ?        00:00:00 [irq/28-pciehp]
+51   8
+root          65       2  0 Jun11 ?        00:00:00 [irq/29-pciehp]
+52   8
+root          66       2  0 Jun11 ?        00:00:00 [irq/30-pciehp]
+53   8
+root          67       2  0 Jun11 ?        00:00:00 [irq/31-pciehp]
+54   8
+root          68       2  0 Jun11 ?        00:00:00 [irq/32-pciehp]
+55   8
+root          69       2  0 Jun11 ?        00:00:00 [irq/33-pciehp]
+56   8
+root          70       2  0 Jun11 ?        00:00:00 [irq/34-pciehp]
+57   8
+root          71       2  0 Jun11 ?        00:00:00 [irq/35-pciehp]
+58   8
+root          72       2  0 Jun11 ?        00:00:00 [irq/36-pciehp]
+59   8
+root          73       2  0 Jun11 ?        00:00:00 [irq/37-pciehp]
+60   8
+root          74       2  0 Jun11 ?        00:00:00 [irq/38-pciehp]
+61   8
+root          75       2  0 Jun11 ?        00:00:00 [irq/39-pciehp]
+62   8
+root          76       2  0 Jun11 ?        00:00:00 [irq/40-pciehp]
+63   8
+root          77       2  0 Jun11 ?        00:00:00 [irq/41-pciehp]
+64   8
+root          78       2  0 Jun11 ?        00:00:00 [irq/42-pciehp]
+65   8
+root          79       2  0 Jun11 ?        00:00:00 [irq/43-pciehp]
+66   8
+root          80       2  0 Jun11 ?        00:00:00 [irq/44-pciehp]
+67   8
+root          81       2  0 Jun11 ?        00:00:00 [irq/45-pciehp]
+68   8
+root          82       2  0 Jun11 ?        00:00:00 [irq/46-pciehp]
+69   8
+root          83       2  0 Jun11 ?        00:00:00 [irq/47-pciehp]
+70   8
+root          84       2  0 Jun11 ?        00:00:00 [irq/48-pciehp]
+71   8
+root          85       2  0 Jun11 ?        00:00:00 [irq/49-pciehp]
+72   8
+root          86       2  0 Jun11 ?        00:00:00 [irq/50-pciehp]
+73   8
+root          87       2  0 Jun11 ?        00:00:00 [irq/51-pciehp]
+74   8
+root          88       2  0 Jun11 ?        00:00:00 [irq/52-pciehp]
+75   8
+root          89       2  0 Jun11 ?        00:00:00 [irq/53-pciehp]
+76   8
+root          90       2  0 Jun11 ?        00:00:00 [irq/54-pciehp]
+77   8
+root          91       2  0 Jun11 ?        00:00:00 [irq/55-pciehp]
+78   8
+root          92       2  0 Jun11 ?        00:00:00 [kworker/R-acpi_]
+79   8
+root          94       2  0 Jun11 ?        00:00:00 [scsi_eh_0]
+80   8
+root          95       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+81   8
+root          96       2  0 Jun11 ?        00:00:00 [scsi_eh_1]
+82   8
+root          97       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+83   8
+root         100       2  0 Jun11 ?        00:00:00 [kworker/R-mld]
+84   8
+root         101       2  0 Jun11 ?        00:00:00 [kworker/R-ipv6_]
+85   8
+root         109       2  0 Jun11 ?        00:00:00 [kworker/R-kstrp]
+86   8
+root         111       2  0 Jun11 ?        00:00:00 [kworker/u259:0]
+87   8
+root         112       2  0 Jun11 ?        00:00:00 [kworker/u260:0]
+88   8
+root         113       2  0 Jun11 ?        00:00:00 [kworker/u261:0]
+89   8
+root         126       2  0 Jun11 ?        00:00:00 [kworker/R-charg]
+90   8
+root         145       2  0 Jun11 ?        00:00:26 [kworker/0:1H-kblockd]
+91   8
+root         171       2  0 Jun11 ?        00:00:00 [scsi_eh_2]
+92   8
+root         172       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+93   8
+root         173       2  0 Jun11 ?        00:00:00 [kworker/R-mpt_p]
+94   8
+root         174       2  0 Jun11 ?        00:00:00 [kworker/R-mpt/0]
+95   8
+root         175       2  0 Jun11 ?        00:00:00 [scsi_eh_3]
+96   8
+root         176       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+97   8
+root         177       2  0 Jun11 ?        00:00:00 [scsi_eh_4]
+98   8
+root         178       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+99   8
+root         179       2  0 Jun11 ?        00:00:00 [scsi_eh_5]
+100   8
+root         180       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+101   8
+root         181       2  0 Jun11 ?        00:00:00 [scsi_eh_6]
+102   8
+root         182       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+103   8
+root         183       2  0 Jun11 ?        00:00:00 [scsi_eh_7]
+104   8
+root         184       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+105   8
+root         185       2  0 Jun11 ?        00:00:00 [scsi_eh_8]
+106   8
+root         186       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+107   8
+root         187       2  0 Jun11 ?        00:00:00 [scsi_eh_9]
+108   8
+root         188       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+109   8
+root         189       2  0 Jun11 ?        00:00:00 [scsi_eh_10]
+110   8
+root         190       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+111   8
+root         191       2  0 Jun11 ?        00:00:00 [scsi_eh_11]
+112   8
+root         192       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+113   8
+root         193       2  0 Jun11 ?        00:00:00 [scsi_eh_12]
+114   8
+root         194       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+115   8
+root         195       2  0 Jun11 ?        00:00:00 [scsi_eh_13]
+116   8
+root         196       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+117   8
+root         197       2  0 Jun11 ?        00:00:00 [scsi_eh_14]
+118   8
+root         198       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+119   8
+root         199       2  0 Jun11 ?        00:00:00 [scsi_eh_15]
+120   8
+root         200       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+121   8
+root         201       2  0 Jun11 ?        00:00:00 [scsi_eh_16]
+122   8
+root         202       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+123   8
+root         203       2  0 Jun11 ?        00:00:00 [scsi_eh_17]
+124   8
+root         204       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+125   8
+root         205       2  0 Jun11 ?        00:00:00 [scsi_eh_18]
+126   8
+root         206       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+127   8
+root         207       2  0 Jun11 ?        00:00:00 [scsi_eh_19]
+128   8
+root         208       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+129   8
+root         209       2  0 Jun11 ?        00:00:00 [scsi_eh_20]
+130   8
+root         210       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+131   8
+root         211       2  0 Jun11 ?        00:00:00 [scsi_eh_21]
+132   8
+root         212       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+133   8
+root         213       2  0 Jun11 ?        00:00:00 [scsi_eh_22]
+134   8
+root         214       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+135   8
+root         215       2  0 Jun11 ?        00:00:00 [scsi_eh_23]
+136   8
+root         216       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+137   8
+root         217       2  0 Jun11 ?        00:00:00 [scsi_eh_24]
+138   8
+root         218       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+139   8
+root         219       2  0 Jun11 ?        00:00:00 [scsi_eh_25]
+140   8
+root         220       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+141   8
+root         221       2  0 Jun11 ?        00:00:00 [scsi_eh_26]
+142   8
+root         222       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+143   8
+root         223       2  0 Jun11 ?        00:00:00 [scsi_eh_27]
+144   8
+root         224       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+145   8
+root         225       2  0 Jun11 ?        00:00:00 [scsi_eh_28]
+146   8
+root         226       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+147   8
+root         227       2  0 Jun11 ?        00:00:00 [scsi_eh_29]
+148   8
+root         228       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+149   8
+root         229       2  0 Jun11 ?        00:00:00 [scsi_eh_30]
+150   8
+root         230       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+151   8
+root         231       2  0 Jun11 ?        00:00:00 [scsi_eh_31]
+152   8
+root         232       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+153   8
+root         264       2  0 Jun11 ?        00:00:00 [scsi_eh_32]
+154   8
+root         265       2  0 Jun11 ?        00:00:00 [kworker/R-scsi_]
+155   8
+root         269       2  0 Jun11 ?        00:00:26 [kworker/1:2H-kblockd]
+156   8
+root         289       2  0 Jun11 ?        00:02:27 [jbd2/sda5-8]
+157   8
+root         290       2  0 Jun11 ?        00:00:00 [kworker/R-ext4-]
+158   8
+root         361       2  0 Jun11 ?        00:00:00 [kworker/R-rpcio]
+159   8
+root         362       2  0 Jun11 ?        00:00:00 [kworker/R-xprti]
+160   8
+root         419       2  0 Jun11 ?        00:00:37 [irq/60-vmw_vmci]
+161   8
+root         420       2  0 Jun11 ?        00:00:00 [irq/61-vmw_vmci]
+162   8
+root         432       2  0 Jun11 ?        00:00:00 [irq/16-vmwgfx]
+163   8
+root         434       2  0 Jun11 ?        00:00:00 [kworker/R-ttm]
+164   8
+_rpc         467       1  0 Jun11 ?        00:00:09 /sbin/rpcbind -f -w
+165   10
+root         476       1  0 Jun11 ?        00:00:10 /usr/sbin/rpc.gssd
+166   8
+root         489       2  0 Jun11 ?        00:00:00 [kworker/R-crypt]
+167   8
+root         500       1  0 Jun11 ?        00:00:00 /usr/bin/VGAuthService
+168   8
+root         501       1  0 Jun11 ?        02:06:40 /usr/bin/vmtoolsd
+169   8
+root         520       2  0 Jun11 ?        00:00:00 [kworker/R-nfit]
+170   8
+root         582       1  0 Jun11 ?        00:00:00 /usr/sbin/acpid
+171   8
+root         621       1  0 Jun11 ?        00:07:19 /usr/sbin/irqbalance --foreground
+172   9
+root         665       1  0 Jun11 ?        00:00:15 /usr/sbin/cron -f -P
+173   10
+root         762       1  0 Jun11 ?        00:00:00 /opt/pbis/sbin/lwsmd --start-as-daemon
+174   9
+root         777     762  0 Jun11 ?        00:02:17 lw-container lwreg
+175   9
+root         843     762  0 Jun11 ?        00:00:08 lw-container eventlog
+176   9
+root         892     762  0 Jun11 ?        00:01:52 lw-container netlogon
+177   9
+gdm          960       1  0 Jun11 ?        00:00:04 /lib/systemd/systemd --user
+178   9
+gdm          962     960  0 Jun11 ?        00:00:00 (sd-pam)
+179   8
+root         963       2  0 Jun11 ?        00:00:00 [kworker/R-nfsio]
+180   8
+root         972     762  0 Jun11 ?        00:00:00 lw-container lwio
+181   9
+root         993     762  0 Jun11 ?        01:49:35 lw-container lsass
+182   9
+root        1010       2  0 Jun11 ?        00:00:02 [NFSv4 callback]
+183   9
+gdm         1013     960  0 Jun11 ?        00:00:00 /usr/bin/pipewire
+184   8
+gdm         1014     960  0 Jun11 ?        00:00:01 /usr/bin/pipewire-media-session
+185   8
+gdm         1018     960  0 Jun11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+186   14
+root        1042     762  0 Jun11 ?        00:00:00 lw-container reapsysl
+187   9
+fm0105    359524       1  0 Jul05 ?        00:01:01 /nfs/home/STUDENTS/fm0105/bin/code --cli-data-dir /nfs/home/STUDENTS/fm0105/.vscode/cli agent host
+188   12
+jlp0590   403711       1  0 Jul11 ?        00:03:17 /nfs/home/STUDENTS/jlp0590/bin/code --cli-data-dir /nfs/home/STUDENTS/jlp0590/.vscode/cli agent host
+189   12
+amf0441   414687       1  0 Jul12 ?        00:03:15 /nfs/home/STUDENTS/amf0441/bin/code --cli-data-dir /nfs/home/STUDENTS/amf0441/.vscode/cli agent host
+190   12
+fm0105    420071       1  0 Jul12 ?        00:00:45 /nfs/home/STUDENTS/fm0105/bin/code --cli-data-dir /nfs/home/STUDENTS/fm0105/.vscode/cli agent host
+191   12
+root      437915       2  0 Jul14 ?        00:00:00 [kworker/R-tls-s]
+192   8
+root      518521       1  0 Jul22 ?        00:00:00 /opt/CrowdStrike/falcond
+193   8
+root      518522  518521  0 Jul22 ?        09:24:03 falcon-sensor-bpf
+194   8
+root      519050       1  0 Jul22 ?        00:04:30 /opt/rapid7/ir_agent/ir_agent
+195   8
+jv0582    522093       1  0 Jul22 ?        00:02:51 /nfs/home/STUDENTS/jv0582/.vscode-server/code-1b6a188127eeaf9194f945eb6eb89a657e93c54c --cli-data-dir /nfs/home/STUDENTS/jv0582/.vscode-server/cli agent host
+196   12
+root      584194       2  0 Jul23 ?        00:00:00 [kworker/0:2H]
+197   8
+systemd+ 1347408       1  0 Aug11 ?        00:01:38 /lib/systemd/systemd-resolved
+198   8
+root     1347412       1  0 Aug11 ?        00:09:05 /lib/systemd/systemd-journald
+199   8
+systemd+ 1347510       1  0 Aug11 ?        00:00:06 /lib/systemd/systemd-timesyncd
+200   8
+root     1347555       1  0 Aug11 ?        00:00:05 /lib/systemd/systemd-udevd
+201   8
+iuc0001  1846930       1  0 Aug24 ?        00:01:14 /nfs/home/STUDENTS/iuc0001/.vscode-server/code-93cfdd489c3b228840d0f86ec77c3636277c93ea --cli-data-dir /nfs/home/STUDENTS/iuc0001/.vscode-server/cli agent host
+202   12
+iuc0001  1899032       1  0 Aug25 ?        00:00:43 /nfs/home/STUDENTS/iuc0001/.vscode-server/code-110a328ea54b42367b803ec53ee0bf52ef26b419 --cli-data-dir /nfs/home/STUDENTS/iuc0001/.vscode-server/cli agent host
+203   12
+cdr0279  1984128       1  0 Aug28 ?        00:01:24 /nfs/home/STUDENTS/cdr0279/.vscode-server/code-fc3def6774c76082adf699d366f31a557ce5573f --cli-data-dir /nfs/home/STUDENTS/cdr0279/.vscode-server/cli agent host
+204   12
+root     2164982  519050  0 Sep01 ?        00:04:08 /opt/rapid7/ir_agent/components/agent_core/1.3.3.32/rapid7_agent_core
+205   8
+root     2167765  519050  0 Sep01 ?        00:02:23 /opt/rapid7/ir_agent/components/endpoint_broker/1.9.3.0/rapid7_endpoint_broker
+206   8
+root     2254356       1  0 Sep05 ?        00:00:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+207   15
+root     2354996       1  0 Sep07 ?        00:01:35 /snap/snapd/current/usr/lib/snapd/snapd
+208   8
+systemd+ 2419916       1  0 Sep09 ?        01:01:26 /lib/systemd/systemd-oomd
+209   8
+wrd0033  2455677       1  0 Sep09 ?        00:00:00 script -q rec03.typescript
+210   10
+wrd0033  2455678 2455677  0 Sep09 pts/2    00:00:00 bash -i
+211   9
+wjf0053  2499572       1  0 Sep11 ?        00:00:02 /lib/systemd/systemd --user
+212   9
+wjf0053  2499574 2499572  0 Sep11 ?        00:00:00 (sd-pam)
+213   8
+wjf0053  2499580 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire
+214   8
+wjf0053  2499581 2499572  0 Sep11 ?        00:00:00 /usr/bin/pipewire-media-session
+215   8
+wjf0053  2499627 2499572  0 Sep11 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+216   14
+wjf0053  2499738       1  0 Sep11 ?        00:00:00 script commands.txt
+217   9
+wjf0053  2499739 2499738  0 Sep11 pts/3    00:00:00 bash -i
+218   9
+wjf0053  2499757 2499739  0 Sep11 pts/3    00:00:00 script end commands.txt
+219   10
+wjf0053  2499758 2499757  0 Sep11 pts/4    00:00:00 bash -i
+220   9
+wjf0053  2499776 2499758  0 Sep11 pts/4    00:00:00 script commands.txt
+221   9
+wjf0053  2499777 2499776  0 Sep11 pts/5    00:00:00 bash -i
+222   9
+cqa0005  2553255       1  0 Sep15 ?        00:00:00 script rec03
+223   9
+cqa0005  2553256 2553255  0 Sep15 pts/7    00:00:00 bash -i
+224   9
+message+ 2580845       1  0 Sep16 ?        00:19:40 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+225   14
+root     2580859       1  0 Sep16 ?        00:10:21 /usr/libexec/polkitd --no-debug
+226   9
+root     2580867       1  0 Sep16 ?        00:00:03 /lib/systemd/systemd-logind
+227   8
+root     2580870       1  0 Sep16 ?        00:00:00 /usr/sbin/ModemManager
+228   8
+root     2580910       1  0 Sep16 ?        00:00:05 /usr/libexec/packagekitd
+229   8
+root     2580957       1  0 Sep16 ?        00:00:00 /usr/sbin/gdm3
+230   8
+root     2580961       1  0 Sep16 ?        00:00:30 /usr/libexec/accounts-daemon
+231   8
+root     2580971 2580957  0 Sep16 ?        00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+232   9
+gdm      2580975 2580971  0 Sep16 tty1     00:00:00 /usr/libexec/gdm-wayland-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+233   13
+gdm      2580978 2580975  0 Sep16 tty1     00:00:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+234   12
+gdm      2580979 2580978  0 Sep16 tty1     00:00:00 dbus-daemon --nofork --print-address 4 --session
+235   12
+gdm      2580980 2580978  0 Sep16 tty1     00:00:00 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+236   10
+gdm      2580986 2580980  0 Sep16 tty1     00:26:10 /usr/bin/gnome-shell
+237   8
+gdm      2581009       1  0 Sep16 tty1     00:00:00 /usr/libexec/at-spi-bus-launcher
+238   8
+gdm      2581014 2581009  0 Sep16 tty1     00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/125/at-spi/bus
+239   13
+gdm      2581023 2580986  0 Sep16 tty1     00:00:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/125/.mutter-Xwaylandauth.LUNLV3 -listen 4 -listen 5 -displayfd 6 -initfd 7
+240   23
+gdm      2581037       1  0 Sep16 tty1     00:00:00 /usr/libexec/xdg-permission-store
+241   8
+root     2581044       1  0 Sep16 ?        00:00:00 /usr/libexec/upowerd
+242   8
+root     2581045       1  0 Sep16 ?        00:00:00 /usr/libexec/power-profiles-daemon
+243   8
+gdm      2581046     960  0 Sep16 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+244   10
+rtkit    2581047       1  0 Sep16 ?        00:00:11 /usr/libexec/rtkit-daemon
+245   8
+gdm      2581081       1  0 Sep16 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+246   9
+gdm      2581082       1  0 Sep16 tty1     00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+247   9
+root     2581089       1  0 Sep16 ?        00:00:04 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+248   12
+gdm      2581094 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-sharing
+249   8
+gdm      2581098 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-wacom
+250   8
+avahi    2581099       1  0 Sep16 ?        00:02:56 avahi-daemon: running [cell13-cse.local]
+251   10
+gdm      2581101 2580980  0 Sep16 tty1     00:00:04 /usr/libexec/gsd-color
+252   8
+gdm      2581103 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-keyboard
+253   8
+gdm      2581106 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-print-notifications
+254   8
+avahi    2581109 2581099  0 Sep16 ?        00:00:00 avahi-daemon: chroot helper
+255   10
+gdm      2581112 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-rfkill
+256   8
+gdm      2581116 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-smartcard
+257   8
+gdm      2581118 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-datetime
+258   8
+gdm      2581119 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-media-keys
+259   8
+gdm      2581121 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-screensaver-proxy
+260   8
+gdm      2581124 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-sound
+261   8
+gdm      2581130 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-a11y-settings
+262   8
+gdm      2581134 2580980  0 Sep16 tty1     00:00:39 /usr/libexec/gsd-housekeeping
+263   8
+gdm      2581140 2580980  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-power
+264   8
+gdm      2581184       1  0 Sep16 tty1     00:00:00 /usr/libexec/gvfsd
+265   8
+gdm      2581200       1  0 Sep16 tty1     00:00:00 /usr/libexec/gsd-printer
+266   8
+colord   2581232       1  0 Sep16 ?        00:00:00 /usr/libexec/colord
+267   8
+gdm      2581246 2580986  0 Sep16 tty1     00:00:00 ibus-daemon --panel disable -r --xim
+268   12
+gdm      2581251 2581246  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-dconf
+269   8
+gdm      2581253       1  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+270   9
+gdm      2581255       1  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-portal
+271   8
+gdm      2581265       1  0 Sep16 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+272   9
+gdm      2581283 2581246  0 Sep16 tty1     00:00:00 /usr/libexec/ibus-engine-simple
+273   8
+root     2595100       1  0 Sep16 ?        00:00:01 /usr/libexec/udisks2/udisksd
+274   8
+av1681   2606450       1  0 Sep16 ?        00:00:01 /lib/systemd/systemd --user
+275   9
+av1681   2606451 2606450  0 Sep16 ?        00:00:00 (sd-pam)
+276   8
+av1681   2606457 2606450  0 Sep16 ?        00:00:00 /usr/bin/pipewire
+277   8
+av1681   2606458 2606450  0 Sep16 ?        00:00:00 /usr/bin/pipewire-media-session
+278   8
+av1681   2606529       1  0 Sep16 ?        00:00:02 /nfs/home/STUDENTS/av1681/.vscode-server/code-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8 --cli-data-dir /nfs/home/STUDENTS/av1681/.vscode-server/cli agent host
+279   12
+av1681   2606598 2606450  0 Sep16 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+280   14
+av1681   2606758 2606450  0 Sep16 ?        00:00:00 /usr/libexec/gvfsd
+281   8
+av1681   2606763 2606450  0 Sep16 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1633646215/gvfs -f
+282   10
+mdl0288  2642035       1  0 Sep17 ?        00:00:01 /lib/systemd/systemd --user
+283   9
+mdl0288  2642037 2642035  0 Sep17 ?        00:00:00 (sd-pam)
+284   8
+mdl0288  2642043 2642035  0 Sep17 ?        00:00:00 /usr/bin/pipewire
+285   8
+mdl0288  2642044 2642035  0 Sep17 ?        00:00:00 /usr/bin/pipewire-media-session
+286   8
+mdl0288  2642105 2642035  0 Sep17 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+287   14
+mdl0288  2642546       1  0 Sep17 ?        00:00:00 script rec03.log
+288   9
+mdl0288  2642547 2642546  0 Sep17 pts/11   00:00:00 bash -i
+289   9
+wjf0053  2696790       1  0 Sep18 ?        00:00:00 script recitation4
+290   9
+wjf0053  2696791 2696790  0 Sep18 pts/13   00:00:00 bash -i
+291   9
+wjf0053  2697217 2696791  0 Sep18 pts/13   00:00:00 script end
+292   9
+wjf0053  2697218 2697217  0 Sep18 pts/8    00:00:00 bash -i
+293   9
+wjf0053  2697246 2697218  0 Sep18 pts/8    00:00:00 script -q rec04.typescript
+294   10
+wjf0053  2697247 2697246  0 Sep18 pts/12   00:00:00 bash -i
+295   9
+mn1067   2704363       1  0 Sep18 ?        00:00:01 /lib/systemd/systemd --user
+296   9
+mn1067   2704365 2704363  0 Sep18 ?        00:00:00 (sd-pam)
+297   8
+mn1067   2704371 2704363  0 Sep18 ?        00:00:00 /usr/bin/pipewire
+298   8
+mn1067   2704372 2704363  0 Sep18 ?        00:00:00 /usr/bin/pipewire-media-session
+299   8
+mn1067   2704420 2704363  0 Sep18 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+300   14
+mn1067   2705555       1  0 Sep18 ?        00:00:00 script rec04.typescript
+301   9
+mn1067   2705556 2705555  0 Sep18 pts/15   00:00:00 bash -i
+302   9
+kap0382  2802025       1  0 Sep20 ?        00:00:01 /lib/systemd/systemd --user
+303   9
+kap0382  2802026 2802025  0 Sep20 ?        00:00:00 (sd-pam)
+304   8
+kap0382  2802032 2802025  0 Sep20 ?        00:00:00 /usr/bin/pipewire
+305   8
+kap0382  2802033 2802025  0 Sep20 ?        00:00:00 /usr/bin/pipewire-media-session
+306   8
+kap0382  2802059 2802025  0 Sep20 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+307   14
+kap0382  2804419       1  0 Sep20 ?        00:00:23 ./orphan
+308   8
+syslog   2908190       1  0 Sep23 ?        00:00:09 /usr/sbin/rsyslogd -n -iNONE
+309   10
+root     2921502       2  0 Sep23 ?        00:00:01 [kworker/u256:2-ext4-rsv-conversion]
+310   8
+root     2952342  519050  0 Sep24 ?        00:13:44 /opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent
+311   8
+root     2952352 2952342  0 Sep24 ?        00:00:00 /opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent -S -I -c from multiprocessing.resource_tracker import main;main(15)
+312   15
+root     2952413 2952342  0 Sep24 ?        00:08:00 /opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent --multiprocessing-fork tracker_fd=16 pipe_handle=28
+313   11
+root     3020045       2  0 Sep28 ?        00:00:00 [kworker/u256:1-ext4-rsv-conversion]
+314   8
+root     3031530       1  0 00:00 ?        00:00:00 /usr/sbin/cupsd -l
+315   9
+root     3044867       2  0 19:42 ?        00:00:02 [kworker/0:2-events]
+316   8
+root     3045109       2  0 20:33 ?        00:00:00 [kworker/u257:3-xprtiod]
+317   8
+root     3045322 2254356  0 21:21 ?        00:00:00 sshd: sh1562 [priv]
+318   10
+sh1562   3045331       1  0 21:21 ?        00:00:00 /lib/systemd/systemd --user
+319   9
+sh1562   3045333 3045331  0 21:21 ?        00:00:00 (sd-pam)
+320   8
+sh1562   3045339 3045331  0 21:21 ?        00:00:00 /usr/bin/pipewire
+321   8
+sh1562   3045340 3045331  0 21:21 ?        00:00:00 /usr/bin/pipewire-media-session
+322   8
+sh1562   3045341 3045331  0 21:21 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+323   10
+sh1562   3045381 3045322  0 21:21 ?        00:00:00 sshd: sh1562@pts/17
+324   9
+sh1562   3045383 3045381  0 21:21 pts/17   00:00:00 -bash
+325   8
+sh1562   3045401 3045331  0 21:21 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+326   14
+root     3045462       2  0 21:32 ?        00:00:00 [kworker/u258:2-flush-8:0]
+327   8
+root     3046467       2  0 21:42 ?        00:00:00 [kworker/1:0-events]
+328   8
+root     3046537       2  0 21:56 ?        00:00:00 [kworker/u258:3-rpciod]
+329   8
+root     3046637       2  0 22:16 ?        00:00:00 [kworker/u258:0-events_power_efficient]
+330   8
+root     3046725       2  0 22:33 ?        00:00:00 [kworker/1:1]
+331   8
+root     3046733       2  0 22:35 ?        00:00:00 [kworker/u257:0-events_unbound]
+332   8
+root     3046759       2  0 22:42 ?        00:00:00 [kworker/0:1-rcu_par_gp]
+333   8
+root     3046766       2  0 22:44 ?        00:00:00 [kworker/u257:2-events_power_efficient]
+334   8
+root     3046800       2  0 22:50 ?        00:00:00 [kworker/u257:1-rpciod]
+335   8
+root     3046809 2254356  0 22:53 ?        00:00:00 sshd: wjf0053 [priv]
+336   10
+wjf0053  3046854 3046809  0 22:53 ?        00:00:00 sshd: wjf0053@notty
+337   9
+wjf0053  3046855 3046854  0 22:53 ?        00:00:00 /usr/lib/openssh/sftp-server
+338   8
+root     3046857 2254356  0 22:55 ?        00:00:00 sshd: wjf0053 [priv]
+339   10
+wjf0053  3046882 3046857  0 22:55 ?        00:00:00 sshd: wjf0053@pts/18
+340   9
+wjf0053  3046883 3046882  0 22:55 pts/18   00:00:00 -bash
+341   8
+root     3046908       2  0 22:56 ?        00:00:00 [kworker/0:0-events]
+342   8
+wjf0053  3046911 3046883  0 22:57 pts/18   00:00:00 script rec05.typescript
+343   9
+wjf0053  3046912 3046911  0 22:57 pts/19   00:00:00 bash -i
+344   9
+root     3046923       2  0 22:57 ?        00:00:00 [kworker/u258:1-events_power_efficient]
+345   8
+wjf0053  3046952 3046912  0 22:58 pts/19   00:00:00 ps -ef
+346   9
+Done
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'NF >= 8
+{print NR," ", NF} END{print "Done"}' gawkfile.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K'NF [K > 8 {for(i=9; i<=NF; i++}[K) print NR, i, $i }' gawkfile.txt
+[?2004l2 9 --system
+2 10 --deserialize
+2 11 53
+2 12 splash
+165 9 -f
+165 10 -w
+172 9 --foreground
+173 9 -f
+173 10 -P
+174 9 --start-as-daemon
+175 9 lwreg
+176 9 eventlog
+177 9 netlogon
+178 9 --user
+181 9 lwio
+182 9 lsass
+183 9 callback]
+186 9 --session
+186 10 --address=systemd:
+186 11 --nofork
+186 12 --nopidfile
+186 13 --systemd-activation
+186 14 --syslog-only
+187 9 reapsysl
+188 9 --cli-data-dir
+188 10 /nfs/home/STUDENTS/fm0105/.vscode/cli
+188 11 agent
+188 12 host
+189 9 --cli-data-dir
+189 10 /nfs/home/STUDENTS/jlp0590/.vscode/cli
+189 11 agent
+189 12 host
+190 9 --cli-data-dir
+190 10 /nfs/home/STUDENTS/amf0441/.vscode/cli
+190 11 agent
+190 12 host
+191 9 --cli-data-dir
+191 10 /nfs/home/STUDENTS/fm0105/.vscode/cli
+191 11 agent
+191 12 host
+196 9 --cli-data-dir
+196 10 /nfs/home/STUDENTS/jv0582/.vscode-server/cli
+196 11 agent
+196 12 host
+202 9 --cli-data-dir
+202 10 /nfs/home/STUDENTS/iuc0001/.vscode-server/cli
+202 11 agent
+202 12 host
+203 9 --cli-data-dir
+203 10 /nfs/home/STUDENTS/iuc0001/.vscode-server/cli
+203 11 agent
+203 12 host
+204 9 --cli-data-dir
+204 10 /nfs/home/STUDENTS/cdr0279/.vscode-server/cli
+204 11 agent
+204 12 host
+207 9 /usr/sbin/sshd
+207 10 -D
+207 11 [listener]
+207 12 0
+207 13 of
+207 14 10-100
+207 15 startups
+210 9 -q
+210 10 rec03.typescript
+211 9 -i
+212 9 --user
+216 9 --session
+216 10 --address=systemd:
+216 11 --nofork
+216 12 --nopidfile
+216 13 --systemd-activation
+216 14 --syslog-only
+217 9 commands.txt
+218 9 -i
+219 9 end
+219 10 commands.txt
+220 9 -i
+221 9 commands.txt
+222 9 -i
+223 9 rec03
+224 9 -i
+225 9 --system
+225 10 --address=systemd:
+225 11 --nofork
+225 12 --nopidfile
+225 13 --systemd-activation
+225 14 --syslog-only
+226 9 --no-debug
+232 9 [pam/gdm-launch-environment]
+233 9 dbus-run-session
+233 10 --
+233 11 gnome-session
+233 12 --autostart
+233 13 /usr/share/gdm/greeter/autostart
+234 9 --
+234 10 gnome-session
+234 11 --autostart
+234 12 /usr/share/gdm/greeter/autostart
+235 9 --nofork
+235 10 --print-address
+235 11 4
+235 12 --session
+236 9 --autostart
+236 10 /usr/share/gdm/greeter/autostart
+239 9 --config-file=/usr/share/defaults/at-spi2/accessibility.conf
+239 10 --nofork
+239 11 --print-address
+239 12 11
+239 13 --address=unix:path=/run/user/125/at-spi/bus
+240 9 :1024
+240 10 -rootless
+240 11 -noreset
+240 12 -accessx
+240 13 -core
+240 14 -auth
+240 15 /run/user/125/.mutter-Xwaylandauth.LUNLV3
+240 16 -listen
+240 17 4
+240 18 -listen
+240 19 5
+240 20 -displayfd
+240 21 6
+240 22 -initfd
+240 23 7
+244 9 --daemonize=no
+244 10 --log-target=journal
+246 9 /usr/share/gnome-shell/org.gnome.Shell.Notifications
+247 9 --use-gnome-session
+248 9 -u
+248 10 -s
+248 11 -O
+248 12 /run/wpa_supplicant
+251 9 running
+251 10 [cell13-cse.local]
+255 9 chroot
+255 10 helper
+268 9 --panel
+268 10 disable
+268 11 -r
+268 12 --xim
+270 9 --kill-daemon
+272 9 /usr/share/gnome-shell/org.gnome.ScreenSaver
+275 9 --user
+279 9 --cli-data-dir
+279 10 /nfs/home/STUDENTS/av1681/.vscode-server/cli
+279 11 agent
+279 12 host
+280 9 --session
+280 10 --address=systemd:
+280 11 --nofork
+280 12 --nopidfile
+280 13 --systemd-activation
+280 14 --syslog-only
+282 9 /run/user/1633646215/gvfs
+282 10 -f
+283 9 --user
+287 9 --session
+287 10 --address=systemd:
+287 11 --nofork
+287 12 --nopidfile
+287 13 --systemd-activation
+287 14 --syslog-only
+288 9 rec03.log
+289 9 -i
+290 9 recitation4
+291 9 -i
+292 9 end
+293 9 -i
+294 9 -q
+294 10 rec04.typescript
+295 9 -i
+296 9 --user
+300 9 --session
+300 10 --address=systemd:
+300 11 --nofork
+300 12 --nopidfile
+300 13 --systemd-activation
+300 14 --syslog-only
+301 9 rec04.typescript
+302 9 -i
+303 9 --user
+307 9 --session
+307 10 --address=systemd:
+307 11 --nofork
+307 12 --nopidfile
+307 13 --systemd-activation
+307 14 --syslog-only
+309 9 -n
+309 10 -iNONE
+312 9 -S
+312 10 -I
+312 11 -c
+312 12 from
+312 13 multiprocessing.resource_tracker
+312 14 import
+312 15 main;main(15)
+313 9 --multiprocessing-fork
+313 10 tracker_fd=16
+313 11 pipe_handle=28
+315 9 -l
+318 9 sh1562
+318 10 [priv]
+319 9 --user
+323 9 --daemonize=no
+323 10 --log-target=journal
+324 9 sh1562@pts/17
+326 9 --session
+326 10 --address=systemd:
+326 11 --nofork
+326 12 --nopidfile
+326 13 --systemd-activation
+326 14 --syslog-only
+336 9 wjf0053
+336 10 [priv]
+337 9 wjf0053@notty
+339 9 wjf0053
+339 10 [priv]
+340 9 wjf0053@pts/18
+343 9 rec05.typescript
+344 9 -i
+346 9 -ef
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'BEGIN { OFS="\t" } {printy[K $1.$3.$2.[K[K[K[K[K[K[K , $2[1P[C[C[C[C, $3[K4[K2[C[1P[1@4[1P[1@3[C[C[C[C, $4, $5.[K, $6, $7.[K, $8 }' gawkfile.txt
+[?2004lUID	PPID	PID	C	STIME	TTY	TIME	CMD
+root	0	1	0	Jun11	?	03:11:48	/lib/systemd/systemd
+root	0	2	0	Jun11	?	00:00:02	[kthreadd]
+root	2	3	0	Jun11	?	00:00:00	[pool_workqueue_release]
+root	2	4	0	Jun11	?	00:00:00	[kworker/R-rcu_g]
+root	2	5	0	Jun11	?	00:00:00	[kworker/R-rcu_p]
+root	2	6	0	Jun11	?	00:00:00	[kworker/R-slub_]
+root	2	7	0	Jun11	?	00:00:00	[kworker/R-netns]
+root	2	12	0	Jun11	?	00:00:00	[kworker/R-mm_pe]
+root	2	13	0	Jun11	?	00:00:01	[rcu_tasks_kthread]
+root	2	14	0	Jun11	?	00:00:00	[rcu_tasks_rude_kthread]
+root	2	15	0	Jun11	?	00:00:00	[rcu_tasks_trace_kthread]
+root	2	16	0	Jun11	?	00:00:12	[ksoftirqd/0]
+root	2	17	0	Jun11	?	00:07:21	[rcu_preempt]
+root	2	18	0	Jun11	?	00:00:35	[migration/0]
+root	2	19	0	Jun11	?	00:00:00	[idle_inject/0]
+root	2	20	0	Jun11	?	00:00:00	[cpuhp/0]
+root	2	21	0	Jun11	?	00:00:00	[cpuhp/1]
+root	2	22	0	Jun11	?	00:00:00	[idle_inject/1]
+root	2	23	0	Jun11	?	00:00:30	[migration/1]
+root	2	24	0	Jun11	?	00:00:13	[ksoftirqd/1]
+root	2	26	0	Jun11	?	00:00:00	[kworker/1:0H-kblockd]
+root	2	29	0	Jun11	?	00:00:00	[kdevtmpfs]
+root	2	30	0	Jun11	?	00:00:00	[kworker/R-inet_]
+root	2	31	0	Jun11	?	00:00:00	[kauditd]
+root	2	33	0	Jun11	?	00:00:13	[khungtaskd]
+root	2	34	0	Jun11	?	00:00:00	[oom_reaper]
+root	2	37	0	Jun11	?	00:00:00	[kworker/R-write]
+root	2	38	0	Jun11	?	00:06:18	[kcompactd0]
+root	2	39	0	Jun11	?	00:00:00	[ksmd]
+root	2	42	0	Jun11	?	00:00:00	[khugepaged]
+root	2	43	0	Jun11	?	00:00:00	[kworker/R-kinte]
+root	2	44	0	Jun11	?	00:00:00	[kworker/R-kbloc]
+root	2	45	0	Jun11	?	00:00:00	[kworker/R-blkcg]
+root	2	46	0	Jun11	?	00:00:00	[irq/9-acpi]
+root	2	47	0	Jun11	?	00:00:00	[kworker/R-tpm_d]
+root	2	48	0	Jun11	?	00:00:00	[kworker/R-ata_s]
+root	2	49	0	Jun11	?	00:00:00	[kworker/R-md]
+root	2	50	0	Jun11	?	00:00:00	[kworker/R-md_bi]
+root	2	51	0	Jun11	?	00:00:00	[kworker/R-edac-]
+root	2	52	0	Jun11	?	00:00:00	[kworker/R-devfr]
+root	2	53	0	Jun11	?	00:00:00	[watchdogd]
+root	2	55	0	Jun11	?	00:00:00	[kworker/R-quota]
+root	2	57	0	Jun11	?	00:00:24	[kswapd0]
+root	2	58	0	Jun11	?	00:00:00	[ecryptfs-kthread]
+root	2	59	0	Jun11	?	00:00:00	[kworker/R-kthro]
+root	2	60	0	Jun11	?	00:00:00	[irq/24-pciehp]
+root	2	61	0	Jun11	?	00:00:00	[irq/25-pciehp]
+root	2	62	0	Jun11	?	00:00:00	[irq/26-pciehp]
+root	2	63	0	Jun11	?	00:00:00	[irq/27-pciehp]
+root	2	64	0	Jun11	?	00:00:00	[irq/28-pciehp]
+root	2	65	0	Jun11	?	00:00:00	[irq/29-pciehp]
+root	2	66	0	Jun11	?	00:00:00	[irq/30-pciehp]
+root	2	67	0	Jun11	?	00:00:00	[irq/31-pciehp]
+root	2	68	0	Jun11	?	00:00:00	[irq/32-pciehp]
+root	2	69	0	Jun11	?	00:00:00	[irq/33-pciehp]
+root	2	70	0	Jun11	?	00:00:00	[irq/34-pciehp]
+root	2	71	0	Jun11	?	00:00:00	[irq/35-pciehp]
+root	2	72	0	Jun11	?	00:00:00	[irq/36-pciehp]
+root	2	73	0	Jun11	?	00:00:00	[irq/37-pciehp]
+root	2	74	0	Jun11	?	00:00:00	[irq/38-pciehp]
+root	2	75	0	Jun11	?	00:00:00	[irq/39-pciehp]
+root	2	76	0	Jun11	?	00:00:00	[irq/40-pciehp]
+root	2	77	0	Jun11	?	00:00:00	[irq/41-pciehp]
+root	2	78	0	Jun11	?	00:00:00	[irq/42-pciehp]
+root	2	79	0	Jun11	?	00:00:00	[irq/43-pciehp]
+root	2	80	0	Jun11	?	00:00:00	[irq/44-pciehp]
+root	2	81	0	Jun11	?	00:00:00	[irq/45-pciehp]
+root	2	82	0	Jun11	?	00:00:00	[irq/46-pciehp]
+root	2	83	0	Jun11	?	00:00:00	[irq/47-pciehp]
+root	2	84	0	Jun11	?	00:00:00	[irq/48-pciehp]
+root	2	85	0	Jun11	?	00:00:00	[irq/49-pciehp]
+root	2	86	0	Jun11	?	00:00:00	[irq/50-pciehp]
+root	2	87	0	Jun11	?	00:00:00	[irq/51-pciehp]
+root	2	88	0	Jun11	?	00:00:00	[irq/52-pciehp]
+root	2	89	0	Jun11	?	00:00:00	[irq/53-pciehp]
+root	2	90	0	Jun11	?	00:00:00	[irq/54-pciehp]
+root	2	91	0	Jun11	?	00:00:00	[irq/55-pciehp]
+root	2	92	0	Jun11	?	00:00:00	[kworker/R-acpi_]
+root	2	94	0	Jun11	?	00:00:00	[scsi_eh_0]
+root	2	95	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	96	0	Jun11	?	00:00:00	[scsi_eh_1]
+root	2	97	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	100	0	Jun11	?	00:00:00	[kworker/R-mld]
+root	2	101	0	Jun11	?	00:00:00	[kworker/R-ipv6_]
+root	2	109	0	Jun11	?	00:00:00	[kworker/R-kstrp]
+root	2	111	0	Jun11	?	00:00:00	[kworker/u259:0]
+root	2	112	0	Jun11	?	00:00:00	[kworker/u260:0]
+root	2	113	0	Jun11	?	00:00:00	[kworker/u261:0]
+root	2	126	0	Jun11	?	00:00:00	[kworker/R-charg]
+root	2	145	0	Jun11	?	00:00:26	[kworker/0:1H-kblockd]
+root	2	171	0	Jun11	?	00:00:00	[scsi_eh_2]
+root	2	172	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	173	0	Jun11	?	00:00:00	[kworker/R-mpt_p]
+root	2	174	0	Jun11	?	00:00:00	[kworker/R-mpt/0]
+root	2	175	0	Jun11	?	00:00:00	[scsi_eh_3]
+root	2	176	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	177	0	Jun11	?	00:00:00	[scsi_eh_4]
+root	2	178	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	179	0	Jun11	?	00:00:00	[scsi_eh_5]
+root	2	180	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	181	0	Jun11	?	00:00:00	[scsi_eh_6]
+root	2	182	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	183	0	Jun11	?	00:00:00	[scsi_eh_7]
+root	2	184	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	185	0	Jun11	?	00:00:00	[scsi_eh_8]
+root	2	186	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	187	0	Jun11	?	00:00:00	[scsi_eh_9]
+root	2	188	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	189	0	Jun11	?	00:00:00	[scsi_eh_10]
+root	2	190	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	191	0	Jun11	?	00:00:00	[scsi_eh_11]
+root	2	192	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	193	0	Jun11	?	00:00:00	[scsi_eh_12]
+root	2	194	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	195	0	Jun11	?	00:00:00	[scsi_eh_13]
+root	2	196	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	197	0	Jun11	?	00:00:00	[scsi_eh_14]
+root	2	198	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	199	0	Jun11	?	00:00:00	[scsi_eh_15]
+root	2	200	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	201	0	Jun11	?	00:00:00	[scsi_eh_16]
+root	2	202	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	203	0	Jun11	?	00:00:00	[scsi_eh_17]
+root	2	204	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	205	0	Jun11	?	00:00:00	[scsi_eh_18]
+root	2	206	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	207	0	Jun11	?	00:00:00	[scsi_eh_19]
+root	2	208	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	209	0	Jun11	?	00:00:00	[scsi_eh_20]
+root	2	210	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	211	0	Jun11	?	00:00:00	[scsi_eh_21]
+root	2	212	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	213	0	Jun11	?	00:00:00	[scsi_eh_22]
+root	2	214	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	215	0	Jun11	?	00:00:00	[scsi_eh_23]
+root	2	216	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	217	0	Jun11	?	00:00:00	[scsi_eh_24]
+root	2	218	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	219	0	Jun11	?	00:00:00	[scsi_eh_25]
+root	2	220	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	221	0	Jun11	?	00:00:00	[scsi_eh_26]
+root	2	222	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	223	0	Jun11	?	00:00:00	[scsi_eh_27]
+root	2	224	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	225	0	Jun11	?	00:00:00	[scsi_eh_28]
+root	2	226	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	227	0	Jun11	?	00:00:00	[scsi_eh_29]
+root	2	228	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	229	0	Jun11	?	00:00:00	[scsi_eh_30]
+root	2	230	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	231	0	Jun11	?	00:00:00	[scsi_eh_31]
+root	2	232	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	264	0	Jun11	?	00:00:00	[scsi_eh_32]
+root	2	265	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	269	0	Jun11	?	00:00:26	[kworker/1:2H-kblockd]
+root	2	289	0	Jun11	?	00:02:27	[jbd2/sda5-8]
+root	2	290	0	Jun11	?	00:00:00	[kworker/R-ext4-]
+root	2	361	0	Jun11	?	00:00:00	[kworker/R-rpcio]
+root	2	362	0	Jun11	?	00:00:00	[kworker/R-xprti]
+root	2	419	0	Jun11	?	00:00:37	[irq/60-vmw_vmci]
+root	2	420	0	Jun11	?	00:00:00	[irq/61-vmw_vmci]
+root	2	432	0	Jun11	?	00:00:00	[irq/16-vmwgfx]
+root	2	434	0	Jun11	?	00:00:00	[kworker/R-ttm]
+_rpc	1	467	0	Jun11	?	00:00:09	/sbin/rpcbind
+root	1	476	0	Jun11	?	00:00:10	/usr/sbin/rpc.gssd
+root	2	489	0	Jun11	?	00:00:00	[kworker/R-crypt]
+root	1	500	0	Jun11	?	00:00:00	/usr/bin/VGAuthService
+root	1	501	0	Jun11	?	02:06:40	/usr/bin/vmtoolsd
+root	2	520	0	Jun11	?	00:00:00	[kworker/R-nfit]
+root	1	582	0	Jun11	?	00:00:00	/usr/sbin/acpid
+root	1	621	0	Jun11	?	00:07:19	/usr/sbin/irqbalance
+root	1	665	0	Jun11	?	00:00:15	/usr/sbin/cron
+root	1	762	0	Jun11	?	00:00:00	/opt/pbis/sbin/lwsmd
+root	762	777	0	Jun11	?	00:02:17	lw-container
+root	762	843	0	Jun11	?	00:00:08	lw-container
+root	762	892	0	Jun11	?	00:01:52	lw-container
+gdm	1	960	0	Jun11	?	00:00:04	/lib/systemd/systemd
+gdm	960	962	0	Jun11	?	00:00:00	(sd-pam)
+root	2	963	0	Jun11	?	00:00:00	[kworker/R-nfsio]
+root	762	972	0	Jun11	?	00:00:00	lw-container
+root	762	993	0	Jun11	?	01:49:35	lw-container
+root	2	1010	0	Jun11	?	00:00:02	[NFSv4
+gdm	960	1013	0	Jun11	?	00:00:00	/usr/bin/pipewire
+gdm	960	1014	0	Jun11	?	00:00:01	/usr/bin/pipewire-media-session
+gdm	960	1018	0	Jun11	?	00:00:00	/usr/bin/dbus-daemon
+root	762	1042	0	Jun11	?	00:00:00	lw-container
+fm0105	1	359524	0	Jul05	?	00:01:01	/nfs/home/STUDENTS/fm0105/bin/code
+jlp0590	1	403711	0	Jul11	?	00:03:17	/nfs/home/STUDENTS/jlp0590/bin/code
+amf0441	1	414687	0	Jul12	?	00:03:15	/nfs/home/STUDENTS/amf0441/bin/code
+fm0105	1	420071	0	Jul12	?	00:00:45	/nfs/home/STUDENTS/fm0105/bin/code
+root	2	437915	0	Jul14	?	00:00:00	[kworker/R-tls-s]
+root	1	518521	0	Jul22	?	00:00:00	/opt/CrowdStrike/falcond
+root	518521	518522	0	Jul22	?	09:24:03	falcon-sensor-bpf
+root	1	519050	0	Jul22	?	00:04:30	/opt/rapid7/ir_agent/ir_agent
+jv0582	1	522093	0	Jul22	?	00:02:51	/nfs/home/STUDENTS/jv0582/.vscode-server/code-1b6a188127eeaf9194f945eb6eb89a657e93c54c
+root	2	584194	0	Jul23	?	00:00:00	[kworker/0:2H]
+systemd+	1	1347408	0	Aug11	?	00:01:38	/lib/systemd/systemd-resolved
+root	1	1347412	0	Aug11	?	00:09:05	/lib/systemd/systemd-journald
+systemd+	1	1347510	0	Aug11	?	00:00:06	/lib/systemd/systemd-timesyncd
+root	1	1347555	0	Aug11	?	00:00:05	/lib/systemd/systemd-udevd
+iuc0001	1	1846930	0	Aug24	?	00:01:14	/nfs/home/STUDENTS/iuc0001/.vscode-server/code-93cfdd489c3b228840d0f86ec77c3636277c93ea
+iuc0001	1	1899032	0	Aug25	?	00:00:43	/nfs/home/STUDENTS/iuc0001/.vscode-server/code-110a328ea54b42367b803ec53ee0bf52ef26b419
+cdr0279	1	1984128	0	Aug28	?	00:01:24	/nfs/home/STUDENTS/cdr0279/.vscode-server/code-fc3def6774c76082adf699d366f31a557ce5573f
+root	519050	2164982	0	Sep01	?	00:04:08	/opt/rapid7/ir_agent/components/agent_core/1.3.3.32/rapid7_agent_core
+root	519050	2167765	0	Sep01	?	00:02:23	/opt/rapid7/ir_agent/components/endpoint_broker/1.9.3.0/rapid7_endpoint_broker
+root	1	2254356	0	Sep05	?	00:00:00	sshd:
+root	1	2354996	0	Sep07	?	00:01:35	/snap/snapd/current/usr/lib/snapd/snapd
+systemd+	1	2419916	0	Sep09	?	01:01:26	/lib/systemd/systemd-oomd
+wrd0033	1	2455677	0	Sep09	?	00:00:00	script
+wrd0033	2455677	2455678	0	Sep09	pts/2	00:00:00	bash
+wjf0053	1	2499572	0	Sep11	?	00:00:02	/lib/systemd/systemd
+wjf0053	2499572	2499574	0	Sep11	?	00:00:00	(sd-pam)
+wjf0053	2499572	2499580	0	Sep11	?	00:00:00	/usr/bin/pipewire
+wjf0053	2499572	2499581	0	Sep11	?	00:00:00	/usr/bin/pipewire-media-session
+wjf0053	2499572	2499627	0	Sep11	?	00:00:00	/usr/bin/dbus-daemon
+wjf0053	1	2499738	0	Sep11	?	00:00:00	script
+wjf0053	2499738	2499739	0	Sep11	pts/3	00:00:00	bash
+wjf0053	2499739	2499757	0	Sep11	pts/3	00:00:00	script
+wjf0053	2499757	2499758	0	Sep11	pts/4	00:00:00	bash
+wjf0053	2499758	2499776	0	Sep11	pts/4	00:00:00	script
+wjf0053	2499776	2499777	0	Sep11	pts/5	00:00:00	bash
+cqa0005	1	2553255	0	Sep15	?	00:00:00	script
+cqa0005	2553255	2553256	0	Sep15	pts/7	00:00:00	bash
+message+	1	2580845	0	Sep16	?	00:19:40	@dbus-daemon
+root	1	2580859	0	Sep16	?	00:10:21	/usr/libexec/polkitd
+root	1	2580867	0	Sep16	?	00:00:03	/lib/systemd/systemd-logind
+root	1	2580870	0	Sep16	?	00:00:00	/usr/sbin/ModemManager
+root	1	2580910	0	Sep16	?	00:00:05	/usr/libexec/packagekitd
+root	1	2580957	0	Sep16	?	00:00:00	/usr/sbin/gdm3
+root	1	2580961	0	Sep16	?	00:00:30	/usr/libexec/accounts-daemon
+root	2580957	2580971	0	Sep16	?	00:00:00	gdm-session-worker
+gdm	2580971	2580975	0	Sep16	tty1	00:00:00	/usr/libexec/gdm-wayland-session
+gdm	2580975	2580978	0	Sep16	tty1	00:00:00	dbus-run-session
+gdm	2580978	2580979	0	Sep16	tty1	00:00:00	dbus-daemon
+gdm	2580978	2580980	0	Sep16	tty1	00:00:00	/usr/libexec/gnome-session-binary
+gdm	2580980	2580986	0	Sep16	tty1	00:26:10	/usr/bin/gnome-shell
+gdm	1	2581009	0	Sep16	tty1	00:00:00	/usr/libexec/at-spi-bus-launcher
+gdm	2581009	2581014	0	Sep16	tty1	00:00:00	/usr/bin/dbus-daemon
+gdm	2580986	2581023	0	Sep16	tty1	00:00:00	/usr/bin/Xwayland
+gdm	1	2581037	0	Sep16	tty1	00:00:00	/usr/libexec/xdg-permission-store
+root	1	2581044	0	Sep16	?	00:00:00	/usr/libexec/upowerd
+root	1	2581045	0	Sep16	?	00:00:00	/usr/libexec/power-profiles-daemon
+gdm	960	2581046	0	Sep16	?	00:00:00	/usr/bin/pulseaudio
+rtkit	1	2581047	0	Sep16	?	00:00:11	/usr/libexec/rtkit-daemon
+gdm	1	2581081	0	Sep16	tty1	00:00:00	/usr/bin/gjs
+gdm	1	2581082	0	Sep16	tty1	00:00:00	/usr/libexec/at-spi2-registryd
+root	1	2581089	0	Sep16	?	00:00:04	/sbin/wpa_supplicant
+gdm	2580980	2581094	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-sharing
+gdm	2580980	2581098	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-wacom
+avahi	1	2581099	0	Sep16	?	00:02:56	avahi-daemon:
+gdm	2580980	2581101	0	Sep16	tty1	00:00:04	/usr/libexec/gsd-color
+gdm	2580980	2581103	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-keyboard
+gdm	2580980	2581106	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-print-notifications
+avahi	2581099	2581109	0	Sep16	?	00:00:00	avahi-daemon:
+gdm	2580980	2581112	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-rfkill
+gdm	2580980	2581116	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-smartcard
+gdm	2580980	2581118	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-datetime
+gdm	2580980	2581119	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-media-keys
+gdm	2580980	2581121	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-screensaver-proxy
+gdm	2580980	2581124	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-sound
+gdm	2580980	2581130	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-a11y-settings
+gdm	2580980	2581134	0	Sep16	tty1	00:00:39	/usr/libexec/gsd-housekeeping
+gdm	2580980	2581140	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-power
+gdm	1	2581184	0	Sep16	tty1	00:00:00	/usr/libexec/gvfsd
+gdm	1	2581200	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-printer
+colord	1	2581232	0	Sep16	?	00:00:00	/usr/libexec/colord
+gdm	2580986	2581246	0	Sep16	tty1	00:00:00	ibus-daemon
+gdm	2581246	2581251	0	Sep16	tty1	00:00:00	/usr/libexec/ibus-dconf
+gdm	1	2581253	0	Sep16	tty1	00:00:00	/usr/libexec/ibus-x11
+gdm	1	2581255	0	Sep16	tty1	00:00:00	/usr/libexec/ibus-portal
+gdm	1	2581265	0	Sep16	tty1	00:00:00	/usr/bin/gjs
+gdm	2581246	2581283	0	Sep16	tty1	00:00:00	/usr/libexec/ibus-engine-simple
+root	1	2595100	0	Sep16	?	00:00:01	/usr/libexec/udisks2/udisksd
+av1681	1	2606450	0	Sep16	?	00:00:01	/lib/systemd/systemd
+av1681	2606450	2606451	0	Sep16	?	00:00:00	(sd-pam)
+av1681	2606450	2606457	0	Sep16	?	00:00:00	/usr/bin/pipewire
+av1681	2606450	2606458	0	Sep16	?	00:00:00	/usr/bin/pipewire-media-session
+av1681	1	2606529	0	Sep16	?	00:00:02	/nfs/home/STUDENTS/av1681/.vscode-server/code-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8
+av1681	2606450	2606598	0	Sep16	?	00:00:00	/usr/bin/dbus-daemon
+av1681	2606450	2606758	0	Sep16	?	00:00:00	/usr/libexec/gvfsd
+av1681	2606450	2606763	0	Sep16	?	00:00:00	/usr/libexec/gvfsd-fuse
+mdl0288	1	2642035	0	Sep17	?	00:00:01	/lib/systemd/systemd
+mdl0288	2642035	2642037	0	Sep17	?	00:00:00	(sd-pam)
+mdl0288	2642035	2642043	0	Sep17	?	00:00:00	/usr/bin/pipewire
+mdl0288	2642035	2642044	0	Sep17	?	00:00:00	/usr/bin/pipewire-media-session
+mdl0288	2642035	2642105	0	Sep17	?	00:00:00	/usr/bin/dbus-daemon
+mdl0288	1	2642546	0	Sep17	?	00:00:00	script
+mdl0288	2642546	2642547	0	Sep17	pts/11	00:00:00	bash
+wjf0053	1	2696790	0	Sep18	?	00:00:00	script
+wjf0053	2696790	2696791	0	Sep18	pts/13	00:00:00	bash
+wjf0053	2696791	2697217	0	Sep18	pts/13	00:00:00	script
+wjf0053	2697217	2697218	0	Sep18	pts/8	00:00:00	bash
+wjf0053	2697218	2697246	0	Sep18	pts/8	00:00:00	script
+wjf0053	2697246	2697247	0	Sep18	pts/12	00:00:00	bash
+mn1067	1	2704363	0	Sep18	?	00:00:01	/lib/systemd/systemd
+mn1067	2704363	2704365	0	Sep18	?	00:00:00	(sd-pam)
+mn1067	2704363	2704371	0	Sep18	?	00:00:00	/usr/bin/pipewire
+mn1067	2704363	2704372	0	Sep18	?	00:00:00	/usr/bin/pipewire-media-session
+mn1067	2704363	2704420	0	Sep18	?	00:00:00	/usr/bin/dbus-daemon
+mn1067	1	2705555	0	Sep18	?	00:00:00	script
+mn1067	2705555	2705556	0	Sep18	pts/15	00:00:00	bash
+kap0382	1	2802025	0	Sep20	?	00:00:01	/lib/systemd/systemd
+kap0382	2802025	2802026	0	Sep20	?	00:00:00	(sd-pam)
+kap0382	2802025	2802032	0	Sep20	?	00:00:00	/usr/bin/pipewire
+kap0382	2802025	2802033	0	Sep20	?	00:00:00	/usr/bin/pipewire-media-session
+kap0382	2802025	2802059	0	Sep20	?	00:00:00	/usr/bin/dbus-daemon
+kap0382	1	2804419	0	Sep20	?	00:00:23	./orphan
+syslog	1	2908190	0	Sep23	?	00:00:09	/usr/sbin/rsyslogd
+root	2	2921502	0	Sep23	?	00:00:01	[kworker/u256:2-ext4-rsv-conversion]
+root	519050	2952342	0	Sep24	?	00:13:44	/opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent
+root	2952342	2952352	0	Sep24	?	00:00:00	/opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent
+root	2952342	2952413	0	Sep24	?	00:08:00	/opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent
+root	2	3020045	0	Sep28	?	00:00:00	[kworker/u256:1-ext4-rsv-conversion]
+root	1	3031530	0	00:00	?	00:00:00	/usr/sbin/cupsd
+root	2	3044867	0	19:42	?	00:00:02	[kworker/0:2-events]
+root	2	3045109	0	20:33	?	00:00:00	[kworker/u257:3-xprtiod]
+root	2254356	3045322	0	21:21	?	00:00:00	sshd:
+sh1562	1	3045331	0	21:21	?	00:00:00	/lib/systemd/systemd
+sh1562	3045331	3045333	0	21:21	?	00:00:00	(sd-pam)
+sh1562	3045331	3045339	0	21:21	?	00:00:00	/usr/bin/pipewire
+sh1562	3045331	3045340	0	21:21	?	00:00:00	/usr/bin/pipewire-media-session
+sh1562	3045331	3045341	0	21:21	?	00:00:00	/usr/bin/pulseaudio
+sh1562	3045322	3045381	0	21:21	?	00:00:00	sshd:
+sh1562	3045381	3045383	0	21:21	pts/17	00:00:00	-bash
+sh1562	3045331	3045401	0	21:21	?	00:00:00	/usr/bin/dbus-daemon
+root	2	3045462	0	21:32	?	00:00:00	[kworker/u258:2-flush-8:0]
+root	2	3046467	0	21:42	?	00:00:00	[kworker/1:0-events]
+root	2	3046537	0	21:56	?	00:00:00	[kworker/u258:3-rpciod]
+root	2	3046637	0	22:16	?	00:00:00	[kworker/u258:0-events_power_efficient]
+root	2	3046725	0	22:33	?	00:00:00	[kworker/1:1]
+root	2	3046733	0	22:35	?	00:00:00	[kworker/u257:0-events_unbound]
+root	2	3046759	0	22:42	?	00:00:00	[kworker/0:1-rcu_par_gp]
+root	2	3046766	0	22:44	?	00:00:00	[kworker/u257:2-events_power_efficient]
+root	2	3046800	0	22:50	?	00:00:00	[kworker/u257:1-rpciod]
+root	2254356	3046809	0	22:53	?	00:00:00	sshd:
+wjf0053	3046809	3046854	0	22:53	?	00:00:00	sshd:
+wjf0053	3046854	3046855	0	22:53	?	00:00:00	/usr/lib/openssh/sftp-server
+root	2254356	3046857	0	22:55	?	00:00:00	sshd:
+wjf0053	3046857	3046882	0	22:55	?	00:00:00	sshd:
+wjf0053	3046882	3046883	0	22:55	pts/18	00:00:00	-bash
+root	2	3046908	0	22:56	?	00:00:00	[kworker/0:0-events]
+wjf0053	3046883	3046911	0	22:57	pts/18	00:00:00	script
+wjf0053	3046911	3046912	0	22:57	pts/19	00:00:00	bash
+root	2	3046923	0	22:57	?	00:00:00	[kworker/u258:1-events_power_efficient]
+wjf0053	3046912	3046952	0	22:58	pts/19	00:00:00	ps
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ gawk 'BEGIN { OFS="\t" } {print $1, $3, $2, $4, $5, $6, $7, $8 }' gawkfile.txt
+[?2004lUID	PPID	PID	C	STIME	TTY	TIME	CMD
+root	0	1	0	Jun11	?	03:11:48	/lib/systemd/systemd
+root	0	2	0	Jun11	?	00:00:02	[kthreadd]
+root	2	3	0	Jun11	?	00:00:00	[pool_workqueue_release]
+root	2	4	0	Jun11	?	00:00:00	[kworker/R-rcu_g]
+root	2	5	0	Jun11	?	00:00:00	[kworker/R-rcu_p]
+root	2	6	0	Jun11	?	00:00:00	[kworker/R-slub_]
+root	2	7	0	Jun11	?	00:00:00	[kworker/R-netns]
+root	2	12	0	Jun11	?	00:00:00	[kworker/R-mm_pe]
+root	2	13	0	Jun11	?	00:00:01	[rcu_tasks_kthread]
+root	2	14	0	Jun11	?	00:00:00	[rcu_tasks_rude_kthread]
+root	2	15	0	Jun11	?	00:00:00	[rcu_tasks_trace_kthread]
+root	2	16	0	Jun11	?	00:00:12	[ksoftirqd/0]
+root	2	17	0	Jun11	?	00:07:21	[rcu_preempt]
+root	2	18	0	Jun11	?	00:00:35	[migration/0]
+root	2	19	0	Jun11	?	00:00:00	[idle_inject/0]
+root	2	20	0	Jun11	?	00:00:00	[cpuhp/0]
+root	2	21	0	Jun11	?	00:00:00	[cpuhp/1]
+root	2	22	0	Jun11	?	00:00:00	[idle_inject/1]
+root	2	23	0	Jun11	?	00:00:30	[migration/1]
+root	2	24	0	Jun11	?	00:00:13	[ksoftirqd/1]
+root	2	26	0	Jun11	?	00:00:00	[kworker/1:0H-kblockd]
+root	2	29	0	Jun11	?	00:00:00	[kdevtmpfs]
+root	2	30	0	Jun11	?	00:00:00	[kworker/R-inet_]
+root	2	31	0	Jun11	?	00:00:00	[kauditd]
+root	2	33	0	Jun11	?	00:00:13	[khungtaskd]
+root	2	34	0	Jun11	?	00:00:00	[oom_reaper]
+root	2	37	0	Jun11	?	00:00:00	[kworker/R-write]
+root	2	38	0	Jun11	?	00:06:18	[kcompactd0]
+root	2	39	0	Jun11	?	00:00:00	[ksmd]
+root	2	42	0	Jun11	?	00:00:00	[khugepaged]
+root	2	43	0	Jun11	?	00:00:00	[kworker/R-kinte]
+root	2	44	0	Jun11	?	00:00:00	[kworker/R-kbloc]
+root	2	45	0	Jun11	?	00:00:00	[kworker/R-blkcg]
+root	2	46	0	Jun11	?	00:00:00	[irq/9-acpi]
+root	2	47	0	Jun11	?	00:00:00	[kworker/R-tpm_d]
+root	2	48	0	Jun11	?	00:00:00	[kworker/R-ata_s]
+root	2	49	0	Jun11	?	00:00:00	[kworker/R-md]
+root	2	50	0	Jun11	?	00:00:00	[kworker/R-md_bi]
+root	2	51	0	Jun11	?	00:00:00	[kworker/R-edac-]
+root	2	52	0	Jun11	?	00:00:00	[kworker/R-devfr]
+root	2	53	0	Jun11	?	00:00:00	[watchdogd]
+root	2	55	0	Jun11	?	00:00:00	[kworker/R-quota]
+root	2	57	0	Jun11	?	00:00:24	[kswapd0]
+root	2	58	0	Jun11	?	00:00:00	[ecryptfs-kthread]
+root	2	59	0	Jun11	?	00:00:00	[kworker/R-kthro]
+root	2	60	0	Jun11	?	00:00:00	[irq/24-pciehp]
+root	2	61	0	Jun11	?	00:00:00	[irq/25-pciehp]
+root	2	62	0	Jun11	?	00:00:00	[irq/26-pciehp]
+root	2	63	0	Jun11	?	00:00:00	[irq/27-pciehp]
+root	2	64	0	Jun11	?	00:00:00	[irq/28-pciehp]
+root	2	65	0	Jun11	?	00:00:00	[irq/29-pciehp]
+root	2	66	0	Jun11	?	00:00:00	[irq/30-pciehp]
+root	2	67	0	Jun11	?	00:00:00	[irq/31-pciehp]
+root	2	68	0	Jun11	?	00:00:00	[irq/32-pciehp]
+root	2	69	0	Jun11	?	00:00:00	[irq/33-pciehp]
+root	2	70	0	Jun11	?	00:00:00	[irq/34-pciehp]
+root	2	71	0	Jun11	?	00:00:00	[irq/35-pciehp]
+root	2	72	0	Jun11	?	00:00:00	[irq/36-pciehp]
+root	2	73	0	Jun11	?	00:00:00	[irq/37-pciehp]
+root	2	74	0	Jun11	?	00:00:00	[irq/38-pciehp]
+root	2	75	0	Jun11	?	00:00:00	[irq/39-pciehp]
+root	2	76	0	Jun11	?	00:00:00	[irq/40-pciehp]
+root	2	77	0	Jun11	?	00:00:00	[irq/41-pciehp]
+root	2	78	0	Jun11	?	00:00:00	[irq/42-pciehp]
+root	2	79	0	Jun11	?	00:00:00	[irq/43-pciehp]
+root	2	80	0	Jun11	?	00:00:00	[irq/44-pciehp]
+root	2	81	0	Jun11	?	00:00:00	[irq/45-pciehp]
+root	2	82	0	Jun11	?	00:00:00	[irq/46-pciehp]
+root	2	83	0	Jun11	?	00:00:00	[irq/47-pciehp]
+root	2	84	0	Jun11	?	00:00:00	[irq/48-pciehp]
+root	2	85	0	Jun11	?	00:00:00	[irq/49-pciehp]
+root	2	86	0	Jun11	?	00:00:00	[irq/50-pciehp]
+root	2	87	0	Jun11	?	00:00:00	[irq/51-pciehp]
+root	2	88	0	Jun11	?	00:00:00	[irq/52-pciehp]
+root	2	89	0	Jun11	?	00:00:00	[irq/53-pciehp]
+root	2	90	0	Jun11	?	00:00:00	[irq/54-pciehp]
+root	2	91	0	Jun11	?	00:00:00	[irq/55-pciehp]
+root	2	92	0	Jun11	?	00:00:00	[kworker/R-acpi_]
+root	2	94	0	Jun11	?	00:00:00	[scsi_eh_0]
+root	2	95	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	96	0	Jun11	?	00:00:00	[scsi_eh_1]
+root	2	97	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	100	0	Jun11	?	00:00:00	[kworker/R-mld]
+root	2	101	0	Jun11	?	00:00:00	[kworker/R-ipv6_]
+root	2	109	0	Jun11	?	00:00:00	[kworker/R-kstrp]
+root	2	111	0	Jun11	?	00:00:00	[kworker/u259:0]
+root	2	112	0	Jun11	?	00:00:00	[kworker/u260:0]
+root	2	113	0	Jun11	?	00:00:00	[kworker/u261:0]
+root	2	126	0	Jun11	?	00:00:00	[kworker/R-charg]
+root	2	145	0	Jun11	?	00:00:26	[kworker/0:1H-kblockd]
+root	2	171	0	Jun11	?	00:00:00	[scsi_eh_2]
+root	2	172	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	173	0	Jun11	?	00:00:00	[kworker/R-mpt_p]
+root	2	174	0	Jun11	?	00:00:00	[kworker/R-mpt/0]
+root	2	175	0	Jun11	?	00:00:00	[scsi_eh_3]
+root	2	176	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	177	0	Jun11	?	00:00:00	[scsi_eh_4]
+root	2	178	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	179	0	Jun11	?	00:00:00	[scsi_eh_5]
+root	2	180	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	181	0	Jun11	?	00:00:00	[scsi_eh_6]
+root	2	182	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	183	0	Jun11	?	00:00:00	[scsi_eh_7]
+root	2	184	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	185	0	Jun11	?	00:00:00	[scsi_eh_8]
+root	2	186	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	187	0	Jun11	?	00:00:00	[scsi_eh_9]
+root	2	188	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	189	0	Jun11	?	00:00:00	[scsi_eh_10]
+root	2	190	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	191	0	Jun11	?	00:00:00	[scsi_eh_11]
+root	2	192	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	193	0	Jun11	?	00:00:00	[scsi_eh_12]
+root	2	194	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	195	0	Jun11	?	00:00:00	[scsi_eh_13]
+root	2	196	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	197	0	Jun11	?	00:00:00	[scsi_eh_14]
+root	2	198	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	199	0	Jun11	?	00:00:00	[scsi_eh_15]
+root	2	200	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	201	0	Jun11	?	00:00:00	[scsi_eh_16]
+root	2	202	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	203	0	Jun11	?	00:00:00	[scsi_eh_17]
+root	2	204	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	205	0	Jun11	?	00:00:00	[scsi_eh_18]
+root	2	206	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	207	0	Jun11	?	00:00:00	[scsi_eh_19]
+root	2	208	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	209	0	Jun11	?	00:00:00	[scsi_eh_20]
+root	2	210	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	211	0	Jun11	?	00:00:00	[scsi_eh_21]
+root	2	212	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	213	0	Jun11	?	00:00:00	[scsi_eh_22]
+root	2	214	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	215	0	Jun11	?	00:00:00	[scsi_eh_23]
+root	2	216	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	217	0	Jun11	?	00:00:00	[scsi_eh_24]
+root	2	218	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	219	0	Jun11	?	00:00:00	[scsi_eh_25]
+root	2	220	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	221	0	Jun11	?	00:00:00	[scsi_eh_26]
+root	2	222	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	223	0	Jun11	?	00:00:00	[scsi_eh_27]
+root	2	224	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	225	0	Jun11	?	00:00:00	[scsi_eh_28]
+root	2	226	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	227	0	Jun11	?	00:00:00	[scsi_eh_29]
+root	2	228	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	229	0	Jun11	?	00:00:00	[scsi_eh_30]
+root	2	230	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	231	0	Jun11	?	00:00:00	[scsi_eh_31]
+root	2	232	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	264	0	Jun11	?	00:00:00	[scsi_eh_32]
+root	2	265	0	Jun11	?	00:00:00	[kworker/R-scsi_]
+root	2	269	0	Jun11	?	00:00:26	[kworker/1:2H-kblockd]
+root	2	289	0	Jun11	?	00:02:27	[jbd2/sda5-8]
+root	2	290	0	Jun11	?	00:00:00	[kworker/R-ext4-]
+root	2	361	0	Jun11	?	00:00:00	[kworker/R-rpcio]
+root	2	362	0	Jun11	?	00:00:00	[kworker/R-xprti]
+root	2	419	0	Jun11	?	00:00:37	[irq/60-vmw_vmci]
+root	2	420	0	Jun11	?	00:00:00	[irq/61-vmw_vmci]
+root	2	432	0	Jun11	?	00:00:00	[irq/16-vmwgfx]
+root	2	434	0	Jun11	?	00:00:00	[kworker/R-ttm]
+_rpc	1	467	0	Jun11	?	00:00:09	/sbin/rpcbind
+root	1	476	0	Jun11	?	00:00:10	/usr/sbin/rpc.gssd
+root	2	489	0	Jun11	?	00:00:00	[kworker/R-crypt]
+root	1	500	0	Jun11	?	00:00:00	/usr/bin/VGAuthService
+root	1	501	0	Jun11	?	02:06:40	/usr/bin/vmtoolsd
+root	2	520	0	Jun11	?	00:00:00	[kworker/R-nfit]
+root	1	582	0	Jun11	?	00:00:00	/usr/sbin/acpid
+root	1	621	0	Jun11	?	00:07:19	/usr/sbin/irqbalance
+root	1	665	0	Jun11	?	00:00:15	/usr/sbin/cron
+root	1	762	0	Jun11	?	00:00:00	/opt/pbis/sbin/lwsmd
+root	762	777	0	Jun11	?	00:02:17	lw-container
+root	762	843	0	Jun11	?	00:00:08	lw-container
+root	762	892	0	Jun11	?	00:01:52	lw-container
+gdm	1	960	0	Jun11	?	00:00:04	/lib/systemd/systemd
+gdm	960	962	0	Jun11	?	00:00:00	(sd-pam)
+root	2	963	0	Jun11	?	00:00:00	[kworker/R-nfsio]
+root	762	972	0	Jun11	?	00:00:00	lw-container
+root	762	993	0	Jun11	?	01:49:35	lw-container
+root	2	1010	0	Jun11	?	00:00:02	[NFSv4
+gdm	960	1013	0	Jun11	?	00:00:00	/usr/bin/pipewire
+gdm	960	1014	0	Jun11	?	00:00:01	/usr/bin/pipewire-media-session
+gdm	960	1018	0	Jun11	?	00:00:00	/usr/bin/dbus-daemon
+root	762	1042	0	Jun11	?	00:00:00	lw-container
+fm0105	1	359524	0	Jul05	?	00:01:01	/nfs/home/STUDENTS/fm0105/bin/code
+jlp0590	1	403711	0	Jul11	?	00:03:17	/nfs/home/STUDENTS/jlp0590/bin/code
+amf0441	1	414687	0	Jul12	?	00:03:15	/nfs/home/STUDENTS/amf0441/bin/code
+fm0105	1	420071	0	Jul12	?	00:00:45	/nfs/home/STUDENTS/fm0105/bin/code
+root	2	437915	0	Jul14	?	00:00:00	[kworker/R-tls-s]
+root	1	518521	0	Jul22	?	00:00:00	/opt/CrowdStrike/falcond
+root	518521	518522	0	Jul22	?	09:24:03	falcon-sensor-bpf
+root	1	519050	0	Jul22	?	00:04:30	/opt/rapid7/ir_agent/ir_agent
+jv0582	1	522093	0	Jul22	?	00:02:51	/nfs/home/STUDENTS/jv0582/.vscode-server/code-1b6a188127eeaf9194f945eb6eb89a657e93c54c
+root	2	584194	0	Jul23	?	00:00:00	[kworker/0:2H]
+systemd+	1	1347408	0	Aug11	?	00:01:38	/lib/systemd/systemd-resolved
+root	1	1347412	0	Aug11	?	00:09:05	/lib/systemd/systemd-journald
+systemd+	1	1347510	0	Aug11	?	00:00:06	/lib/systemd/systemd-timesyncd
+root	1	1347555	0	Aug11	?	00:00:05	/lib/systemd/systemd-udevd
+iuc0001	1	1846930	0	Aug24	?	00:01:14	/nfs/home/STUDENTS/iuc0001/.vscode-server/code-93cfdd489c3b228840d0f86ec77c3636277c93ea
+iuc0001	1	1899032	0	Aug25	?	00:00:43	/nfs/home/STUDENTS/iuc0001/.vscode-server/code-110a328ea54b42367b803ec53ee0bf52ef26b419
+cdr0279	1	1984128	0	Aug28	?	00:01:24	/nfs/home/STUDENTS/cdr0279/.vscode-server/code-fc3def6774c76082adf699d366f31a557ce5573f
+root	519050	2164982	0	Sep01	?	00:04:08	/opt/rapid7/ir_agent/components/agent_core/1.3.3.32/rapid7_agent_core
+root	519050	2167765	0	Sep01	?	00:02:23	/opt/rapid7/ir_agent/components/endpoint_broker/1.9.3.0/rapid7_endpoint_broker
+root	1	2254356	0	Sep05	?	00:00:00	sshd:
+root	1	2354996	0	Sep07	?	00:01:35	/snap/snapd/current/usr/lib/snapd/snapd
+systemd+	1	2419916	0	Sep09	?	01:01:26	/lib/systemd/systemd-oomd
+wrd0033	1	2455677	0	Sep09	?	00:00:00	script
+wrd0033	2455677	2455678	0	Sep09	pts/2	00:00:00	bash
+wjf0053	1	2499572	0	Sep11	?	00:00:02	/lib/systemd/systemd
+wjf0053	2499572	2499574	0	Sep11	?	00:00:00	(sd-pam)
+wjf0053	2499572	2499580	0	Sep11	?	00:00:00	/usr/bin/pipewire
+wjf0053	2499572	2499581	0	Sep11	?	00:00:00	/usr/bin/pipewire-media-session
+wjf0053	2499572	2499627	0	Sep11	?	00:00:00	/usr/bin/dbus-daemon
+wjf0053	1	2499738	0	Sep11	?	00:00:00	script
+wjf0053	2499738	2499739	0	Sep11	pts/3	00:00:00	bash
+wjf0053	2499739	2499757	0	Sep11	pts/3	00:00:00	script
+wjf0053	2499757	2499758	0	Sep11	pts/4	00:00:00	bash
+wjf0053	2499758	2499776	0	Sep11	pts/4	00:00:00	script
+wjf0053	2499776	2499777	0	Sep11	pts/5	00:00:00	bash
+cqa0005	1	2553255	0	Sep15	?	00:00:00	script
+cqa0005	2553255	2553256	0	Sep15	pts/7	00:00:00	bash
+message+	1	2580845	0	Sep16	?	00:19:40	@dbus-daemon
+root	1	2580859	0	Sep16	?	00:10:21	/usr/libexec/polkitd
+root	1	2580867	0	Sep16	?	00:00:03	/lib/systemd/systemd-logind
+root	1	2580870	0	Sep16	?	00:00:00	/usr/sbin/ModemManager
+root	1	2580910	0	Sep16	?	00:00:05	/usr/libexec/packagekitd
+root	1	2580957	0	Sep16	?	00:00:00	/usr/sbin/gdm3
+root	1	2580961	0	Sep16	?	00:00:30	/usr/libexec/accounts-daemon
+root	2580957	2580971	0	Sep16	?	00:00:00	gdm-session-worker
+gdm	2580971	2580975	0	Sep16	tty1	00:00:00	/usr/libexec/gdm-wayland-session
+gdm	2580975	2580978	0	Sep16	tty1	00:00:00	dbus-run-session
+gdm	2580978	2580979	0	Sep16	tty1	00:00:00	dbus-daemon
+gdm	2580978	2580980	0	Sep16	tty1	00:00:00	/usr/libexec/gnome-session-binary
+gdm	2580980	2580986	0	Sep16	tty1	00:26:10	/usr/bin/gnome-shell
+gdm	1	2581009	0	Sep16	tty1	00:00:00	/usr/libexec/at-spi-bus-launcher
+gdm	2581009	2581014	0	Sep16	tty1	00:00:00	/usr/bin/dbus-daemon
+gdm	2580986	2581023	0	Sep16	tty1	00:00:00	/usr/bin/Xwayland
+gdm	1	2581037	0	Sep16	tty1	00:00:00	/usr/libexec/xdg-permission-store
+root	1	2581044	0	Sep16	?	00:00:00	/usr/libexec/upowerd
+root	1	2581045	0	Sep16	?	00:00:00	/usr/libexec/power-profiles-daemon
+gdm	960	2581046	0	Sep16	?	00:00:00	/usr/bin/pulseaudio
+rtkit	1	2581047	0	Sep16	?	00:00:11	/usr/libexec/rtkit-daemon
+gdm	1	2581081	0	Sep16	tty1	00:00:00	/usr/bin/gjs
+gdm	1	2581082	0	Sep16	tty1	00:00:00	/usr/libexec/at-spi2-registryd
+root	1	2581089	0	Sep16	?	00:00:04	/sbin/wpa_supplicant
+gdm	2580980	2581094	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-sharing
+gdm	2580980	2581098	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-wacom
+avahi	1	2581099	0	Sep16	?	00:02:56	avahi-daemon:
+gdm	2580980	2581101	0	Sep16	tty1	00:00:04	/usr/libexec/gsd-color
+gdm	2580980	2581103	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-keyboard
+gdm	2580980	2581106	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-print-notifications
+avahi	2581099	2581109	0	Sep16	?	00:00:00	avahi-daemon:
+gdm	2580980	2581112	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-rfkill
+gdm	2580980	2581116	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-smartcard
+gdm	2580980	2581118	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-datetime
+gdm	2580980	2581119	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-media-keys
+gdm	2580980	2581121	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-screensaver-proxy
+gdm	2580980	2581124	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-sound
+gdm	2580980	2581130	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-a11y-settings
+gdm	2580980	2581134	0	Sep16	tty1	00:00:39	/usr/libexec/gsd-housekeeping
+gdm	2580980	2581140	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-power
+gdm	1	2581184	0	Sep16	tty1	00:00:00	/usr/libexec/gvfsd
+gdm	1	2581200	0	Sep16	tty1	00:00:00	/usr/libexec/gsd-printer
+colord	1	2581232	0	Sep16	?	00:00:00	/usr/libexec/colord
+gdm	2580986	2581246	0	Sep16	tty1	00:00:00	ibus-daemon
+gdm	2581246	2581251	0	Sep16	tty1	00:00:00	/usr/libexec/ibus-dconf
+gdm	1	2581253	0	Sep16	tty1	00:00:00	/usr/libexec/ibus-x11
+gdm	1	2581255	0	Sep16	tty1	00:00:00	/usr/libexec/ibus-portal
+gdm	1	2581265	0	Sep16	tty1	00:00:00	/usr/bin/gjs
+gdm	2581246	2581283	0	Sep16	tty1	00:00:00	/usr/libexec/ibus-engine-simple
+root	1	2595100	0	Sep16	?	00:00:01	/usr/libexec/udisks2/udisksd
+av1681	1	2606450	0	Sep16	?	00:00:01	/lib/systemd/systemd
+av1681	2606450	2606451	0	Sep16	?	00:00:00	(sd-pam)
+av1681	2606450	2606457	0	Sep16	?	00:00:00	/usr/bin/pipewire
+av1681	2606450	2606458	0	Sep16	?	00:00:00	/usr/bin/pipewire-media-session
+av1681	1	2606529	0	Sep16	?	00:00:02	/nfs/home/STUDENTS/av1681/.vscode-server/code-8a7abeba6e03ea3af87bfbce9a1b7e48fed567b8
+av1681	2606450	2606598	0	Sep16	?	00:00:00	/usr/bin/dbus-daemon
+av1681	2606450	2606758	0	Sep16	?	00:00:00	/usr/libexec/gvfsd
+av1681	2606450	2606763	0	Sep16	?	00:00:00	/usr/libexec/gvfsd-fuse
+mdl0288	1	2642035	0	Sep17	?	00:00:01	/lib/systemd/systemd
+mdl0288	2642035	2642037	0	Sep17	?	00:00:00	(sd-pam)
+mdl0288	2642035	2642043	0	Sep17	?	00:00:00	/usr/bin/pipewire
+mdl0288	2642035	2642044	0	Sep17	?	00:00:00	/usr/bin/pipewire-media-session
+mdl0288	2642035	2642105	0	Sep17	?	00:00:00	/usr/bin/dbus-daemon
+mdl0288	1	2642546	0	Sep17	?	00:00:00	script
+mdl0288	2642546	2642547	0	Sep17	pts/11	00:00:00	bash
+wjf0053	1	2696790	0	Sep18	?	00:00:00	script
+wjf0053	2696790	2696791	0	Sep18	pts/13	00:00:00	bash
+wjf0053	2696791	2697217	0	Sep18	pts/13	00:00:00	script
+wjf0053	2697217	2697218	0	Sep18	pts/8	00:00:00	bash
+wjf0053	2697218	2697246	0	Sep18	pts/8	00:00:00	script
+wjf0053	2697246	2697247	0	Sep18	pts/12	00:00:00	bash
+mn1067	1	2704363	0	Sep18	?	00:00:01	/lib/systemd/systemd
+mn1067	2704363	2704365	0	Sep18	?	00:00:00	(sd-pam)
+mn1067	2704363	2704371	0	Sep18	?	00:00:00	/usr/bin/pipewire
+mn1067	2704363	2704372	0	Sep18	?	00:00:00	/usr/bin/pipewire-media-session
+mn1067	2704363	2704420	0	Sep18	?	00:00:00	/usr/bin/dbus-daemon
+mn1067	1	2705555	0	Sep18	?	00:00:00	script
+mn1067	2705555	2705556	0	Sep18	pts/15	00:00:00	bash
+kap0382	1	2802025	0	Sep20	?	00:00:01	/lib/systemd/systemd
+kap0382	2802025	2802026	0	Sep20	?	00:00:00	(sd-pam)
+kap0382	2802025	2802032	0	Sep20	?	00:00:00	/usr/bin/pipewire
+kap0382	2802025	2802033	0	Sep20	?	00:00:00	/usr/bin/pipewire-media-session
+kap0382	2802025	2802059	0	Sep20	?	00:00:00	/usr/bin/dbus-daemon
+kap0382	1	2804419	0	Sep20	?	00:00:23	./orphan
+syslog	1	2908190	0	Sep23	?	00:00:09	/usr/sbin/rsyslogd
+root	2	2921502	0	Sep23	?	00:00:01	[kworker/u256:2-ext4-rsv-conversion]
+root	519050	2952342	0	Sep24	?	00:13:44	/opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent
+root	2952342	2952352	0	Sep24	?	00:00:00	/opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent
+root	2952342	2952413	0	Sep24	?	00:08:00	/opt/rapid7/ir_agent/components/insight_agent/4.1.3.48/ir_agent
+root	2	3020045	0	Sep28	?	00:00:00	[kworker/u256:1-ext4-rsv-conversion]
+root	1	3031530	0	00:00	?	00:00:00	/usr/sbin/cupsd
+root	2	3044867	0	19:42	?	00:00:02	[kworker/0:2-events]
+root	2	3045109	0	20:33	?	00:00:00	[kworker/u257:3-xprtiod]
+root	2254356	3045322	0	21:21	?	00:00:00	sshd:
+sh1562	1	3045331	0	21:21	?	00:00:00	/lib/systemd/systemd
+sh1562	3045331	3045333	0	21:21	?	00:00:00	(sd-pam)
+sh1562	3045331	3045339	0	21:21	?	00:00:00	/usr/bin/pipewire
+sh1562	3045331	3045340	0	21:21	?	00:00:00	/usr/bin/pipewire-media-session
+sh1562	3045331	3045341	0	21:21	?	00:00:00	/usr/bin/pulseaudio
+sh1562	3045322	3045381	0	21:21	?	00:00:00	sshd:
+sh1562	3045381	3045383	0	21:21	pts/17	00:00:00	-bash
+sh1562	3045331	3045401	0	21:21	?	00:00:00	/usr/bin/dbus-daemon
+root	2	3045462	0	21:32	?	00:00:00	[kworker/u258:2-flush-8:0]
+root	2	3046467	0	21:42	?	00:00:00	[kworker/1:0-events]
+root	2	3046537	0	21:56	?	00:00:00	[kworker/u258:3-rpciod]
+root	2	3046637	0	22:16	?	00:00:00	[kworker/u258:0-events_power_efficient]
+root	2	3046725	0	22:33	?	00:00:00	[kworker/1:1]
+root	2	3046733	0	22:35	?	00:00:00	[kworker/u257:0-events_unbound]
+root	2	3046759	0	22:42	?	00:00:00	[kworker/0:1-rcu_par_gp]
+root	2	3046766	0	22:44	?	00:00:00	[kworker/u257:2-events_power_efficient]
+root	2	3046800	0	22:50	?	00:00:00	[kworker/u257:1-rpciod]
+root	2254356	3046809	0	22:53	?	00:00:00	sshd:
+wjf0053	3046809	3046854	0	22:53	?	00:00:00	sshd:
+wjf0053	3046854	3046855	0	22:53	?	00:00:00	/usr/lib/openssh/sftp-server
+root	2254356	3046857	0	22:55	?	00:00:00	sshd:
+wjf0053	3046857	3046882	0	22:55	?	00:00:00	sshd:
+wjf0053	3046882	3046883	0	22:55	pts/18	00:00:00	-bash
+root	2	3046908	0	22:56	?	00:00:00	[kworker/0:0-events]
+wjf0053	3046883	3046911	0	22:57	pts/18	00:00:00	script
+wjf0053	3046911	3046912	0	22:57	pts/19	00:00:00	bash
+root	2	3046923	0	22:57	?	00:00:00	[kworker/u258:1-events_power_efficient]
+wjf0053	3046912	3046952	0	22:58	pts/19	00:00:00	ps
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ 
+[?2004l[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ Echo[K[K[K[Kecho WJF0053 [K William FLadivd[K[K[K[K[K[Kl;[Kadvid
+[?2004lWJF0053 William Fladvid
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ script end
+[?2004lScript started, output log file is 'end'.
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ script [K exit
+[?2004lScript started, output log file is 'exit'.
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ exit
+[?2004lexit
+Script done.
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ ecit[K[K[Kxit
+[?2004lexit
+Script done.
+[?2004h]0;wjf0053@cell13-cse: ~/3600/rec05[01;32mwjf0053@cell13-cse[00m:[01;34m~/3600/rec05[00m$ exit
+[?2004lexit
+
+Script done on 2026-09-29 23:48:28-05:00 [COMMAND_EXIT_CODE="0"]
