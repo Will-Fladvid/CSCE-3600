@@ -26,7 +26,7 @@ A single stream of instrucitons in a program
 - lower overhead, avoid context switches 
  
 ## Execution Environment
-The process is the * Execution environment * for a family of threads 
+The process is the **xecution environment** for a family of threads 
  
 ## Thread Properties
 Each thread has its own:
@@ -44,7 +44,7 @@ Threads share:
 - Open files
 
 ## Thread Issues:
-- * Two pointers having the same value * pont to the same data
+- **Two pointers having the same value** pont to the same data
 - Reading and writing to the same memory locations is possible
 - Meaning it needs required explicit sychronization by the programmer like locking the register or forcing one to wait while it is in use by the other threads
 
