@@ -37,4 +37,15 @@ init (PID 1) * was replaced by systemd in new distros *
 If FireFox was created by bash but bash is killed, FireFox can be picked up by init. There isn't a way to predict this
 behavior either...
 
+## Process Context
+ 
+### User Level:
+
+### Register Level:
+
+### System Level:
+
+
+##Context Switching
+
 
